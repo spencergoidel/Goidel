@@ -1,0 +1,255 @@
+:root {
+  --ink: #12263a;
+  --slate: #3d566e;
+  --paper: #f7f4ef;
+  --panel: #ffffff;
+  --accent: #0e7490;
+  --accent-2: #b45309;
+  --muted: #6b7280;
+  --line: #d6d3d1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Source Sans 3", sans-serif;
+  color: var(--ink);
+  background: radial-gradient(circle at 15% 20%, #fff7ed 0, #f7f4ef 42%, #eef2ff 100%);
+  line-height: 1.55;
+}
+
+.container {
+  width: min(1060px, 92vw);
+  margin: 0 auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(5px);
+  border-bottom: 1px solid var(--line);
+}
+
+.nav-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 0;
+}
+
+.brand {
+  font-family: "Libre Baskerville", serif;
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--slate);
+  font-weight: 600;
+}
+
+nav a[aria-current="page"] {
+  color: var(--accent);
+}
+
+.hero {
+  padding: 4.2rem 0 2.2rem;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 2.2fr 1fr;
+  gap: 2rem;
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  color: var(--accent-2);
+  margin: 0 0 0.8rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Libre Baskerville", serif;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  margin-bottom: 0.2rem;
+}
+
+.subtitle {
+  color: var(--slate);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  max-width: 62ch;
+}
+
+.book-callout {
+  background: linear-gradient(150deg, #12304d 0%, #124b73 100%);
+  color: #f3f4f6;
+  border-radius: 14px;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.book-callout .book-title {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.book-meta {
+  color: #d1d5db;
+}
+
+.cover-thumb {
+  display: block;
+  width: min(220px, 100%);
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto 0.9rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.cta-row {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-top: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.55rem 0.9rem;
+  font-weight: 700;
+}
+
+.btn-light {
+  background: #fff;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.section {
+  padding: 1.3rem 0 2.2rem;
+}
+
+.section-head p {
+  margin-top: 0.4rem;
+  color: var(--slate);
+}
+
+.map-card,
+.data-panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 10px 28px rgba(18, 38, 58, 0.08);
+}
+
+.map-meta {
+  margin-bottom: 0.7rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.map-canvas {
+  width: 100%;
+  min-height: 540px;
+}
+
+.tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: #111827;
+  color: #fff;
+  padding: 0.45rem 0.55rem;
+  border-radius: 6px;
+  font-size: 0.83rem;
+  display: none;
+  z-index: 100;
+}
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  background: #fafaf9;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.site-footer a {
+  color: var(--accent);
+}
+
+.page {
+  max-width: 920px;
+}
+
+.pub-list li {
+  margin-bottom: 0.65rem;
+}
+
+.data-panel {
+  margin-bottom: 1rem;
+}
+
+.split-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.subtitle-page {
+  color: var(--slate);
+  margin-bottom: 0.3rem;
+}
+
+.book-cover {
+  display: block;
+  width: min(320px, 100%);
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  box-shadow: 0 8px 24px rgba(18, 38, 58, 0.14);
+  margin: 0.4rem 0 1.15rem;
+}
+
+@media (max-width: 900px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .split-grid {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    gap: 0.6rem;
+  }
+}

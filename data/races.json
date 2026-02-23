@@ -1,0 +1,140 @@
+{
+  "updated_at": "2026-02-23 16:42 UTC",
+  "refresh_target": "24-48 hours",
+  "sources": {
+    "cook": "https://www.cookpolitical.com/ratings/senate-race-ratings",
+    "ncsl": "https://www.ncsl.org/elections-and-campaigns/2026-state-primary-election-dates",
+    "polymarket": "https://polymarket.com",
+    "kalshi": "https://kalshi.com",
+    "polls": "https://www.realclearpolitics.com",
+    "news": "https://news.google.com"
+  },
+  "swing_states": [
+    {
+      "state": "AK",
+      "state_name": "Alaska",
+      "cook_rating": "Lean Republican",
+      "primary_date": "August 18, 2026",
+      "odds": {
+        "polymarket": [],
+        "kalshi": []
+      },
+      "polls": [
+        {
+          "source": "RealClearPolitics",
+          "value": "Latest polling links",
+          "url": "https://www.realclearpolitics.com/search/?q=Alaska%20senate%20race%20polls%202026%20realclearpolitics"
+        }
+      ],
+      "storylines": []
+    },
+    {
+      "state": "GA",
+      "state_name": "Georgia",
+      "cook_rating": "Toss Up",
+      "primary_date": "May 19, 2026",
+      "odds": {
+        "polymarket": [],
+        "kalshi": []
+      },
+      "polls": [
+        {
+          "source": "RealClearPolitics",
+          "value": "Latest polling links",
+          "url": "https://www.realclearpolitics.com/search/?q=Georgia%20senate%20race%20polls%202026%20realclearpolitics"
+        }
+      ],
+      "storylines": []
+    },
+    {
+      "state": "ME",
+      "state_name": "Maine",
+      "cook_rating": "Toss Up",
+      "primary_date": "June 9, 2026",
+      "odds": {
+        "polymarket": [],
+        "kalshi": []
+      },
+      "polls": [
+        {
+          "source": "RealClearPolitics",
+          "value": "Latest polling links",
+          "url": "https://www.realclearpolitics.com/search/?q=Maine%20senate%20race%20polls%202026%20realclearpolitics"
+        }
+      ],
+      "storylines": []
+    },
+    {
+      "state": "MI",
+      "state_name": "Michigan",
+      "cook_rating": "Toss Up",
+      "primary_date": "August 4, 2026",
+      "odds": {
+        "polymarket": [],
+        "kalshi": []
+      },
+      "polls": [
+        {
+          "source": "RealClearPolitics",
+          "value": "Latest polling links",
+          "url": "https://www.realclearpolitics.com/search/?q=Michigan%20senate%20race%20polls%202026%20realclearpolitics"
+        }
+      ],
+      "storylines": []
+    },
+    {
+      "state": "NC",
+      "state_name": "North Carolina",
+      "cook_rating": "Toss Up",
+      "primary_date": "March 3, 2026",
+      "odds": {
+        "polymarket": [],
+        "kalshi": []
+      },
+      "polls": [
+        {
+          "source": "RealClearPolitics",
+          "value": "Latest polling links",
+          "url": "https://www.realclearpolitics.com/search/?q=North%20Carolina%20senate%20race%20polls%202026%20realclearpolitics"
+        }
+      ],
+      "storylines": []
+    },
+    {
+      "state": "NH",
+      "state_name": "New Hampshire",
+      "cook_rating": "Lean Democrat",
+      "primary_date": "September 8, 2026",
+      "odds": {
+        "polymarket": [],
+        "kalshi": []
+      },
+      "polls": [
+        {
+          "source": "RealClearPolitics",
+          "value": "Latest polling links",
+          "url": "https://www.realclearpolitics.com/search/?q=New%20Hampshire%20senate%20race%20polls%202026%20realclearpolitics"
+        }
+      ],
+      "storylines": []
+    },
+    {
+      "state": "OH",
+      "state_name": "Ohio",
+      "cook_rating": "Lean Republican",
+      "primary_date": "May 5, 2026",
+      "odds": {
+        "polymarket": [],
+        "kalshi": []
+      },
+      "polls": [
+        {
+          "source": "RealClearPolitics",
+          "value": "Latest polling links",
+          "url": "https://www.realclearpolitics.com/search/?q=Ohio%20senate%20race%20polls%202026%20realclearpolitics"
+        }
+      ],
+      "storylines": []
+    }
+  ]
+}

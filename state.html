@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>State Race | Spencer Goidel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Spencer Goidel</a>
+      <nav>
+        <a href="about.html">About</a>
+        <a href="publications.html">Publications</a>
+        <a href="book.html">Book</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container section page">
+    <p><a href="index.html">← Back to map</a></p>
+    <h1 id="race-title">Loading state race...</h1>
+    <p id="race-meta"></p>
+
+    <section class="data-panel">
+      <h2>Primary Date</h2>
+      <p id="primary-date"></p>
+    </section>
+
+    <section class="data-panel">
+      <h2>Betting Markets</h2>
+      <div class="split-grid">
+        <div>
+          <h3>Polymarket</h3>
+          <ul id="poly-list"></ul>
+        </div>
+        <div>
+          <h3>Kalshi</h3>
+          <ul id="kalshi-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="data-panel">
+      <h2>Polling Aggregates</h2>
+      <ul id="poll-list"></ul>
+    </section>
+
+    <section class="data-panel">
+      <h2>Recent Storylines</h2>
+      <ul id="story-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Data refresh target: every 24 hours</p>
+    </div>
+  </footer>
+
+  <script src="js/state.js"></script>
+</body>
+</html>

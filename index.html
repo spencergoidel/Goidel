@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spencer Goidel | Political Science</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Spencer Goidel</a>
+      <nav>
+        <a href="about.html">About</a>
+        <a href="publications.html">Publications</a>
+        <a href="book.html">Book</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">Public Opinion • Elections • Political Behavior</p>
+          <h1>Spencer Goidel</h1>
+          <p class="subtitle">Assistant Professor of Political Science, Auburn University</p>
+          <p class="lead">
+            I study elections, participation, party realignment, and how citizens form political judgments in a changing media environment.
+          </p>
+          <div class="cta-row">
+            <a class="btn" href="book.html">Explore The Trump Realignment</a>
+            <a class="btn btn-light" href="publications.html">View Publications</a>
+          </div>
+        </div>
+        <aside class="book-callout">
+          <img class="cover-thumb" src="images/trump-realignment-cover.jpg" alt="Cover of The Trump Realignment" />
+          <h2>New Book</h2>
+          <p class="book-title">The Trump Realignment</p>
+          <p>How Donald J. Trump redefined the American party system.</p>
+          <p class="book-meta">Forthcoming, Palgrave Macmillan</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-head">
+        <h2>2026 Swing Senate Races</h2>
+        <p>Cook Political Report ratings (Toss Up + Lean). Hover for primary dates. Click a state for odds, polling, and storylines.</p>
+      </div>
+      <div class="map-card">
+        <div class="map-meta">
+          <span id="updated-at">Loading latest update...</span>
+        </div>
+        <div id="map" class="map-canvas"></div>
+        <div id="tooltip" class="tooltip" aria-live="polite"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Contact: <a href="mailto:goidel@auburn.edu">goidel@auburn.edu</a> • Auburn University</p>
+    </div>
+  </footer>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
