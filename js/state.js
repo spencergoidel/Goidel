@@ -104,12 +104,7 @@ async function initStatePage() {
 
   renderPollToplines(document.getElementById("poll-toplines"), race.polls_toplines || []);
 
-  renderList(document.getElementById("story-list"), race.storylines || [], (s) => {
-    const date = s.date ? `<span class="story-date">${s.date}</span> — ` : "";
-    const src = s.source ? ` <em>${s.source}</em>` : "";
-    const link = s.url ? ` (<a href="${s.url}" target="_blank" rel="noopener noreferrer">link</a>)` : "";
-    return `${date}${s.point}${src}${link}`;
-  });
+  renderList(document.getElementById("summary-list"), race.race_summary || [], (s) => escapeHtml(s));
 }
 
 initStatePage().catch((err) => {

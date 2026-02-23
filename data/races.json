@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-23 19:46 UTC",
+  "updated_at": "2026-02-23 19:48 UTC",
   "refresh_target": "24-48 hours",
   "sources": {
     "cook": "https://www.cookpolitical.com/ratings/senate-race-ratings",
@@ -9,6 +9,246 @@
     "polls": "https://www.realclearpolitics.com",
     "news": "https://news.google.com"
   },
+  "senate_election_states": [
+    {
+      "state": "AL",
+      "state_name": "Alabama",
+      "primary_date": "May 19, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "AK",
+      "state_name": "Alaska",
+      "primary_date": "August 18, 2026",
+      "competitive": true,
+      "cook_rating": "Lean Republican"
+    },
+    {
+      "state": "AR",
+      "state_name": "Arkansas",
+      "primary_date": "March 3, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "CO",
+      "state_name": "Colorado",
+      "primary_date": "June 30, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "DE",
+      "state_name": "Delaware",
+      "primary_date": "September 10, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "GA",
+      "state_name": "Georgia",
+      "primary_date": "May 19, 2026",
+      "competitive": true,
+      "cook_rating": "Toss Up"
+    },
+    {
+      "state": "ID",
+      "state_name": "Idaho",
+      "primary_date": "May 19, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "IL",
+      "state_name": "Illinois",
+      "primary_date": "March 17, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "IA",
+      "state_name": "Iowa",
+      "primary_date": "June 2, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "KS",
+      "state_name": "Kansas",
+      "primary_date": "August 4, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "KY",
+      "state_name": "Kentucky",
+      "primary_date": "May 19, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "LA",
+      "state_name": "Louisiana",
+      "primary_date": "November 3, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "ME",
+      "state_name": "Maine",
+      "primary_date": "June 9, 2026",
+      "competitive": true,
+      "cook_rating": "Toss Up"
+    },
+    {
+      "state": "MA",
+      "state_name": "Massachusetts",
+      "primary_date": "September 8, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "MI",
+      "state_name": "Michigan",
+      "primary_date": "August 4, 2026",
+      "competitive": true,
+      "cook_rating": "Toss Up"
+    },
+    {
+      "state": "MN",
+      "state_name": "Minnesota",
+      "primary_date": "August 11, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "MS",
+      "state_name": "Mississippi",
+      "primary_date": "March 10, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "MT",
+      "state_name": "Montana",
+      "primary_date": "June 2, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "NE",
+      "state_name": "Nebraska",
+      "primary_date": "May 12, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "NH",
+      "state_name": "New Hampshire",
+      "primary_date": "September 8, 2026",
+      "competitive": true,
+      "cook_rating": "Lean Democrat"
+    },
+    {
+      "state": "NJ",
+      "state_name": "New Jersey",
+      "primary_date": "June 2, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "NM",
+      "state_name": "New Mexico",
+      "primary_date": "June 2, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "NC",
+      "state_name": "North Carolina",
+      "primary_date": "March 3, 2026",
+      "competitive": true,
+      "cook_rating": "Toss Up"
+    },
+    {
+      "state": "OH",
+      "state_name": "Ohio",
+      "primary_date": "May 5, 2026",
+      "competitive": true,
+      "cook_rating": "Lean Republican"
+    },
+    {
+      "state": "OK",
+      "state_name": "Oklahoma",
+      "primary_date": "June 16, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "OR",
+      "state_name": "Oregon",
+      "primary_date": "May 19, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "RI",
+      "state_name": "Rhode Island",
+      "primary_date": "September 8, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "SC",
+      "state_name": "South Carolina",
+      "primary_date": "June 9, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "SD",
+      "state_name": "South Dakota",
+      "primary_date": "June 2, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "TN",
+      "state_name": "Tennessee",
+      "primary_date": "August 6, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "TX",
+      "state_name": "Texas",
+      "primary_date": "March 3, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "VA",
+      "state_name": "Virginia",
+      "primary_date": "June 16, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "WV",
+      "state_name": "West Virginia",
+      "primary_date": "May 12, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    },
+    {
+      "state": "WY",
+      "state_name": "Wyoming",
+      "primary_date": "August 18, 2026",
+      "competitive": false,
+      "cook_rating": "Not rated competitive"
+    }
+  ],
   "swing_states": [
     {
       "state": "AK",
@@ -56,6 +296,12 @@
           "source": "News search",
           "url": "https://duckduckgo.com/?q=Alaska%20Senate%20race%202026%20primary"
         }
+      ],
+      "race_summary": [
+        "Alaska is currently rated Lean Republican by Cook Political Report.",
+        "No standardized primary topline table has been loaded yet for this race page.",
+        "Prediction market activity for this specific primary appears limited or not yet listed in the matched feeds.",
+        "Fundraising toplines are not yet integrated in this release; adding FEC candidate receipts/disbursements is the next data upgrade."
       ]
     },
     {
@@ -171,6 +417,13 @@
           "source": "News search",
           "url": "https://duckduckgo.com/?q=Georgia%20Senate%20race%202026%20primary"
         }
+      ],
+      "race_summary": [
+        "Polling toplines show Collins ahead in the Georgia Republican primary (RCP Average: Collins +11.7).",
+        "Latest listed survey is Quantus Insights (2/17 - 2/18, 1337 LV), showing Collins +25.",
+        "Across listed polls, Collins leads each release, indicating a clear name-recognition and vote-intent advantage at this stage.",
+        "Prediction market activity for this specific primary appears limited or not yet listed in the matched feeds.",
+        "Fundraising toplines are not yet integrated in this release; adding FEC candidate receipts/disbursements is the next data upgrade."
       ]
     },
     {
@@ -219,6 +472,12 @@
           "source": "News search",
           "url": "https://duckduckgo.com/?q=Maine%20Senate%20race%202026%20primary"
         }
+      ],
+      "race_summary": [
+        "Maine is currently rated Toss Up by Cook Political Report.",
+        "No standardized primary topline table has been loaded yet for this race page.",
+        "Prediction market activity for this specific primary appears limited or not yet listed in the matched feeds.",
+        "Fundraising toplines are not yet integrated in this release; adding FEC candidate receipts/disbursements is the next data upgrade."
       ]
     },
     {
@@ -267,6 +526,12 @@
           "source": "News search",
           "url": "https://duckduckgo.com/?q=Michigan%20Senate%20race%202026%20primary"
         }
+      ],
+      "race_summary": [
+        "Michigan is currently rated Toss Up by Cook Political Report.",
+        "No standardized primary topline table has been loaded yet for this race page.",
+        "Prediction market activity for this specific primary appears limited or not yet listed in the matched feeds.",
+        "Fundraising toplines are not yet integrated in this release; adding FEC candidate receipts/disbursements is the next data upgrade."
       ]
     },
     {
@@ -315,6 +580,12 @@
           "source": "News search",
           "url": "https://duckduckgo.com/?q=North%20Carolina%20Senate%20race%202026%20primary"
         }
+      ],
+      "race_summary": [
+        "North Carolina is currently rated Toss Up by Cook Political Report.",
+        "No standardized primary topline table has been loaded yet for this race page.",
+        "Prediction market activity for this specific primary appears limited or not yet listed in the matched feeds.",
+        "Fundraising toplines are not yet integrated in this release; adding FEC candidate receipts/disbursements is the next data upgrade."
       ]
     },
     {
@@ -363,6 +634,12 @@
           "source": "News search",
           "url": "https://duckduckgo.com/?q=New%20Hampshire%20Senate%20race%202026%20primary"
         }
+      ],
+      "race_summary": [
+        "New Hampshire is currently rated Lean Democrat by Cook Political Report.",
+        "No standardized primary topline table has been loaded yet for this race page.",
+        "Prediction market activity for this specific primary appears limited or not yet listed in the matched feeds.",
+        "Fundraising toplines are not yet integrated in this release; adding FEC candidate receipts/disbursements is the next data upgrade."
       ]
     },
     {
@@ -411,6 +688,12 @@
           "source": "News search",
           "url": "https://duckduckgo.com/?q=Ohio%20Senate%20race%202026%20primary"
         }
+      ],
+      "race_summary": [
+        "Ohio is currently rated Lean Republican by Cook Political Report.",
+        "No standardized primary topline table has been loaded yet for this race page.",
+        "Prediction market activity for this specific primary appears limited or not yet listed in the matched feeds.",
+        "Fundraising toplines are not yet integrated in this release; adding FEC candidate receipts/disbursements is the next data upgrade."
       ]
     }
   ]

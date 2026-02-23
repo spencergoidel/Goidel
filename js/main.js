@@ -12,9 +12,11 @@ const STATE_NAMES = {
 };
 
 function showTooltip(tooltip, event, stateCode, race) {
-  const date = race ? race.primary_date : "No date available";
-  const label = race ? race.cook_rating : "Not a swing race";
-  tooltip.innerHTML = `<strong>${STATE_NAMES[stateCode] || stateCode}</strong><br />${label}<br />Primary: ${date}`;
+  if (!race) {
+    tooltip.innerHTML = `<strong>${STATE_NAMES[stateCode] || stateCode}</strong><br />No Senate election in 2026`;
+  } else {
+    tooltip.innerHTML = `<strong>${race.state_name || STATE_NAMES[stateCode] || stateCode}</strong><br />${race.cook_rating}<br />Primary: ${race.primary_date}`;
+  }
   tooltip.style.left = `${event.clientX + 12}px`;
   tooltip.style.top = `${event.clientY + 12}px`;
   tooltip.style.display = "block";
@@ -35,7 +37,8 @@ async function initMap() {
 
   document.getElementById("updated-at").textContent = `Last refreshed: ${raceData.updated_at}`;
 
-  const raceMap = new Map(raceData.swing_states.map((d) => [d.state, d]));
+  const electionMap = new Map((raceData.senate_election_states || []).map((d) => [d.state, d]));
+  const swingMap = new Map(raceData.swing_states.map((d) => [d.state, d]));
   const states = topojson.feature(us, us.objects.states).features;
 
   const width = mapEl.clientWidth;
@@ -57,22 +60,24 @@ async function initMap() {
     .attr("d", path)
     .attr("fill", (d) => {
       const code = FIPS_TO_STATE[Number(d.id)];
-      return raceMap.has(code) ? "#b45309" : "#d1d5db";
+      if (swingMap.has(code)) return "#b45309";
+      if (electionMap.has(code)) return "#7da7d9";
+      return "#d1d5db";
     })
     .attr("stroke", "#fff")
     .attr("stroke-width", 1.1)
     .style("cursor", (d) => {
       const code = FIPS_TO_STATE[Number(d.id)];
-      return raceMap.has(code) ? "pointer" : "default";
+      return swingMap.has(code) ? "pointer" : "default";
     })
     .on("mousemove", (event, d) => {
       const code = FIPS_TO_STATE[Number(d.id)];
-      showTooltip(tooltip, event, code, raceMap.get(code));
+      showTooltip(tooltip, event, code, electionMap.get(code));
     })
     .on("mouseleave", () => hideTooltip(tooltip))
     .on("click", (_, d) => {
       const code = FIPS_TO_STATE[Number(d.id)];
-      if (raceMap.has(code)) {
+      if (swingMap.has(code)) {
         window.location.href = `state.html?state=${code}`;
       }
     });
@@ -80,9 +85,9 @@ async function initMap() {
   const legend = svg.append("g").attr("transform", `translate(${width - 210}, ${height - 70})`);
   legend.append("rect").attr("width", 190).attr("height", 50).attr("fill", "#ffffff").attr("stroke", "#cbd5e1").attr("rx", 8);
   legend.append("rect").attr("x", 12).attr("y", 12).attr("width", 16).attr("height", 16).attr("fill", "#b45309");
-  legend.append("text").attr("x", 36).attr("y", 25).attr("font-size", 12).attr("fill", "#1f2937").text("Cook swing state");
-  legend.append("rect").attr("x", 12).attr("y", 31).attr("width", 16).attr("height", 16).attr("fill", "#d1d5db");
-  legend.append("text").attr("x", 36).attr("y", 44).attr("font-size", 12).attr("fill", "#1f2937").text("Other states");
+  legend.append("text").attr("x", 36).attr("y", 25).attr("font-size", 12).attr("fill", "#1f2937").text("Competitive Senate race");
+  legend.append("rect").attr("x", 12).attr("y", 31).attr("width", 16).attr("height", 16).attr("fill", "#7da7d9");
+  legend.append("text").attr("x", 36).attr("y", 44).attr("font-size", 12).attr("fill", "#1f2937").text("Senate election (non-competitive)");
 }
 
 initMap().catch((err) => {

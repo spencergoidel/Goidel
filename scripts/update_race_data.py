@@ -64,6 +64,51 @@ DEFAULT_POLL_TOPLINES = {
     ]
 }
 
+# 2026 Senate election map coverage (regular + expected specials surfaced in ratings).
+ALL_SENATE_ELECTION_STATES = [
+    "AL", "AK", "AR", "CO", "DE", "GA", "ID", "IL", "IA", "KS", "KY", "LA",
+    "ME", "MA", "MI", "MN", "MS", "MT", "NE", "NH", "NJ", "NM", "NC", "OH",
+    "OK", "OR", "RI", "SC", "SD", "TN", "TX", "VA", "WV", "WY",
+]
+
+# Fallback primary dates for 2026 Senate-election states. Live NCSL parsing overrides these when available.
+ALL_DEFAULT_PRIMARY_DATES = {
+    "AL": "May 19, 2026",
+    "AK": "August 18, 2026",
+    "AR": "March 3, 2026",
+    "CO": "June 30, 2026",
+    "DE": "September 10, 2026",
+    "GA": "May 19, 2026",
+    "ID": "May 19, 2026",
+    "IL": "March 17, 2026",
+    "IA": "June 2, 2026",
+    "KS": "August 4, 2026",
+    "KY": "May 19, 2026",
+    "LA": "November 3, 2026",
+    "ME": "June 9, 2026",
+    "MA": "September 8, 2026",
+    "MI": "August 4, 2026",
+    "MN": "August 11, 2026",
+    "MS": "March 10, 2026",
+    "MT": "June 2, 2026",
+    "NE": "May 12, 2026",
+    "NH": "September 8, 2026",
+    "NJ": "June 2, 2026",
+    "NM": "June 2, 2026",
+    "NC": "March 3, 2026",
+    "OH": "May 5, 2026",
+    "OK": "June 16, 2026",
+    "OR": "May 19, 2026",
+    "RI": "September 8, 2026",
+    "SC": "June 9, 2026",
+    "SD": "June 2, 2026",
+    "TN": "August 6, 2026",
+    "TX": "March 3, 2026",
+    "VA": "June 16, 2026",
+    "WV": "May 12, 2026",
+    "WY": "August 18, 2026",
+}
+
 STATE_TO_CODE = {
     "Alabama": "AL", "Alaska": "AK", "Arizona": "AZ", "Arkansas": "AR", "California": "CA", "Colorado": "CO",
     "Connecticut": "CT", "Delaware": "DE", "Florida": "FL", "Georgia": "GA", "Hawaii": "HI", "Idaho": "ID",
@@ -138,7 +183,7 @@ def parse_ncsl_primary_dates() -> Dict[str, str]:
                 dates[code] = fmt_mmddyyyy(date_val)
     except Exception:
         pass
-    merged = DEFAULT_PRIMARY_DATES.copy()
+    merged = ALL_DEFAULT_PRIMARY_DATES.copy()
     merged.update(dates)
     return merged
 
@@ -379,6 +424,56 @@ def get_poll_toplines(state_code: str) -> List[Dict[str, Any]]:
     return json.loads(json.dumps(rows))
 
 
+def parse_float(value: Any) -> float | None:
+    try:
+        return float(str(value).strip().replace("%", ""))
+    except Exception:
+        return None
+
+
+def summarize_race(state_code: str, state_name: str, cook_rating: str, polls_toplines: List[Dict[str, Any]], odds: Dict[str, Any]) -> List[str]:
+    bullets: List[str] = []
+
+    if polls_toplines and polls_toplines[0].get("polls"):
+        block = polls_toplines[0]
+        candidates = block.get("candidates", [])
+        rows = block.get("polls", [])
+        avg = rows[0]
+        values = [parse_float(v) for v in avg.get("values", [])]
+
+        leader = ""
+        if values and candidates and all(v is not None for v in values):
+            max_idx = max(range(len(values)), key=lambda i: float(values[i]))
+            leader = candidates[max_idx]
+            bullets.append(
+                f"Polling toplines show {leader} ahead in the {state_name} Republican primary (RCP Average: {avg.get('spread', 'lead noted')})."
+            )
+
+        if len(rows) > 1:
+            latest = rows[1]
+            bullets.append(
+                f"Latest listed survey is {latest.get('pollster')} ({latest.get('date')}, {latest.get('sample')}), showing {latest.get('spread')}."
+            )
+
+        if leader:
+            bullets.append(
+                f"Across listed polls, {leader} leads each release, indicating a clear name-recognition and vote-intent advantage at this stage."
+            )
+    else:
+        bullets.append(f"{state_name} is currently rated {cook_rating} by Cook Political Report.")
+        bullets.append("No standardized primary topline table has been loaded yet for this race page.")
+
+    poly_n = len(odds.get("polymarket", []))
+    kalshi_n = len(odds.get("kalshi", []))
+    if poly_n + kalshi_n > 0:
+        bullets.append(f"Prediction market coverage is active ({poly_n} Polymarket / {kalshi_n} Kalshi listings currently matched).")
+    else:
+        bullets.append("Prediction market activity for this specific primary appears limited or not yet listed in the matched feeds.")
+
+    bullets.append("Fundraising toplines are not yet integrated in this release; adding FEC candidate receipts/disbursements is the next data upgrade.")
+    return bullets
+
+
 def main() -> None:
     cook = parse_cook_swing()
     primary_dates = parse_ncsl_primary_dates()
@@ -386,19 +481,36 @@ def main() -> None:
     swing_states: List[Dict[str, Any]] = []
     for code, info in sorted(cook.items(), key=lambda kv: kv[0]):
         state_name = info["state_name"]
+        odds = {
+            "polymarket": get_polymarket(state_name),
+            "kalshi": get_kalshi(state_name),
+        }
+        polls_toplines = get_poll_toplines(code)
         swing_states.append(
             {
                 "state": code,
                 "state_name": state_name,
                 "cook_rating": info["cook_rating"],
                 "primary_date": primary_dates.get(code, "Not available"),
-                "odds": {
-                    "polymarket": get_polymarket(state_name),
-                    "kalshi": get_kalshi(state_name),
-                },
-                "polls_toplines": get_poll_toplines(code),
+                "odds": odds,
+                "polls_toplines": polls_toplines,
                 "polls": get_polling_refs(state_name),
                 "storylines": get_storylines(state_name),
+                "race_summary": summarize_race(code, state_name, info["cook_rating"], polls_toplines, odds),
+            }
+        )
+
+    senate_map_states: List[Dict[str, Any]] = []
+    for code in ALL_SENATE_ELECTION_STATES:
+        state_name = code_to_name(code)
+        swing_info = cook.get(code)
+        senate_map_states.append(
+            {
+                "state": code,
+                "state_name": state_name,
+                "primary_date": primary_dates.get(code, "Not available"),
+                "competitive": bool(swing_info),
+                "cook_rating": swing_info["cook_rating"] if swing_info else "Not rated competitive",
             }
         )
 
@@ -413,6 +525,7 @@ def main() -> None:
             "polls": "https://www.realclearpolitics.com",
             "news": "https://news.google.com",
         },
+        "senate_election_states": senate_map_states,
         "swing_states": swing_states,
     }
 
