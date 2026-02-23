@@ -54,9 +54,12 @@ function renderPollToplines(el, toplines) {
       <tbody>
         ${(block.polls || []).map((p) => {
           const values = (p.values || []).map((v) => `<td>${escapeHtml(v)}</td>`).join("");
+          const pollster = p.pollster_url
+            ? `<a href="${escapeHtml(p.pollster_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(p.pollster)}</a>`
+            : escapeHtml(p.pollster);
           return `
             <tr>
-              <td>${escapeHtml(p.pollster)}</td>
+              <td>${pollster}</td>
               <td>${escapeHtml(p.date)}</td>
               <td>${escapeHtml(p.sample)}</td>
               ${values}

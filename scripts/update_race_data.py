@@ -21,6 +21,7 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from typing import Any, Dict, List
+from lxml import html as lxml_html
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT_PATH = ROOT / "data" / "races.json"
@@ -446,7 +447,7 @@ def summarize_race(state_code: str, state_name: str, cook_rating: str, polls_top
             max_idx = max(range(len(values)), key=lambda i: float(values[i]))
             leader = candidates[max_idx]
             bullets.append(
-                f"Polling toplines show {leader} ahead in the {state_name} Republican primary (RCP Average: {avg.get('spread', 'lead noted')})."
+                f"Polling toplines show {leader} ahead in the {state_name} Republican primary (top listed row: {avg.get('spread', 'lead noted')})."
             )
 
         if len(rows) > 1:
@@ -474,6 +475,134 @@ def summarize_race(state_code: str, state_name: str, cook_rating: str, polls_top
     return bullets
 
 
+def _clean_cell_text(text: str) -> str:
+    s = re.sub(r"\[[^\]]+\]", "", text)
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
+def _to_float_percent(s: str) -> float | None:
+    m = re.search(r"([0-9]+(?:\.[0-9]+)?)", s or "")
+    if not m:
+        return None
+    try:
+        return float(m.group(1))
+    except Exception:
+        return None
+
+
+def scrape_ga_primary_toplines() -> List[Dict[str, Any]]:
+    """Scrape GA GOP primary toplines from Wikipedia poll table with citation URLs."""
+    try:
+        api = (
+            "https://en.wikipedia.org/w/api.php?action=parse"
+            "&page=2026_United_States_Senate_election_in_Georgia"
+            "&prop=text&formatversion=2&format=json"
+        )
+        page = fetch_json(api)
+        html_text = page["parse"]["text"]
+        doc = lxml_html.fromstring(html_text)
+
+        # Map citation ids to first external URL in that citation block.
+        citation_urls: Dict[str, str] = {}
+        for li in doc.xpath("//li[starts-with(@id,'cite_note-')]"):
+            note_id = li.attrib.get("id", "")
+            href = li.xpath(".//a[starts-with(@href,'http')]/@href")
+            if href:
+                citation_urls[note_id] = href[0]
+
+        # Locate the GA GOP primary polling table by headers.
+        table = None
+        for t in doc.xpath("//table[contains(@class,'wikitable')]"):
+            th_text = " | ".join(_clean_cell_text(" ".join(x.xpath(".//text()"))) for x in t.xpath(".//tr[1]/th"))
+            if "Poll source" in th_text and "Buddy" in th_text and "Mike" in th_text and "Derek" in th_text:
+                table = t
+                break
+        if table is None:
+            return []
+
+        headers = [_clean_cell_text(" ".join(th.xpath(".//text()"))) for th in table.xpath(".//tr[1]/th")]
+        data_headers = headers[4:]
+        candidate_names: List[str] = []
+        for h in data_headers:
+            if h.lower() in {"other", "undecided"}:
+                break
+            candidate_names.append(h.replace("\n", " ").strip())
+        if not candidate_names:
+            return []
+
+        # Reorder to preferred display order for GA.
+        preferred = ["Mike Collins", "Buddy Carter", "Derek Dooley"]
+        if set(preferred).issubset(set(candidate_names)):
+            ordered_candidates = preferred
+        else:
+            ordered_candidates = candidate_names
+        idx_map = [candidate_names.index(c) for c in ordered_candidates]
+
+        polls: List[Dict[str, Any]] = []
+        rows = table.xpath(".//tr[position()>1]")
+        for tr in rows:
+            tds = tr.xpath("./td")
+            if len(tds) < 4 + len(candidate_names):
+                continue
+
+            source_td = tds[0]
+            pollster_raw = _clean_cell_text(" ".join(source_td.xpath(".//text()")))
+            pollster = re.sub(r"\s*\(R\)\s*$", "", pollster_raw).strip()
+            if not pollster:
+                continue
+
+            date = _clean_cell_text(" ".join(tds[1].xpath(".//text()")))
+            sample = _clean_cell_text(" ".join(tds[2].xpath(".//text()")))
+
+            value_cells = tds[4:4 + len(candidate_names)]
+            raw_vals = [_clean_cell_text(" ".join(td.xpath(".//text()"))) for td in value_cells]
+            ordered_vals = [raw_vals[i] for i in idx_map]
+
+            parsed = [_to_float_percent(v) for v in ordered_vals]
+            lead = ""
+            if all(v is not None for v in parsed) and len(parsed) >= 2:
+                sorted_vals = sorted(parsed, reverse=True)
+                lead_margin = sorted_vals[0] - sorted_vals[1]
+                winner = ordered_candidates[parsed.index(sorted_vals[0])].split()[-1]
+                lead = f"{winner} +{lead_margin:.1f}".replace(".0", "")
+
+            pollster_url = ""
+            ref = source_td.xpath(".//sup[contains(@class,'reference')]/a/@href")
+            if ref and ref[0].startswith("#"):
+                note_id = ref[0][1:]
+                pollster_url = citation_urls.get(note_id, "")
+            if not pollster_url:
+                wiki_link = source_td.xpath(".//a[starts-with(@href,'/')]/@href")
+                if wiki_link:
+                    pollster_url = f"https://en.wikipedia.org{wiki_link[0]}"
+
+            polls.append(
+                {
+                    "pollster": pollster,
+                    "pollster_url": pollster_url,
+                    "date": date,
+                    "sample": sample,
+                    "values": ordered_vals,
+                    "spread": lead or "—",
+                }
+            )
+
+        if not polls:
+            return []
+
+        return [
+            {
+                "contest": "2026 Georgia Senate",
+                "race_name": "2026 Georgia Senate - Republican Primary",
+                "candidates": [c.split()[-1] for c in ordered_candidates],
+                "polls": polls[:8],
+            }
+        ]
+    except Exception:
+        return []
+
+
 def main() -> None:
     cook = parse_cook_swing()
     primary_dates = parse_ncsl_primary_dates()
@@ -486,6 +615,10 @@ def main() -> None:
             "kalshi": get_kalshi(state_name),
         }
         polls_toplines = get_poll_toplines(code)
+        if code == "GA":
+            scraped_ga = scrape_ga_primary_toplines()
+            if scraped_ga:
+                polls_toplines = scraped_ga
         swing_states.append(
             {
                 "state": code,
