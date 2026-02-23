@@ -264,7 +264,7 @@ def get_polling_refs(state_name: str) -> List[Dict[str, str]]:
     return refs
 
 
-def parse_rss(url: str, limit: int = 5) -> List[Dict[str, str]]:
+def parse_rss(url: str, state_name: str, limit: int = 5) -> List[Dict[str, str]]:
     out: List[Dict[str, str]] = []
     raw = fetch_text(url)
     root = ET.fromstring(raw)
@@ -283,6 +283,11 @@ def parse_rss(url: str, limit: int = 5) -> List[Dict[str, str]]:
             title = title.split(" - ", 1)[0]
         if title.startswith("CDATA["):
             title = title.replace("CDATA[", "").rstrip("]")
+
+        title_l = title.lower()
+        state_l = state_name.lower()
+        if state_l not in title_l:
+            continue
 
         date_fmt = ""
         if pub_date:
@@ -313,7 +318,7 @@ def get_storylines(state_name: str) -> List[Dict[str, str]]:
 
     for feed_url in [google_url, bing_url]:
         try:
-            items = parse_rss(feed_url, limit=6)
+            items = parse_rss(feed_url, state_name=state_name, limit=12)
             for item in items:
                 key = item["point"].lower()
                 if key in seen:
