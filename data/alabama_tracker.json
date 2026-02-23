@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-23 20:54 UTC",
+  "updated_at": "2026-02-23 21:01 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -7,8 +7,9 @@
       "name": "U.S. Senate (Republican Primary)",
       "snapshot": [
         "Steve Marshall leads the most recent published poll row (Marshall +9).",
-        "Next-most-recent row is Remington Research Group (January 16\u201319, 2026, 775 (LV)).",
-        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant."
+        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
+        "Recent coverage emphasizes endorsements as a meaningful force in this race.",
+        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics."
       ],
       "columns": [
         "Marshall",
@@ -134,8 +135,9 @@
       "name": "Lieutenant Governor (Republican Primary)",
       "snapshot": [
         "The most recent poll row shows a fragmented field with no clear majority.",
-        "Next-most-recent row is The Alabama Poll (December 15, 2025, 600 (LV)).",
-        "Recent toplines show a clear front-runner advantage."
+        "Recent toplines show a clear front-runner advantage.",
+        "Recent coverage emphasizes endorsements as a meaningful force in this race.",
+        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics."
       ],
       "columns": [
         "Allen",
@@ -194,8 +196,9 @@
       "name": "Attorney General (Republican Primary)",
       "snapshot": [
         "Jay Mitchell leads the most recent published poll row (Mitchell +1).",
-        "Next-most-recent row is The Alabama Poll (December 15, 2025, 600 (LV)).",
-        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant."
+        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
+        "Recent coverage emphasizes endorsements as a meaningful force in this race.",
+        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics."
       ],
       "columns": [
         "Mitchell",
@@ -246,8 +249,9 @@
       "name": "Secretary of State (Republican Primary)",
       "snapshot": [
         "Andrew Sorrell leads the most recent published poll row (Sorrell +7).",
-        "Next-most-recent row is The Alabama Poll (August 24\u201326, 2025, 600 (LV)).",
-        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant."
+        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
+        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics.",
+        "Recent reporting describes the field as wide open despite a current polling leader."
       ],
       "columns": [
         "Sorrell",
@@ -283,8 +287,9 @@
       "name": "AL-1 Congressional District (Republican Primary)",
       "snapshot": [
         "Jerry Carl leads the most recent published poll row (Carl +36).",
-        "Next-most-recent row is The Alabama Poll (January 23, 2026, 400 (LV)).",
-        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant."
+        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
+        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics.",
+        "Recent reporting references fundraising/resource positioning as a key separator among candidates."
       ],
       "columns": [
         "Carl",

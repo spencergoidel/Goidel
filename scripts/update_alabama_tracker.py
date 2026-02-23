@@ -21,6 +21,7 @@ OUT_PATH = ROOT / "data" / "alabama_tracker.json"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
 
 PRIMARY_DAY = "2026-05-19"
+ARTICLE_CACHE: Dict[str, str] = {}
 
 RACES = [
     {
@@ -196,14 +197,70 @@ def build_snapshot(race_name: str, headers: List[str], rows: List[Dict[str, Any]
     else:
         bullets.append("The most recent poll row shows a fragmented field with no clear majority.")
 
-    if len(rows) > 1:
-        second = rows[1]
-        bullets.append(f"Next-most-recent row is {second['pollster']} ({second['date']}, {second['sample']}).")
-
     if all(v is not None for v in vals) and max(vals) < 50:
         bullets.append("No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.")
     else:
         bullets.append("Recent toplines show a clear front-runner advantage." )
+
+    article_bullets = derive_article_bullets(race_name, rows)
+    bullets.extend(article_bullets[:2])
+
+    return bullets
+
+
+def fetch_article_text(url: str) -> str:
+    if not url:
+        return ""
+    if url in ARTICLE_CACHE:
+        return ARTICLE_CACHE[url]
+    try:
+        raw = fetch_text(url)
+        doc = lxml_html.fromstring(raw)
+        title = clean_text(" ".join(doc.xpath("//title/text()")))
+        paras = [clean_text(" ".join(p.xpath(".//text()"))) for p in doc.xpath("//p")]
+        body = " ".join([p for p in paras if len(p) > 70][:10])
+        text = f"{title}. {body}".strip()
+    except Exception:
+        text = ""
+    ARTICLE_CACHE[url] = text
+    return text
+
+
+def derive_article_bullets(race_name: str, rows: List[Dict[str, Any]]) -> List[str]:
+    bullets: List[str] = []
+    keyword_map = {
+        "endorsement": "Recent coverage emphasizes endorsements as a meaningful force in this race.",
+        "undecided": "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics.",
+        "wide open": "Recent reporting describes the field as wide open despite a current polling leader.",
+        "crowded": "Articles frame this as a crowded field, which can compress vote shares and increase runoff probability.",
+        "runoff": "Coverage highlights runoff risk as a central strategic factor.",
+        "fundraising": "Recent reporting references fundraising/resource positioning as a key separator among candidates.",
+        "momentum": "Articles suggest momentum effects are still in flux rather than settled.",
+    }
+
+    seen = set()
+    for row in rows[:4]:
+        text = fetch_article_text(row.get("pollster_url", "")).lower()
+        if not text:
+            continue
+        for k, msg in keyword_map.items():
+            if k in text and msg not in seen:
+                seen.add(msg)
+                bullets.append(msg)
+                if len(bullets) >= 2:
+                    return bullets
+
+    # If no keyword hit, still derive a substantive article-based bullet.
+    for row in rows[:2]:
+        text = fetch_article_text(row.get("pollster_url", ""))
+        if text:
+            # Use first informative sentence as a plain-language dynamic.
+            sent = re.split(r"(?<=[.!?])\\s+", text)
+            for s in sent:
+                s_clean = clean_text(s)
+                if len(s_clean) > 80 and any(w in s_clean.lower() for w in ["race", "primary", "candidate", "lead", "support"]):
+                    bullets.append(f"Recent reporting indicates: {s_clean[:220]}{'...' if len(s_clean) > 220 else ''}")
+                    return bullets
 
     return bullets
 
