@@ -1,0 +1,350 @@
+{
+  "updated_at": "2026-02-23 20:54 UTC",
+  "primary_day": "2026-05-19",
+  "races": [
+    {
+      "id": "us_senate_gop",
+      "name": "U.S. Senate (Republican Primary)",
+      "snapshot": [
+        "Steve Marshall leads the most recent published poll row (Marshall +9).",
+        "Next-most-recent row is Remington Research Group (January 16\u201319, 2026, 775 (LV)).",
+        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant."
+      ],
+      "columns": [
+        "Marshall",
+        "Moore",
+        "Hudson",
+        "Murphy",
+        "Walker"
+      ],
+      "polls": [
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://aldailynews.com/poll-despite-trump-endorsements-marshall-allen-still-lead-races/",
+          "date": "February 1\u20134, 2026",
+          "sample": "500 (LV)",
+          "values": [
+            "26%",
+            "17%",
+            "8%",
+            "1%",
+            "4%"
+          ],
+          "spread": "Marshall +9"
+        },
+        {
+          "pollster": "Remington Research Group",
+          "pollster_url": "https://yellowhammernews.com/new-polling-shows-u-s-senate-attorney-general-races-wide-open/",
+          "date": "January 16\u201319, 2026",
+          "sample": "775 (LV)",
+          "values": [
+            "26%",
+            "13%",
+            "10%",
+            "1%",
+            "2%"
+          ],
+          "spread": "Marshall +13"
+        },
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://1819news.com/news/item/alabama-poll-undecideds-outpace-field-in-statewide-gop-primary-races",
+          "date": "December 15, 2025",
+          "sample": "600 (LV)",
+          "values": [
+            "30%",
+            "12%",
+            "8%",
+            "1%",
+            "3%"
+          ],
+          "spread": "Marshall +18"
+        },
+        {
+          "pollster": "Quantus Insights",
+          "pollster_url": "https://drive.google.com/file/d/1WRYbrj1K7ZsQvsx0jRwmHDpjJLR2xdW0/view",
+          "date": "October 13\u201314, 2025",
+          "sample": "1,050 (RV)",
+          "values": [
+            "24%",
+            "9%",
+            "27%",
+            "2%",
+            "2%"
+          ],
+          "spread": "Hudson +3"
+        },
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://alpolitics.com/trump-holds-commanding-lead-in-first-alabama-poll-marshall-tops-early-senate-field/",
+          "date": "August 24\u201326, 2025",
+          "sample": "600 (LV)",
+          "values": [
+            "37%",
+            "16%",
+            "7%",
+            "\u2014 N/a",
+            "1%"
+          ],
+          "spread": "\u2014"
+        },
+        {
+          "pollster": "McLaughlin & Associates",
+          "pollster_url": "https://1819news.com/news/item/poll-marshall-leading-moore-hudson-in-2026-alabama-senate-race",
+          "date": "July 14\u201317, 2025",
+          "sample": "600 (LV)",
+          "values": [
+            "35%",
+            "12%",
+            "9%",
+            "\u2014 N/a",
+            "\u2014 N/a"
+          ],
+          "spread": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "governor_gop",
+      "name": "Governor (Republican Primary)",
+      "snapshot": [
+        "Tommy Tuberville leads the most recent published poll row (Tuberville +59).",
+        "Recent toplines show a clear front-runner advantage."
+      ],
+      "columns": [
+        "Tuberville",
+        "McFeeters"
+      ],
+      "polls": [
+        {
+          "pollster": "Quantus Insights",
+          "pollster_url": "https://drive.google.com/file/d/1WRYbrj1K7ZsQvsx0jRwmHDpjJLR2xdW0/view",
+          "date": "October 13\u201314, 2025",
+          "sample": "1,050 (RV)",
+          "values": [
+            "63%",
+            "4%"
+          ],
+          "spread": "Tuberville +59"
+        }
+      ]
+    },
+    {
+      "id": "lt_governor_gop",
+      "name": "Lieutenant Governor (Republican Primary)",
+      "snapshot": [
+        "The most recent poll row shows a fragmented field with no clear majority.",
+        "Next-most-recent row is The Alabama Poll (December 15, 2025, 600 (LV)).",
+        "Recent toplines show a clear front-runner advantage."
+      ],
+      "columns": [
+        "Allen",
+        "McCarron",
+        "Pate",
+        "Wadsworth",
+        "Wahl"
+      ],
+      "polls": [
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://aldailynews.com/poll-despite-trump-endorsements-marshall-allen-still-lead-races/",
+          "date": "February 1\u20134, 2026",
+          "sample": "500 (LV)",
+          "values": [
+            "23%",
+            "\u2014 N/a",
+            "6%",
+            "6%",
+            "6%"
+          ],
+          "spread": "\u2014"
+        },
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://1819news.com/news/item/alabama-poll-undecideds-outpace-field-in-statewide-gop-primary-races",
+          "date": "December 15, 2025",
+          "sample": "600 (LV)",
+          "values": [
+            "18%",
+            "31%",
+            "8%",
+            "2%",
+            "\u2014 N/a"
+          ],
+          "spread": "\u2014"
+        },
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://alpolitics.com/trump-holds-commanding-lead-in-first-alabama-poll-marshall-tops-early-senate-field/",
+          "date": "August 24\u201326, 2025",
+          "sample": "600 (LV)",
+          "values": [
+            "28%",
+            "\u2014 N/a",
+            "12%",
+            "\u2014 N/a",
+            "\u2014 N/a"
+          ],
+          "spread": "\u2014"
+        }
+      ]
+    },
+    {
+      "id": "attorney_general_gop",
+      "name": "Attorney General (Republican Primary)",
+      "snapshot": [
+        "Jay Mitchell leads the most recent published poll row (Mitchell +1).",
+        "Next-most-recent row is The Alabama Poll (December 15, 2025, 600 (LV)).",
+        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant."
+      ],
+      "columns": [
+        "Mitchell",
+        "Robertson",
+        "Casey"
+      ],
+      "polls": [
+        {
+          "pollster": "Remington Research Group",
+          "pollster_url": "https://yellowhammernews.com/new-polling-shows-u-s-senate-attorney-general-races-wide-open/",
+          "date": "January 16\u201319, 2026",
+          "sample": "775 (LV)",
+          "values": [
+            "9%",
+            "8%",
+            "8%"
+          ],
+          "spread": "Mitchell +1"
+        },
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://1819news.com/news/item/alabama-poll-undecideds-outpace-field-in-statewide-gop-primary-races",
+          "date": "December 15, 2025",
+          "sample": "600 (LV)",
+          "values": [
+            "12%",
+            "10%",
+            "7%"
+          ],
+          "spread": "Mitchell +2"
+        },
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://alpolitics.com/trump-holds-commanding-lead-in-first-alabama-poll-marshall-tops-early-senate-field/",
+          "date": "August 24\u201326, 2025",
+          "sample": "600 (LV)",
+          "values": [
+            "13%",
+            "6%",
+            "7%"
+          ],
+          "spread": "Mitchell +6"
+        }
+      ]
+    },
+    {
+      "id": "secretary_of_state_gop",
+      "name": "Secretary of State (Republican Primary)",
+      "snapshot": [
+        "Andrew Sorrell leads the most recent published poll row (Sorrell +7).",
+        "Next-most-recent row is The Alabama Poll (August 24\u201326, 2025, 600 (LV)).",
+        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant."
+      ],
+      "columns": [
+        "Sorrell",
+        "Dobson"
+      ],
+      "polls": [
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://1819news.com/news/item/alabama-poll-undecideds-outpace-field-in-statewide-gop-primary-races",
+          "date": "December 15, 2025",
+          "sample": "600 (LV)",
+          "values": [
+            "21%",
+            "14%"
+          ],
+          "spread": "Sorrell +7"
+        },
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://alpolitics.com/trump-holds-commanding-lead-in-first-alabama-poll-marshall-tops-early-senate-field/",
+          "date": "August 24\u201326, 2025",
+          "sample": "600 (LV)",
+          "values": [
+            "20%",
+            "16%"
+          ],
+          "spread": "Sorrell +4"
+        }
+      ]
+    },
+    {
+      "id": "al1_house_gop",
+      "name": "AL-1 Congressional District (Republican Primary)",
+      "snapshot": [
+        "Jerry Carl leads the most recent published poll row (Carl +36).",
+        "Next-most-recent row is The Alabama Poll (January 23, 2026, 400 (LV)).",
+        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant."
+      ],
+      "columns": [
+        "Carl",
+        "Marques",
+        "Dees",
+        "McKee",
+        "Mills",
+        "Richardson",
+        "Sidwell"
+      ],
+      "polls": [
+        {
+          "pollster": "AM Research Group",
+          "pollster_url": "https://1819news.com/news/item/jerry-carl-maintains-dominant-lead-in-cd-1-race-poll",
+          "date": "January 31 \u2013 February 2, 2026",
+          "sample": "\u2013 (LV)",
+          "values": [
+            "43%",
+            "7%",
+            "2%",
+            "2%",
+            "1%",
+            "0%",
+            "1%"
+          ],
+          "spread": "Carl +36"
+        },
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://1819news.com/news/item/alabama-poll-jerry-carl-leading-rhett-marques-25-9-in-cd-1-race",
+          "date": "January 23, 2026",
+          "sample": "400 (LV)",
+          "values": [
+            "25.2%",
+            "9.2%",
+            "\u2014 N/a",
+            "8.8%",
+            "\u2014 N/a",
+            "\u2014 N/a",
+            "\u2014 N/a"
+          ],
+          "spread": "\u2014"
+        },
+        {
+          "pollster": "Cygnal",
+          "pollster_url": "https://1819news.com/news/item/poll-carl-has-early-lead-over-marques-mckee-in-al-1-gop-primary",
+          "date": "August 21\u201322, 2025",
+          "sample": "400 (LV)",
+          "values": [
+            "29%",
+            "5%",
+            "\u2014 N/a",
+            "2%",
+            "\u2014 N/a",
+            "\u2014 N/a",
+            "\u2014 N/a"
+          ],
+          "spread": "\u2014"
+        }
+      ]
+    }
+  ]
+}

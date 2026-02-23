@@ -19,14 +19,19 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install dependencies
+        run: pip install lxml
+
       - name: Update data
-        run: python3 scripts/update_race_data.py
+        run: |
+          python3 scripts/update_race_data.py
+          python3 scripts/update_alabama_tracker.py
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/races.json
+          git add data/races.json data/alabama_tracker.json
           if git diff --staged --quiet; then
             echo "No changes"
             exit 0
