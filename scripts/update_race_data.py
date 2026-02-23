@@ -237,6 +237,9 @@ def get_polling_refs(state_name: str) -> List[Dict[str, str]]:
         pass
 
     rcp_query = urllib.parse.quote(f"{state_name} senate race polls 2026 realclearpolitics")
+    race_to_wh_query = urllib.parse.quote(f"{state_name} senate race 2026 polling")
+    ddhq_query = urllib.parse.quote(f"{state_name} senate race 2026 polling aggregate")
+
     refs.append(
         {
             "source": "RealClearPolitics",
@@ -244,47 +247,107 @@ def get_polling_refs(state_name: str) -> List[Dict[str, str]]:
             "url": f"https://www.realclearpolitics.com/search/?q={rcp_query}",
         }
     )
+    refs.append(
+        {
+            "source": "Race to the WH",
+            "value": "Polling + forecast search",
+            "url": f"https://www.racetothewh.com/search?q={race_to_wh_query}",
+        }
+    )
+    refs.append(
+        {
+            "source": "Decision Desk HQ",
+            "value": "Polling aggregate search",
+            "url": f"https://duckduckgo.com/?q=site%3Adecisiondeskhq.com+{ddhq_query}",
+        }
+    )
     return refs
+
+
+def parse_rss(url: str, limit: int = 5) -> List[Dict[str, str]]:
+    out: List[Dict[str, str]] = []
+    raw = fetch_text(url)
+    root = ET.fromstring(raw)
+    channel = root.find("channel")
+    if channel is None:
+        return out
+
+    for item in channel.findall("item")[:limit]:
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub_date = (item.findtext("pubDate") or "").strip()
+        source_el = item.find("source")
+        source_name = source_el.text.strip() if source_el is not None and source_el.text else ""
+
+        if " - " in title:
+            title = title.split(" - ", 1)[0]
+        if title.startswith("CDATA["):
+            title = title.replace("CDATA[", "").rstrip("]")
+
+        date_fmt = ""
+        if pub_date:
+            try:
+                parsed = email.utils.parsedate_to_datetime(pub_date)
+                date_fmt = parsed.date().isoformat()
+            except Exception:
+                date_fmt = pub_date
+
+        if title and link:
+            out.append(
+                {
+                    "point": title,
+                    "date": date_fmt,
+                    "source": source_name,
+                    "url": link,
+                }
+            )
+    return out
 
 
 def get_storylines(state_name: str) -> List[Dict[str, str]]:
     query = urllib.parse.quote(f"{state_name} Senate race 2026 primary")
-    url = f"https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en"
+    google_url = f"https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en"
+    bing_url = f"https://www.bing.com/news/search?q={query}&format=RSS"
     out: List[Dict[str, str]] = []
+    seen: set[str] = set()
 
-    try:
-        raw = fetch_text(url)
-        root = ET.fromstring(raw)
-        channel = root.find("channel")
-        if channel is None:
-            return out
+    for feed_url in [google_url, bing_url]:
+        try:
+            items = parse_rss(feed_url, limit=6)
+            for item in items:
+                key = item["point"].lower()
+                if key in seen:
+                    continue
+                seen.add(key)
+                out.append(item)
+                if len(out) >= 4:
+                    break
+            if len(out) >= 4:
+                break
+        except Exception:
+            continue
 
-        for item in channel.findall("item")[:4]:
-            title = (item.findtext("title") or "").strip()
-            link = (item.findtext("link") or "").strip()
-            pub_date = (item.findtext("pubDate") or "").strip()
-            source_el = item.find("source")
-            source_name = source_el.text.strip() if source_el is not None and source_el.text else ""
-
-            if " - " in title:
-                title = title.split(" - ", 1)[0]
-
-            date_fmt = ""
-            if pub_date:
-                try:
-                    parsed = email.utils.parsedate_to_datetime(pub_date)
-                    date_fmt = parsed.date().isoformat()
-                except Exception:
-                    date_fmt = pub_date
-
-            out.append({
-                "point": title,
-                "date": date_fmt,
-                "source": source_name,
-                "url": link,
-            })
-    except Exception:
-        return out
+    if not out:
+        out = [
+            {
+                "point": f"Track the latest {state_name} Senate primary coverage (Google News).",
+                "date": "",
+                "source": "Google News",
+                "url": f"https://news.google.com/search?q={query}&hl=en-US&gl=US&ceid=US%3Aen",
+            },
+            {
+                "point": f"Track the latest {state_name} Senate primary coverage (Bing News).",
+                "date": "",
+                "source": "Bing News",
+                "url": f"https://www.bing.com/news/search?q={query}",
+            },
+            {
+                "point": f"Review campaign reporting and updates for the {state_name} race.",
+                "date": "",
+                "source": "News search",
+                "url": f"https://duckduckgo.com/?q={query}",
+            },
+        ]
 
     return out
 

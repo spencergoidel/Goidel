@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-23 19:33 UTC",
+  "updated_at": "2026-02-23 19:38 UTC",
   "refresh_target": "24-48 hours",
   "sources": {
     "cook": "https://www.cookpolitical.com/ratings/senate-race-ratings",
@@ -29,6 +29,16 @@
           "source": "RealClearPolitics",
           "value": "Latest polling links",
           "url": "https://www.realclearpolitics.com/search/?q=Alaska%20senate%20race%20polls%202026%20realclearpolitics"
+        },
+        {
+          "source": "Race to the WH",
+          "value": "Polling + forecast search",
+          "url": "https://www.racetothewh.com/search?q=Alaska%20senate%20race%202026%20polling"
+        },
+        {
+          "source": "Decision Desk HQ",
+          "value": "Polling aggregate search",
+          "url": "https://duckduckgo.com/?q=site%3Adecisiondeskhq.com+Alaska%20senate%20race%202026%20polling%20aggregate"
         }
       ],
       "storylines": [
@@ -82,6 +92,16 @@
           "source": "RealClearPolitics",
           "value": "Latest polling links",
           "url": "https://www.realclearpolitics.com/search/?q=Georgia%20senate%20race%20polls%202026%20realclearpolitics"
+        },
+        {
+          "source": "Race to the WH",
+          "value": "Polling + forecast search",
+          "url": "https://www.racetothewh.com/search?q=Georgia%20senate%20race%202026%20polling"
+        },
+        {
+          "source": "Decision Desk HQ",
+          "value": "Polling aggregate search",
+          "url": "https://duckduckgo.com/?q=site%3Adecisiondeskhq.com+Georgia%20senate%20race%202026%20polling%20aggregate"
         }
       ],
       "storylines": [
@@ -135,6 +155,16 @@
           "source": "RealClearPolitics",
           "value": "Latest polling links",
           "url": "https://www.realclearpolitics.com/search/?q=Maine%20senate%20race%20polls%202026%20realclearpolitics"
+        },
+        {
+          "source": "Race to the WH",
+          "value": "Polling + forecast search",
+          "url": "https://www.racetothewh.com/search?q=Maine%20senate%20race%202026%20polling"
+        },
+        {
+          "source": "Decision Desk HQ",
+          "value": "Polling aggregate search",
+          "url": "https://duckduckgo.com/?q=site%3Adecisiondeskhq.com+Maine%20senate%20race%202026%20polling%20aggregate"
         }
       ],
       "storylines": [
@@ -188,6 +218,16 @@
           "source": "RealClearPolitics",
           "value": "Latest polling links",
           "url": "https://www.realclearpolitics.com/search/?q=Michigan%20senate%20race%20polls%202026%20realclearpolitics"
+        },
+        {
+          "source": "Race to the WH",
+          "value": "Polling + forecast search",
+          "url": "https://www.racetothewh.com/search?q=Michigan%20senate%20race%202026%20polling"
+        },
+        {
+          "source": "Decision Desk HQ",
+          "value": "Polling aggregate search",
+          "url": "https://duckduckgo.com/?q=site%3Adecisiondeskhq.com+Michigan%20senate%20race%202026%20polling%20aggregate"
         }
       ],
       "storylines": [
@@ -241,6 +281,16 @@
           "source": "RealClearPolitics",
           "value": "Latest polling links",
           "url": "https://www.realclearpolitics.com/search/?q=North%20Carolina%20senate%20race%20polls%202026%20realclearpolitics"
+        },
+        {
+          "source": "Race to the WH",
+          "value": "Polling + forecast search",
+          "url": "https://www.racetothewh.com/search?q=North%20Carolina%20senate%20race%202026%20polling"
+        },
+        {
+          "source": "Decision Desk HQ",
+          "value": "Polling aggregate search",
+          "url": "https://duckduckgo.com/?q=site%3Adecisiondeskhq.com+North%20Carolina%20senate%20race%202026%20polling%20aggregate"
         }
       ],
       "storylines": [
@@ -294,6 +344,16 @@
           "source": "RealClearPolitics",
           "value": "Latest polling links",
           "url": "https://www.realclearpolitics.com/search/?q=New%20Hampshire%20senate%20race%20polls%202026%20realclearpolitics"
+        },
+        {
+          "source": "Race to the WH",
+          "value": "Polling + forecast search",
+          "url": "https://www.racetothewh.com/search?q=New%20Hampshire%20senate%20race%202026%20polling"
+        },
+        {
+          "source": "Decision Desk HQ",
+          "value": "Polling aggregate search",
+          "url": "https://duckduckgo.com/?q=site%3Adecisiondeskhq.com+New%20Hampshire%20senate%20race%202026%20polling%20aggregate"
         }
       ],
       "storylines": [
@@ -347,6 +407,16 @@
           "source": "RealClearPolitics",
           "value": "Latest polling links",
           "url": "https://www.realclearpolitics.com/search/?q=Ohio%20senate%20race%20polls%202026%20realclearpolitics"
+        },
+        {
+          "source": "Race to the WH",
+          "value": "Polling + forecast search",
+          "url": "https://www.racetothewh.com/search?q=Ohio%20senate%20race%202026%20polling"
+        },
+        {
+          "source": "Decision Desk HQ",
+          "value": "Polling aggregate search",
+          "url": "https://duckduckgo.com/?q=site%3Adecisiondeskhq.com+Ohio%20senate%20race%202026%20polling%20aggregate"
         }
       ],
       "storylines": [
