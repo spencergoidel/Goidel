@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-23 19:39 UTC",
+  "updated_at": "2026-02-23 19:46 UTC",
   "refresh_target": "24-48 hours",
   "sources": {
     "cook": "https://www.cookpolitical.com/ratings/senate-race-ratings",
@@ -19,12 +19,8 @@
         "polymarket": [],
         "kalshi": []
       },
+      "polls_toplines": [],
       "polls": [
-        {
-          "source": "Race to the WH",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Alaska"
-        },
         {
           "source": "RealClearPolitics",
           "value": "Latest polling links",
@@ -43,28 +39,22 @@
       ],
       "storylines": [
         {
-          "point": "Mary Peltola enters Alaska U.S. Senate race",
-          "date": "2026-01-12",
-          "source": "Alaska Public Media",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWFNXM2hvLWNWVmNCcVE5ZVpwV1Q3TG1QS2lFOExYWkNOVU9PZWI2X1VxZ3NESlluTEZXVjVEbVZlSTVENGNPRmlrUG93c1EzdWlWeGt0dEZxR0FQUDM0VFlkdmQ3OU1uWnBuZWpYS2I0YkhnbWVHdW5UTWZFLXc0blRvYUNGcTBxMVdyaUZtMUpmVlg2UXJ0cGhGZkNOMmhJUS1LNkpJWXBRTGc?oc=5"
+          "point": "Track the latest Alaska Senate primary coverage (Google News).",
+          "date": "",
+          "source": "Google News",
+          "url": "https://news.google.com/search?q=Alaska%20Senate%20race%202026%20primary&hl=en-US&gl=US&ceid=US%3Aen"
         },
         {
-          "point": "Alaska Senate Race Comes Onto the Competitive Board with Peltola\u2019s Entry",
-          "date": "2026-01-13",
-          "source": "The Center for Politics at UVA",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQT29kUWxqelFUX3NrRC11Sy1GbUE3RUVCZWc3TjJJQWFkTGFfTXNkTGZvYnAyWWRIa3BMNHhUc0ZvQXdCTy1IRUxQRDRQT1c0M0Nwak9pXzBNMWdTbjNWVkNvY29ycF9oUU5JR0VHajdhVTdzM0pNZ0VmTkpGdFo3WTZGVTR2NmpDY2FtSHRpeXVVRVY4RDV5NTVYX3pDcUNWSlBvR002aTFIQnB1bVJ0eW9nUGI?oc=5"
+          "point": "Track the latest Alaska Senate primary coverage (Bing News).",
+          "date": "",
+          "source": "Bing News",
+          "url": "https://www.bing.com/news/search?q=Alaska%20Senate%20race%202026%20primary"
         },
         {
-          "point": "Former Rep. Mary Peltola may put Alaska\u2019s Senate race in reach for Democrats",
-          "date": "2026-01-12",
-          "source": "The 19th News",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5IVDkzXzQwQ2dJTFZ1TGhlQ3FScDFUdE5CMzZuTnFkZmRVd2tpYlUwVWNpRFd5MjZtNTMzUHN3Rm1XYWhqaXZjS3NwV3NYQzRvaEZySkdseDhhOXRNRXc5SGU0NXY3UTcyU21EeFRn?oc=5"
-        },
-        {
-          "point": "Former Rep. Mary Peltola jumps into Alaska Senate race",
-          "date": "2026-01-12",
-          "source": "Politico",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN2JaZjRTLWU4WGxob01wRjV1cm5wZkNsY1diZVN0aGtPNGwtaXJqaVNHUFpWaGlUM0t3S3lLaVhNMk52d1RQVDNCbG1lSUEtRU14VENJVlF6OVcxQlRrQXloRkZsQk5ueDhCRXVxVFpacFVoUC15ZjVIS01OYTRlMzlvWG1SaVNiWU5hMlh3?oc=5"
+          "point": "Review campaign reporting and updates for the Alaska race.",
+          "date": "",
+          "source": "News search",
+          "url": "https://duckduckgo.com/?q=Alaska%20Senate%20race%202026%20primary"
         }
       ]
     },
@@ -77,17 +67,75 @@
         "polymarket": [],
         "kalshi": []
       },
+      "polls_toplines": [
+        {
+          "contest": "2026 Georgia Senate",
+          "race_name": "2026 Georgia Senate - Republican Primary",
+          "candidates": [
+            "Collins",
+            "Carter",
+            "Dooley"
+          ],
+          "polls": [
+            {
+              "pollster": "RCP Average",
+              "date": "7/28 - 2/18",
+              "sample": "\u2014",
+              "values": [
+                "29.5",
+                "17.8",
+                "10.3"
+              ],
+              "spread": "Collins +11.7"
+            },
+            {
+              "pollster": "Quantus Insights",
+              "date": "2/17 - 2/18",
+              "sample": "1337 LV",
+              "values": [
+                "36",
+                "11",
+                "9"
+              ],
+              "spread": "Collins +25"
+            },
+            {
+              "pollster": "InsiderAdvantage/Rosetta",
+              "date": "12/18 - 12/19",
+              "sample": "1000 LV",
+              "values": [
+                "25",
+                "20",
+                "12"
+              ],
+              "spread": "Collins +5"
+            },
+            {
+              "pollster": "Atlanta Journal-Constitution",
+              "date": "10/13 - 10/21",
+              "sample": "1000 LV",
+              "values": [
+                "30",
+                "20",
+                "12"
+              ],
+              "spread": "Collins +10"
+            },
+            {
+              "pollster": "TIPP**",
+              "date": "7/28 - 8/1",
+              "sample": "RV",
+              "values": [
+                "27",
+                "20",
+                "8"
+              ],
+              "spread": "Collins +7"
+            }
+          ]
+        }
+      ],
       "polls": [
-        {
-          "source": "RealClearPolitics",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia"
-        },
-        {
-          "source": "Race to the WH",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Georgia"
-        },
         {
           "source": "RealClearPolitics",
           "value": "Latest polling links",
@@ -106,28 +154,22 @@
       ],
       "storylines": [
         {
-          "point": "Georgia U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-02-23",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVk4yd1hGX3hRVnhsTUctaE5Xc1hsS1R6eUczdTF4VlZiZFljX2Rmb1QwVXc5dGpIX2dCZU9ULWU3ZEt4b3ZHZEdGbXVvczlWVGZuM2hnY04yd0tIenR3U29ZZTJPSldjNWwyY2lYdDNzOHViODNGZURqc0paT1dPMUtiVGNNZDNabkVmWQ?oc=5"
+          "point": "Track the latest Georgia Senate primary coverage (Google News).",
+          "date": "",
+          "source": "Google News",
+          "url": "https://news.google.com/search?q=Georgia%20Senate%20race%202026%20primary&hl=en-US&gl=US&ceid=US%3Aen"
         },
         {
-          "point": "With Kemp at his side, Dooley struggles in Georgia\u2019s U.S. Senate race",
-          "date": "2026-02-23",
-          "source": "AJC.com",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUk91eU1zSHl1Wk16RzdLc2RWQ1dBLUNZTmJKb2lYdWNEVzBqZW1hVlBDTlg2X0xvYVFNUUpsYmhuNDlHTk5mTHdrNDQ3d2NfdVFLRnNzOFJwU2ZTc1FiTno5dEF3REhVeTl4dHZ6U3VRbkYzUzdDUHJmeVhmbGw0dG5nUkhfY0pFWEV1NE5wZTk3TndvNG94cTRya1RXV3NiR0R4UGhB?oc=5"
+          "point": "Track the latest Georgia Senate primary coverage (Bing News).",
+          "date": "",
+          "source": "Bing News",
+          "url": "https://www.bing.com/news/search?q=Georgia%20Senate%20race%202026%20primary"
         },
         {
-          "point": "GOP Georgia governor\u2019s poll shows newest entrant leading, many undecided voters",
-          "date": "2026-02-19",
-          "source": "WRDW",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR21tektxUlV4RENrdTZaUXJ6RC1KeDFTR3Rfd2hhRlRrdm1xdG1FM1FKQzdCYnZQNzJ6RzBNM014MEVXcmZmQTB5RlNacWhnd3NCNTNqOHBLdFlBZk1XNmtfcE5pLWxkTlZ4Z1NLWk1TMzhzckstLWNURElEUGNma0RBSEtwcXRnaXdEMERaODdJMndianFOaXV1d3FzdTlYSzcwaHQ1UnFRUkdKOXE0?oc=5"
-        },
-        {
-          "point": "Live Results: Georgia State Senate Special Election Runoff",
-          "date": "2026-02-17",
-          "source": "270toWin.com",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaWM2U1BJYV9uYnowOFdSWFhiSE92ZmFFTnp0MjdCNzVzY1hHUnF1eGNTdFg5RlVneDNlZEkySmx3QW9DSExYeldvcnRlYktad1kwU0tRLXJITEhhNGVWVHJlNE5zQXZNUWkwMkd3bVlEZ2ZEUGZ5eXZadlltNkdzRmpIQ045cE1RQUFhMnloWmgtaEdVc054QkZ6NkFzM2NtdURuMXcweUxPWHZ4?oc=5"
+          "point": "Review campaign reporting and updates for the Georgia race.",
+          "date": "",
+          "source": "News search",
+          "url": "https://duckduckgo.com/?q=Georgia%20Senate%20race%202026%20primary"
         }
       ]
     },
@@ -140,17 +182,8 @@
         "polymarket": [],
         "kalshi": []
       },
+      "polls_toplines": [],
       "polls": [
-        {
-          "source": "RealClearPolitics",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine"
-        },
-        {
-          "source": "Race to the WH",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Maine"
-        },
         {
           "source": "RealClearPolitics",
           "value": "Latest polling links",
@@ -169,28 +202,22 @@
       ],
       "storylines": [
         {
-          "point": "Maine U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-02-23",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVG0tYTZPYnNRdmxPbi1IUXhlZG5aRW1EVXhoVWNyR2MzZTlRQWUtNUhxRkVsNTRoZWhsbXdHblNXMVZPbHFTaHlsVWRlcTNiUEtocGo2TGdOV0czWGppRXVPb2gzSDZXNWZhdHdUQ2NOMHdONlpZTW81T21NU3dwSXB6R05tNWpfc1E?oc=5"
+          "point": "Track the latest Maine Senate primary coverage (Google News).",
+          "date": "",
+          "source": "Google News",
+          "url": "https://news.google.com/search?q=Maine%20Senate%20race%202026%20primary&hl=en-US&gl=US&ceid=US%3Aen"
         },
         {
-          "point": "What's the main thing in Maine's Senate race?",
-          "date": "2026-02-18",
-          "source": "Maine Public",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOajdiaThKOTlRa2d6M090bDBIMFBScloyOTBOMlpDaXNtcnpXN3RFNmM0dWVZUnBEMGRoSERaNUhQVlRDanZSQWVDNThzRTg5RGw1UU9iNzVGazlTSEJ3WGtfaDFDNk83U2lUZWFLSUpXWURpUnV3WTBkZllJT0hpNTRteHNUNC1kM3QtYWFqS3VGbXJH?oc=5"
+          "point": "Track the latest Maine Senate primary coverage (Bing News).",
+          "date": "",
+          "source": "Bing News",
+          "url": "https://www.bing.com/news/search?q=Maine%20Senate%20race%202026%20primary"
         },
         {
-          "point": "As Susan Collins awaits, a generational divide splits Maine Democrats in pivotal Senate race",
-          "date": "2026-02-01",
-          "source": "CNN",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaTBqVk16VU90Zi13LWZoZm12Z3Y0NjZSZmdybGcwVF9pbmVoUEZLLXgzY19FejBhLTVpRmtiQUFPN1hIZUVfUlpOSHVtR1JvY002R1BNVlpiUDQ1N2Z3anlXcFpwVVlHOGtRcVR4VHlXWmxMckdvZXVwLTdMdGJCQ2NSTEs?oc=5"
-        },
-        {
-          "point": "Senate Rating Change: Maine Moves from Leans Republican to Toss-up",
-          "date": "2025-10-14",
-          "source": "The Center for Politics at UVA",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObE42X01XVGVVbjBnME5XTk1WcDl4U1Q1VkxjVDJiRHcwdjNVVWZzZ1ZKSnZOWk1ycGZTRW9oYWh6cjB3TS1aZG1ZRkFxc2lwTU9RQkN0NW82YnR0dGQ4Z0ZQUlN3VF9UeE9SNUg3ejRWZVp0N3dJR19fUXA3c0RjVmlZblhrUXlCdFNjWGx0TTBWdWVreDlxajdfOEhndWhRZzg4Nmx6eWdRY1Fx?oc=5"
+          "point": "Review campaign reporting and updates for the Maine race.",
+          "date": "",
+          "source": "News search",
+          "url": "https://duckduckgo.com/?q=Maine%20Senate%20race%202026%20primary"
         }
       ]
     },
@@ -203,17 +230,8 @@
         "polymarket": [],
         "kalshi": []
       },
+      "polls_toplines": [],
       "polls": [
-        {
-          "source": "RealClearPolitics",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan"
-        },
-        {
-          "source": "Race to the WH",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Michigan"
-        },
         {
           "source": "RealClearPolitics",
           "value": "Latest polling links",
@@ -232,28 +250,22 @@
       ],
       "storylines": [
         {
-          "point": "Michigan U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-02-23",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXg4R2RiNm5LQjloa25FZEFhY2tCX2k3U0ExVEJnNzVWeW1Ba21fbkRxYlFFX3M2TDdLeGlQUnViWGNfbFZWdlBiVHhNNUFqZE5ISjhsdlB5dGRPZ3ZaRVlpd24ybWMyX0dXUFFIWUFhbnM0c05DX1JLVmVYT0NFT1pFcHBGYU9hLXAyOXRR?oc=5"
+          "point": "Track the latest Michigan Senate primary coverage (Google News).",
+          "date": "",
+          "source": "Google News",
+          "url": "https://news.google.com/search?q=Michigan%20Senate%20race%202026%20primary&hl=en-US&gl=US&ceid=US%3Aen"
         },
         {
-          "point": "In Michigan, 3 Democrats test vision of affordability in US Senate primary",
-          "date": "2026-02-17",
-          "source": "Bridge Michigan",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa2pfdkxYbjgxM2N3czFUbDJFcVNsQUp3dGwtUXA1VXdHRnZ1akJjUUF6RlN0SWhvN2x0UU9GSjN5d29pb214WWtyRUwzZ0p1VTZkLVhlUm5nMGVLWWRBa254SlBTLTN5bkMyVUVUY083VllNZ0p2VkxhV3JtUTFVYUpvN0UwbVVqWDktN2JvOV85c1FxRmlWN2d0cHcwQVJZNGFHOV9DQXJYc0xOQkh1b1BCN2ZMZw?oc=5"
+          "point": "Track the latest Michigan Senate primary coverage (Bing News).",
+          "date": "",
+          "source": "Bing News",
+          "url": "https://www.bing.com/news/search?q=Michigan%20Senate%20race%202026%20primary"
         },
         {
-          "point": "Michigan 2026 Poll: Crowded Democratic Senate Primary Remains Wide Open",
-          "date": "2026-01-29",
-          "source": "- Emerson Polling",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZTRDcVV1THdqaWQ3aHByUVYtZE1yaEwzUjRDRE5JWmszS1RfckUwSGctbGx1SDcxWUtZdE5WOXZOdFE2Q196Y08yVU1OeHFPVXRERUgzZjk3alF5ckZVT3ZvMzhIWUNLNUZXTHZqaTlYSXhycE5STFBuSE91RDFDLTZ3RS1qSkp3cGk3RGFxNFpMRUtNcGlrR1FHcEwtSWc0S1lGcW0zcUM?oc=5"
-        },
-        {
-          "point": "In Michigan Senate race, Dems battle for bucks as Mike Rogers builds war chest",
-          "date": "2026-02-01",
-          "source": "Bridge Michigan",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUVVsOFA3bllBaEVUcm9lRDZaYkVhWFQxVVVQWUZKRXB1YWR1NjVmMUF0aVJUNkxJWFFVREllN0hnTFVnR3hyUTNpUHZCVWtUcm80Vnc5SktLdnN2T09TVlZGeDhLWTlKRlFENEFmOEx5Y1BqZFJtcmJfanM3ZThNekZOcDNvZDN0Tm1JTXo4MHNSTmNhQXlmMDZ4SzBhU05Pb01aWGdqSTIzcUFEQk13WFVWUnVTdEJJYUtF?oc=5"
+          "point": "Review campaign reporting and updates for the Michigan race.",
+          "date": "",
+          "source": "News search",
+          "url": "https://duckduckgo.com/?q=Michigan%20Senate%20race%202026%20primary"
         }
       ]
     },
@@ -266,17 +278,8 @@
         "polymarket": [],
         "kalshi": []
       },
+      "polls_toplines": [],
       "polls": [
-        {
-          "source": "RealClearPolitics",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina"
-        },
-        {
-          "source": "Race to the WH",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_North_Carolina"
-        },
         {
           "source": "RealClearPolitics",
           "value": "Latest polling links",
@@ -295,28 +298,22 @@
       ],
       "storylines": [
         {
-          "point": "North Carolina U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-02-23",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcG0yWVJ4b1FCblhNSEdUeDZTb1BHUEh2TjItUTN6MjlsV09ZYlA0aHZ4R0V0b2ZjRTA0SHJkTGJxaDJPaXh0OEIxZFhIVWhsd0t2bFBRYTdrc3p1cHZCTmp4UC1UR183S0loRDU2QmE4cGVMZWt4LVA2T05wUHhJQTJ0Q1d3d1M2Q180dWpHTHVFblVaV3c?oc=5"
+          "point": "Track the latest North Carolina Senate primary coverage (Google News).",
+          "date": "",
+          "source": "Google News",
+          "url": "https://news.google.com/search?q=North%20Carolina%20Senate%20race%202026%20primary&hl=en-US&gl=US&ceid=US%3Aen"
         },
         {
-          "point": "2026 primary election: US Senator for North Carolina candidates answer questions about top issues, trust",
-          "date": "2026-02-17",
-          "source": "WBTV",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd2d6SWxsMzdELWhuLTAxRVBLRUx3RG9mb2dBLVJRYms5ampqVlNOZWhEQV9mczJqcjVscXpEb043aW9COURTUE9ROGprd2lyZm1KZWxLNTJSQ241cVBjZC10eUdvTU42Tzc1cVVYNXNySmJCZ0dXVm1zRHFjV2tBaEhOanlrRldnenRXQTZrUHV4cUkwejZrR2x1U01PY1dZYkE2Y3F6dS04OUo2ejROQktCX0tLV21yNnl4d2E1Ui1ocTM2RE81ZUdOdw?oc=5"
+          "point": "Track the latest North Carolina Senate primary coverage (Bing News).",
+          "date": "",
+          "source": "Bing News",
+          "url": "https://www.bing.com/news/search?q=North%20Carolina%20Senate%20race%202026%20primary"
         },
         {
-          "point": "2026 North Carolina primaries early voting starts Thursday with key Senate race",
-          "date": "2026-02-12",
-          "source": "ABC11 Raleigh-Durham",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa21PVndxNE1GTF9qaHNzMm5acmFmMjFReGZNT1J5a05MZ1FaZWFhSUJ4WnNQMmdWcmZGcEhrMkZhNE1SYVhKam9UdWVMSTBSd0V0LTk1NmV5TnFkXzdlN1IzM0FEQUZiZHp4OVhQNlJuTC1qaW5Jck1JMTd6cVJDUDBVcVJMUEZ4dEHSAY8BQVVfeXFMUHFGbGZfeV9yUDZYdjlCYWJiQllSWVNnc3NMTHB5aDNxaEpHanNoZWk4OFRWcTlWSXd4SlBiQ2dGelNzZXFwRGpoYkpJVW5TOHNkVUxYYmxOOXhMX0w3b3dKekplMFROSmk1cVBva0FOYVo4X3VfR0VPWDVOUDZlRFJ2enZUMXNnU0E2SjQyMHc?oc=5"
-        },
-        {
-          "point": "Early voting starts in North Carolina's high-stakes primary",
-          "date": "2026-02-12",
-          "source": "Axios",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSUhDdFp0MGhWZVdXWC1nbUR2RFF4ajZUSWl0ZHZwb3dmX095b1hCak12Mm1odkgwcGh0V3NHZGt6RDhBaGZnOUVPNmRWNnNZWWNtUGhGRkFfSzdKREVJdy1vdFNUT1dUcGVlREJwQXoyOGxIcEZoTTBNM0t4aDZMUGQxQ1NhcUtqV3RScVkyNC1yRGVRNmY2X2dCWmRzdEFLR2F1TmV4QjRGRXVYLXNDazNnUXdRbUdfNGpQZzdaNE9VRDBNLUxVV3RWcjdIUQ?oc=5"
+          "point": "Review campaign reporting and updates for the North Carolina race.",
+          "date": "",
+          "source": "News search",
+          "url": "https://duckduckgo.com/?q=North%20Carolina%20Senate%20race%202026%20primary"
         }
       ]
     },
@@ -329,17 +326,8 @@
         "polymarket": [],
         "kalshi": []
       },
+      "polls_toplines": [],
       "polls": [
-        {
-          "source": "RealClearPolitics",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire"
-        },
-        {
-          "source": "Race to the WH",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire"
-        },
         {
           "source": "RealClearPolitics",
           "value": "Latest polling links",
@@ -358,28 +346,22 @@
       ],
       "storylines": [
         {
-          "point": "Innis and Manzur enter New Hampshire\u2019s U.S. Senate race, creating two competitive primaries",
-          "date": "2025-08-22",
-          "source": "New Hampshire Bulletin",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQU2p0RExmdHBUUjluMUtvWjJnZlNxN3NaSlhIMWJ6RloxUUhvMkMyWVh6N21WaTZuQ1lrTURtOTRLaC1VRE5BdWwxdjA0YWpNLXU4U2xxd0JXOE1YLWk5TFVDeVo0ckdWWmU1cDBVZF9hY1RZUlJhOU8yWUFMSzZ0WDNUWVkzSjdYNUxSb3FISWNnVHlMdTM1QkQ2MG1jYW5RaG44SDlLbGdlTzA1V014RWNlR01lYjZ1ek5idVVmRVN5UEVPOVJVckwtSlRpQQ?oc=5"
+          "point": "Track the latest New Hampshire Senate primary coverage (Google News).",
+          "date": "",
+          "source": "Google News",
+          "url": "https://news.google.com/search?q=New%20Hampshire%20Senate%20race%202026%20primary&hl=en-US&gl=US&ceid=US%3Aen"
         },
         {
-          "point": "John Sununu enters 2026 New Hampshire Senate race",
-          "date": "2025-10-22",
-          "source": "CBS News",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVjZrclhLd3RxcFZyRW1SbnVjTHFHeVhveVdUSHAtdHR5YlJjSGpTdHdDd0wxYmI1eG00UHlSQ05hS2ZYdHdnWVktX2o1TlRkdU1yNmJsdzJpLWZKNFV3MVdNSTNjbmUzaVJWcnJzdnMzVXFkajJTYlJaZ1VWWnQzMGtIM1ZaUQ?oc=5"
+          "point": "Track the latest New Hampshire Senate primary coverage (Bing News).",
+          "date": "",
+          "source": "Bing News",
+          "url": "https://www.bing.com/news/search?q=New%20Hampshire%20Senate%20race%202026%20primary"
         },
         {
-          "point": "John E. Sununu jumps into New Hampshire Senate race",
-          "date": "2025-10-22",
-          "source": "Politico",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQy1NVkxBQXRPOWo2Y2wyVXhkTWhiT1dGdzJwR2NHcFZXU1QtQ0t0eFd2QnAyU0lYYXREeS1IYjBQWU5oQ200SkZhd3BIQVBZVHdxZXQ2c2k0cFlYUW1rS01pcGF5RGExZFFwYlN2aTlVZHlQR0o0clRIU3NfQV9CX0hzTWZTc1RGTHc?oc=5"
-        },
-        {
-          "point": "Trump endorses John Sununu in New Hampshire Senate race",
-          "date": "2026-02-01",
-          "source": "NBC News",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZEtCZzRPd3hMWHNrYlJlSHcwNkliT1FLN29ZeGxQV3JwSzg5S1NIYWJLajJDalF0RUNVdWpkNlVPcndtZjJnRi0zUDhsX0gzcHZEemE1amF3al82Z29vMURlcjVIMzVGelYwOTZkT2F1VFlGUHA5VnpBR1NrbkF4RFpfZ0dtNFZDbEs0REVNVV9HbloyYnpFTkdycERvTjQ5eXdwckNDZ3BoZmpvdWJJ?oc=5"
+          "point": "Review campaign reporting and updates for the New Hampshire race.",
+          "date": "",
+          "source": "News search",
+          "url": "https://duckduckgo.com/?q=New%20Hampshire%20Senate%20race%202026%20primary"
         }
       ]
     },
@@ -392,17 +374,8 @@
         "polymarket": [],
         "kalshi": []
       },
+      "polls_toplines": [],
       "polls": [
-        {
-          "source": "RealClearPolitics",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Ohio"
-        },
-        {
-          "source": "Race to the WH",
-          "value": "See aggregate on race page",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_Ohio"
-        },
         {
           "source": "RealClearPolitics",
           "value": "Latest polling links",
@@ -421,28 +394,22 @@
       ],
       "storylines": [
         {
-          "point": "Ohio U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-02-23",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN2lXa00zcnFKYUgxYWR3eG1ISjJSaTV6dDVTYUpQZXpuNERsMWtRT0pUQXFiNWZxOHRvc0xWR0tHbUJadkg5bXVDMHRrLWZ6X3RaeW91aV95OU5FalpRd0hiUWhtaVpidWt1WDVSWWgwa1NNS3dRb29Mc1pIeUV4c1ZTc1RnQkVQ?oc=5"
+          "point": "Track the latest Ohio Senate primary coverage (Google News).",
+          "date": "",
+          "source": "Google News",
+          "url": "https://news.google.com/search?q=Ohio%20Senate%20race%202026%20primary&hl=en-US&gl=US&ceid=US%3Aen"
         },
         {
-          "point": "Ohio\u2019s 2026 primary ballot shapes up: See which candidates made it and which didn\u2019t",
-          "date": "2026-02-19",
-          "source": "Cleveland.com",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdTc5aXA2cmVXQkt3OE1QQnZLTFJpTDhZS2N4RWdHUUhZRlU2MVdlR2JlaXpCc0lDU2ZQeWNVWGJMOFkzM2NnR05lcTRWWV9PclpES2VXWVgtdC0yMy1haTBBMDBraEN4UUM4WE5faDd2QWlrdGlHcjRwT0RsTHgtUVNJeFEtSllwQUxORGMwMloxdklxZlB1cHJHall3UWJwVDItV0s3d1FjMmxNM0NMNy1VY1FaQnlVQUJ5ZHE5SFFMZ9IB1gFBVV95cUxNM2dYSE5rMmtPd0s1cktyRTQ3VlB3ZS1JdnEtOW9aUDc1dG5OY2lFWVVOM0hzV05TWEd6WkhIbG82RDlDUXl1Rl9HOVJESFdSZ1M0UEYwejhUN3RwNklmbTFmdVRLRmlvZlRXSklndUxJUVVfb3o4RnBTV3JqYlh2YklJcGZRUTJlWGxtc2VKZG5uSUNfcG5vVkh0RUVOR2xBYjJzOWJ2U2c0dHhlaGtYWlFJaFFJckw0Tms5dDBnYnpiVlNHd1JTRlJNSk54QmR2dy1WTW5n?oc=5"
+          "point": "Track the latest Ohio Senate primary coverage (Bing News).",
+          "date": "",
+          "source": "Bing News",
+          "url": "https://www.bing.com/news/search?q=Ohio%20Senate%20race%202026%20primary"
         },
         {
-          "point": "Husted, Brown set stage for Ohio\u2019s 2026 U.S. Senate race",
-          "date": "2026-01-02",
-          "source": "NBC4 WCMH-TV",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX0h2d0ZMV19QcElWX2tDdnd6eHhiOFo2dGxwZkh1cFJaS3NOSFltcVBWTEluQ01FOEY1a0NDTkNmYnowcVIycExST3ZFNnFtS0lmeXhNWXl6Qkx4SEVUcXhocmlVWVV6eGRNR2dCSnU5TkVTMFIwd05kcUFZcHJ3aHdWeVI0SW5zeXFJWWU0TnBoYWs4UU9KZmppZ1NONnhCZjVxcEZVONIBrAFBVV95cUxQTlFKdjRfemE1blpTRWgwNGlZSU9XcTFrRm1wNGNfaXA2aXBPam9YRVJ3Rk85QlNLVzdqcWlOSGNibmMwcDBXNHQxLU1nNTVSb1lQcjNGcGQ2cVczdF9qZWF0Z3RfRHNqcGtNOXRNNkxOWG1KWHRQT19vRFJHTG5idXdUZWY3NTltU29ESXhabTU4cUVjYkdoTmxHaWdncUphenVGeHlQMHhUWFlr?oc=5"
-        },
-        {
-          "point": "Here are the candidates running for Ohio statewide office in 2026",
-          "date": "2026-02-06",
-          "source": "Ohio Capital Journal",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdXJzM3ZHUjdQQ2dteVhWbnpqMTU5LUp1b0Q0dWdSX2I2SnRDQVY0UE5ic2dRMi0zSzZGSmx4ZlBSWWxETk5Vc2xialJFQk1jbGtIMVRRbEpXQkVfcWNOSWdFbWxBRTE2M1FTU0swb2JRTm5xQ2hPMGZzWWpRSWkzREV5ZUlLaGJ2bktvR2w0N3d5R1F2SG9XLThaU2RySFh2REZ3eUVaQWluS1FQ?oc=5"
+          "point": "Review campaign reporting and updates for the Ohio race.",
+          "date": "",
+          "source": "News search",
+          "url": "https://duckduckgo.com/?q=Ohio%20Senate%20race%202026%20primary"
         }
       ]
     }

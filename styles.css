@@ -240,6 +240,29 @@ h1 {
   margin: 0.4rem 0 1.15rem;
 }
 
+.topline-block h3 {
+  margin: 0 0 0.6rem;
+}
+
+.topline-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.topline-table th,
+.topline-table td {
+  border: 1px solid #dbe0e6;
+  padding: 0.45rem 0.5rem;
+  text-align: left;
+}
+
+.topline-table thead th {
+  background: #f3f7fb;
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+}
+
 @media (max-width: 900px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -251,5 +274,9 @@ h1 {
 
   nav {
     gap: 0.6rem;
+  }
+
+  .topline-table {
+    font-size: 0.86rem;
   }
 }

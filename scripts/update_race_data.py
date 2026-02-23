@@ -47,6 +47,23 @@ DEFAULT_PRIMARY_DATES = {
     "OH": "May 5, 2026",
 }
 
+DEFAULT_POLL_TOPLINES = {
+    "GA": [
+        {
+            "contest": "2026 Georgia Senate",
+            "race_name": "2026 Georgia Senate - Republican Primary",
+            "candidates": ["Collins", "Carter", "Dooley"],
+            "polls": [
+                {"pollster": "RCP Average", "date": "7/28 - 2/18", "sample": "—", "values": ["29.5", "17.8", "10.3"], "spread": "Collins +11.7"},
+                {"pollster": "Quantus Insights", "date": "2/17 - 2/18", "sample": "1337 LV", "values": ["36", "11", "9"], "spread": "Collins +25"},
+                {"pollster": "InsiderAdvantage/Rosetta", "date": "12/18 - 12/19", "sample": "1000 LV", "values": ["25", "20", "12"], "spread": "Collins +5"},
+                {"pollster": "Atlanta Journal-Constitution", "date": "10/13 - 10/21", "sample": "1000 LV", "values": ["30", "20", "12"], "spread": "Collins +10"},
+                {"pollster": "TIPP**", "date": "7/28 - 8/1", "sample": "RV", "values": ["27", "20", "8"], "spread": "Collins +7"},
+            ],
+        }
+    ]
+}
+
 STATE_TO_CODE = {
     "Alabama": "AL", "Alaska": "AK", "Arizona": "AZ", "Arkansas": "AR", "California": "CA", "Colorado": "CO",
     "Connecticut": "CT", "Delaware": "DE", "Florida": "FL", "Georgia": "GA", "Hawaii": "HI", "Idaho": "ID",
@@ -357,6 +374,11 @@ def get_storylines(state_name: str) -> List[Dict[str, str]]:
     return out
 
 
+def get_poll_toplines(state_code: str) -> List[Dict[str, Any]]:
+    rows = DEFAULT_POLL_TOPLINES.get(state_code, [])
+    return json.loads(json.dumps(rows))
+
+
 def main() -> None:
     cook = parse_cook_swing()
     primary_dates = parse_ncsl_primary_dates()
@@ -374,6 +396,7 @@ def main() -> None:
                     "polymarket": get_polymarket(state_name),
                     "kalshi": get_kalshi(state_name),
                 },
+                "polls_toplines": get_poll_toplines(code),
                 "polls": get_polling_refs(state_name),
                 "storylines": get_storylines(state_name),
             }

@@ -13,6 +13,65 @@ function renderList(el, items, formatter) {
   }
 }
 
+function escapeHtml(s) {
+  return String(s ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function renderPollToplines(el, toplines) {
+  el.innerHTML = "";
+  if (!toplines || toplines.length === 0) {
+    el.textContent = "No polling toplines available yet.";
+    return;
+  }
+
+  for (const block of toplines) {
+    const wrap = document.createElement("div");
+    wrap.className = "topline-block";
+
+    const heading = document.createElement("h3");
+    heading.textContent = block.race_name || "Primary Polling";
+    wrap.appendChild(heading);
+
+    const table = document.createElement("table");
+    table.className = "topline-table";
+
+    const headerCandidates = (block.candidates || []).map((c) => `<th>${escapeHtml(c.toUpperCase())}</th>`).join("");
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th>POLLSTER</th>
+          <th>DATE</th>
+          <th>SAMPLE</th>
+          ${headerCandidates}
+          <th>SPREAD</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${(block.polls || []).map((p) => {
+          const values = (p.values || []).map((v) => `<td>${escapeHtml(v)}</td>`).join("");
+          return `
+            <tr>
+              <td>${escapeHtml(p.pollster)}</td>
+              <td>${escapeHtml(p.date)}</td>
+              <td>${escapeHtml(p.sample)}</td>
+              ${values}
+              <td>${escapeHtml(p.spread)}</td>
+            </tr>
+          `;
+        }).join("")}
+      </tbody>
+    `;
+
+    wrap.appendChild(table);
+    el.appendChild(wrap);
+  }
+}
+
 async function initStatePage() {
   const params = new URLSearchParams(window.location.search);
   const state = (params.get("state") || "").toUpperCase();
@@ -43,10 +102,7 @@ async function initStatePage() {
     return `<a href="${m.url}" target="_blank" rel="noopener noreferrer">${m.title}</a> (${price})`;
   });
 
-  renderList(document.getElementById("poll-list"), race.polls || [], (p) => {
-    const pollVal = p.value ? `: ${p.value}` : "";
-    return `<strong>${p.source}</strong>${pollVal}${p.url ? ` (<a href="${p.url}" target="_blank" rel="noopener noreferrer">source</a>)` : ""}`;
-  });
+  renderPollToplines(document.getElementById("poll-toplines"), race.polls_toplines || []);
 
   renderList(document.getElementById("story-list"), race.storylines || [], (s) => {
     const date = s.date ? `<span class="story-date">${s.date}</span> — ` : "";
