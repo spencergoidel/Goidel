@@ -32,16 +32,8 @@ function renderRace(container, race) {
   card.className = "race-card";
 
   const title = document.createElement("h3");
-  title.textContent = `${race.name} - Race Snapshot`;
+  title.textContent = race.name;
   card.appendChild(title);
-
-  const ul = document.createElement("ul");
-  (race.snapshot || []).forEach((b) => {
-    const li = document.createElement("li");
-    li.textContent = b;
-    ul.appendChild(li);
-  });
-  card.appendChild(ul);
 
   if (!race.polls || race.polls.length === 0) {
     const p = document.createElement("p");
