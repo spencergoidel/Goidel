@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-02-28 13:57 UTC",
+  "updated_at": "2026-03-01 14:00 UTC",
   "refresh_target": "24-48 hours",
   "sources": {
     "cook": "https://www.cookpolitical.com/ratings/senate-race-ratings",
@@ -462,10 +462,10 @@
       ],
       "storylines": [
         {
-          "point": "Georgia U.S. Senate Election 2026: Latest Polls",
+          "point": "Several Georgia races shed candidates as qualifying week looms and races take shape",
           "date": "2026-02-28",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVk4yd1hGX3hRVnhsTUctaE5Xc1hsS1R6eUczdTF4VlZiZFljX2Rmb1QwVXc5dGpIX2dCZU9ULWU3ZEt4b3ZHZEdGbXVvczlWVGZuM2hnY04yd0tIenR3U29ZZTJPSldjNWwyY2lYdDNzOHViODNGZURqc0paT1dPMUtiVGNNZDNabkVmWQ?oc=5"
+          "source": "Georgia Recorder",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPanQ3cjRJVEZKQU9KS0J5dUoyakN5bVE4UUg4bXFZLUoxRmcyc0dnUXNId3JGVnhrRFY4YWMySTU1aF9kRmxmOVBXemlmLXNNRjFHR24wYkxqUExhUDJqSE9PT2JZc0JZNTBFb3BCU2ZJYkVUdVJNWDh3OEN3YngxS0JYWWxtenBsRGxNTDZ6ZDJOS0twYWptV0J5LXA5TlZvWUFaWjZvRU5lUHRXbXhpdFJzYkVWTzdPbU1vSW43QWE?oc=5"
         },
         {
           "point": "With Kemp at his side, Dooley struggles in Georgia\u2019s U.S. Senate race",
@@ -474,16 +474,16 @@
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUk91eU1zSHl1Wk16RzdLc2RWQ1dBLUNZTmJKb2lYdWNEVzBqZW1hVlBDTlg2X0xvYVFNUUpsYmhuNDlHTk5mTHdrNDQ3d2NfdVFLRnNzOFJwU2ZTc1FiTno5dEF3REhVeTl4dHZ6U3VRbkYzUzdDUHJmeVhmbGw0dG5nUkhfY0pFWEV1NE5wZTk3TndvNG94cTRya1RXV3NiR0R4UGhB?oc=5"
         },
         {
-          "point": "As Trump watches, Georgia Republicans brace for a bruising Senate primary",
-          "date": "2025-10-29",
-          "source": "NBC News",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS0U0OFpDb2FTTWhXMGtkM2Fva3NOcjRJbnZFT2ZDdTJJdmtSd1F0OG9HQnpBQmh5RS0wRFpOTUZsQm5CM2FFUlhaU2NMZ2FGbHMyVGdwTE5tNFNfQ2VBakZ4OHJETUJ0LTRNMG9RMUwxNzJlaUlaNE1CR2M1d1c0Rkl6eWJBX0p2a3JvekxLMGQ3Qy1yRDdKcHBIU2JxdE9GcE0xYWZXbXFWblY3THV6MWFYLVpHakF1VmRWZkZR?oc=5"
-        },
-        {
           "point": "Georgia\u2019s 2026 battlefield takes shape as election qualifying begins",
           "date": "2026-02-28",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69a2f447616f411d9998f16d0de2b304&url=https%3a%2f%2fwww.ajc.com%2fpolitics%2f2026%2f02%2fgeorgias-2026-battlefield-takes-shape-as-election-qualifying-begins%2f&c=8354044597863239404&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69a446694acf41ecaa241273ffbcc2c0&url=https%3a%2f%2fwww.ajc.com%2fpolitics%2f2026%2f02%2fgeorgias-2026-battlefield-takes-shape-as-election-qualifying-begins%2f&c=8354044597863239404&mkt=en-us"
+        },
+        {
+          "point": "2026 Georgia Election Guide: Midterms, Central Georgia elections and statewide races",
+          "date": "2026-02-26",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69a446694acf41ecaa241273ffbcc2c0&url=https%3a%2f%2fwww.13wmaz.com%2farticle%2fnews%2fpolitics%2felections%2f2026-central-georgia-midterm-governor-election-guide%2f93-d691b21e-dd26-4b5e-9c33-202f16f6aafa&c=12540562096389957659&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -534,7 +534,7 @@
       "storylines": [
         {
           "point": "Maine U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-02-28",
+          "date": "2026-03-01",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVG0tYTZPYnNRdmxPbi1IUXhlZG5aRW1EVXhoVWNyR2MzZTlRQWUtNUhxRkVsNTRoZWhsbXdHblNXMVZPbHFTaHlsVWRlcTNiUEtocGo2TGdOV0czWGppRXVPb2gzSDZXNWZhdHdUQ2NOMHdONlpZTW81T21NU3dwSXB6R05tNWpfc1E?oc=5"
         },
@@ -603,16 +603,10 @@
       ],
       "storylines": [
         {
-          "point": "Michigan U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-02-28",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXg4R2RiNm5LQjloa25FZEFhY2tCX2k3U0ExVEJnNzVWeW1Ba21fbkRxYlFFX3M2TDdLeGlQUnViWGNfbFZWdlBiVHhNNUFqZE5ISjhsdlB5dGRPZ3ZaRVlpd24ybWMyX0dXUFFIWUFhbnM0c05DX1JLVmVYT0NFT1pFcHBGYU9hLXAyOXRR?oc=5"
-        },
-        {
-          "point": "In Michigan Senate race, Dems battle for bucks as Mike Rogers builds war chest",
-          "date": "2026-02-01",
+          "point": "In Michigan, 3 Democrats test vision of affordability in US Senate primary",
+          "date": "2026-02-17",
           "source": "Bridge Michigan",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUVVsOFA3bllBaEVUcm9lRDZaYkVhWFQxVVVQWUZKRXB1YWR1NjVmMUF0aVJUNkxJWFFVREllN0hnTFVnR3hyUTNpUHZCVWtUcm80Vnc5SktLdnN2T09TVlZGeDhLWTlKRlFENEFmOEx5Y1BqZFJtcmJfanM3ZThNekZOcDNvZDN0Tm1JTXo4MHNSTmNhQXlmMDZ4SzBhU05Pb01aWGdqSTIzcUFEQk13WFVWUnVTdEJJYUtF?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPa2pfdkxYbjgxM2N3czFUbDJFcVNsQUp3dGwtUXA1VXdHRnZ1akJjUUF6RlN0SWhvN2x0UU9GSjN5d29pb214WWtyRUwzZ0p1VTZkLVhlUm5nMGVLWWRBa254SlBTLTN5bkMyVUVUY083VllNZ0p2VkxhV3JtUTFVYUpvN0UwbVVqWDktN2JvOV85c1FxRmlWN2d0cHcwQVJZNGFHOV9DQXJYc0xOQkh1b1BCN2ZMZw?oc=5"
         },
         {
           "point": "Michigan 2026 Poll: Crowded Democratic Senate Primary Remains Wide Open",
@@ -621,10 +615,16 @@
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZTRDcVV1THdqaWQ3aHByUVYtZE1yaEwzUjRDRE5JWmszS1RfckUwSGctbGx1SDcxWUtZdE5WOXZOdFE2Q196Y08yVU1OeHFPVXRERUgzZjk3alF5ckZVT3ZvMzhIWUNLNUZXTHZqaTlYSXhycE5STFBuSE91RDFDLTZ3RS1qSkp3cGk3RGFxNFpMRUtNcGlrR1FHcEwtSWc0S1lGcW0zcUM?oc=5"
         },
         {
-          "point": "See who\u2019s running in the 32nd District Michigan Senate race",
-          "date": "2026-02-26",
-          "source": "MLive.com",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaXA3QW8yc2VPY1dHZGp1ZFFHTGN4ZzY1WEtwUDNsci1PS0VVMTFzbUNJQ1I2N1hSaE9qVFdhT09jS1hTZFBoRnN5UnhFV0FsT3h3a3lZV3pRZ3NVUDBaSG9LeUQ2dGU4Z1hZN1ZWTDR2RkZfVDBxRU5wYUdnbTBhRjlSWG1pR2JkQUpTSlBsalpreXpYNXd5Y3VEaGRxSHVTV0NBX2QtY2ltQjTSAb8BQVVfeXFMTUdINF9sNU90V1hieDBUTFlJM0ZtTGl5ZHlHNjRxVi1FTW9IMzFJX0NqaE5TTk8xM3B0eG1WNTlycjF1WWpNWmZBcGFiUENZUWgtbGR2WHNHSHowYm94dkRkOHRpZlB0RW1fMWJ4SngtX04yS1pKUHhESUxrdkhSSTctVmtEbmhFVzhrZFFKM2tOcGNzWUd4REloZXJJaU9EeEtxR0FqM2VZMERRVGRPUmZPaGtnMnBFdm5zQWFEeVU?oc=5"
+          "point": "Michigan\u2019s U.S. Senate race is wide open",
+          "date": "2026-02-04",
+          "source": "Michigan Public",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS2RHVjdtZGdSVmFTbG1nVW8zZzdaTGlOX25nTzRFTUJIdWdfVFhBd1lBQkRybFlEWHBRQmNjZE14Y2hMOEpoRjlTRldxbUpEc0lfMTlVcVNwNXplZVZxRmI0czRJM2Y1QlViMTdtbG9UaTk1MDZ6NzRNVmxRN003Slg1cUktZ3AxNlJvYWhGTWd5dGNCU0kwTnhoaWkxdVlaN3NXTjVSMllMQQ?oc=5"
+        },
+        {
+          "point": "Michigan U.S. Senate Democratic Primary Debate",
+          "date": "2026-02-11",
+          "source": "C-SPAN",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSkJOdV94SENBbXRqdTJWSE8yblhEb3czdDJ4cDJOVEpacTlBbUZfNmhXRnpkVC1uRzBYR0MyNl9HcE9uek9pcDk4aExvdWdiYm9IV0hTSkd0MHVGelplb2RjSEplOGV2WDRwdWdQUzBpRFFLQWtOX1JtZE1wX3FJZVBZRlpFZVBFMnJWWHJEWTA1b0xla1NMZVJZc0M?oc=5"
         }
       ],
       "race_summary": [
@@ -673,28 +673,28 @@
       ],
       "storylines": [
         {
+          "point": "North Carolina U.S. Senate Election 2026: Latest Polls",
+          "date": "2026-03-01",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcG0yWVJ4b1FCblhNSEdUeDZTb1BHUEh2TjItUTN6MjlsV09ZYlA0aHZ4R0V0b2ZjRTA0SHJkTGJxaDJPaXh0OEIxZFhIVWhsd0t2bFBRYTdrc3p1cHZCTmp4UC1UR183S0loRDU2QmE4cGVMZWt4LVA2T05wUHhJQTJ0Q1d3d1M2Q180dWpHTHVFblVaV3c?oc=5"
+        },
+        {
           "point": "In North Carolina's U.S. Senate GOP primary, contenders try to topple Trump-endorsed candidate",
           "date": "2026-02-24",
           "source": "WUNC News",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPV2JBUGh3bjhILVRiU3Vrd2FiaXM4ZnJCVnBSMzdWMEMybklycnZsWkpsdlJKRlBkWmxVSDVicnY1TlVjWldvTHFmdURmTFh2QldpcE9jS3ZlYVl5NTgzUkpRRDRvVVBYT20ybGRGWG9NTjdRRlc0cXFUdnBabl80NWZDcUJRSE5LSjl3WF9kd0JYMGx1QTYxdGNHVS0yaG1hNDJOcl94cHcxSHpDeC1TblBuZ0VKUTZFWWxENHloLWZJdjVOdm9mMDdVeTQ3UQ?oc=5"
         },
         {
+          "point": "Who's on the ballot in North Carolina's primary elections?",
+          "date": "2026-03-01",
+          "source": "13newsnow.com",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNdjNOMDhqdUV4UVZHZGR1WG1IVkR4dUhOVUdueXFqeThOLVd1c3FJS2diYkxRTzkzemdaWHFoY0pTLWhiVDJNNTRSSnYta1EtSk1vVjBuYVN4dS1LQ1JXTmcyVjVNSTRxOTI0MVlKeHo3QWhnLXcwZWhpbUxXTGpfOENJTmoyZUlHSGQtMjFIcGJjbnNDYW9zNEhlTVBocWJzM05oODB5bGx4ZXI5M3lIOVlnNU1vUWxVNXlhWWhlYUE0UUxkYlJpX09mRlI5bkFzYTZHU0pCS1I1c1ZkbUZPXzdqT2pydTE3WUdzemNJb2JwejlhQnpHalROOTVGNEE?oc=5"
+        },
+        {
           "point": "Many Republican voters undecided in North Carolina Senate race, new poll finds",
           "date": "2026-02-26",
           "source": "CBS 17",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQTdQbHFPLWd3a0dvUGVfV3FvY3dUMU5rV2JsektmV1hVdUZDaXZBOUJtUnl2T3hJNVpQVUZlLTFYS1Z4b0FOMHg3QXZ6cTBGSF9MdzUyU2gwTG9RMXAwU3BlRUZYRTFTcXA5LXhqclFHSXctcWw3WERwci1OVDJUV3VYMFQ1eU1lbmhsZXA5TFNHQnpDQzBpZ0V5dWltVDJ4SnZ2NUFXaVdnWk5SZGFFSEN1WldiZkswWm90N2tMbzVRR1BpRWdR0gHMAUFVX3lxTE5BMzk0bXVBckR0Y2Jwb2FTMXhmOUsySXZ1bEswelZPVVl0dWJCR3VhUGlkYks0RkhBemNRVVQxcnRvSFpGTWdtcjJnQmduMmhCMjIzV0UtUGpsenN0SE51Rkp2eEdPdXdlNVFhY3d4YVl4RkRUYlVIWU1pUnJmNDIzU3Mtcm5XVWVKVThBY3l5cFVuY0NtRjR2c0VNRU9oY1I2NGZwZTBIcm9ieDBFYkN3UkhXdnRpNko2VUJfZU9uRDJXWmt4UEkxLUloYw?oc=5"
-        },
-        {
-          "point": "2026 primary election: US Senator for North Carolina candidates answer questions about top issues, trust",
-          "date": "2026-02-17",
-          "source": "WBTV",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd2d6SWxsMzdELWhuLTAxRVBLRUx3RG9mb2dBLVJRYms5ampqVlNOZWhEQV9mczJqcjVscXpEb043aW9COURTUE9ROGprd2lyZm1KZWxLNTJSQ241cVBjZC10eUdvTU42Tzc1cVVYNXNySmJCZ0dXVm1zRHFjV2tBaEhOanlrRldnenRXQTZrUHV4cUkwejZrR2x1U01PY1dZYkE2Y3F6dS04OUo2ejROQktCX0tLV21yNnl4d2E1Ui1ocTM2RE81ZUdOdw?oc=5"
-        },
-        {
-          "point": "Michael Whatley's chances of winning North Carolina Senate primary: Poll",
-          "date": "2026-02-26",
-          "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69a2f44bf8c74097b0d5e6eb4ba40493&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fmichael-whatleys-chances-of-winning-north-carolina-senate-primary-poll%2far-AA1X9Qsj&c=9604283798411016131&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -796,7 +796,7 @@
       "storylines": [
         {
           "point": "Ohio U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-02-28",
+          "date": "2026-03-01",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN2lXa00zcnFKYUgxYWR3eG1ISjJSaTV6dDVTYUpQZXpuNERsMWtRT0pUQXFiNWZxOHRvc0xWR0tHbUJadkg5bXVDMHRrLWZ6X3RaeW91aV95OU5FalpRd0hiUWhtaVpidWt1WDVSWWgwa1NNS3dRb29Mc1pIeUV4c1ZTc1RnQkVQ?oc=5"
         },
