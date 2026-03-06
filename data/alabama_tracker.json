@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-05 16:06 UTC",
+  "updated_at": "2026-03-06 15:07 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -195,7 +195,7 @@
       "id": "attorney_general_gop",
       "name": "Attorney General (Republican Primary)",
       "snapshot": [
-        "Jay Mitchell leads the most recent published poll row (Mitchell +1).",
+        "Jay Mitchell leads the most recent published poll row (Mitchell +3).",
         "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
         "Recent coverage emphasizes endorsements as a meaningful force in this race.",
         "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics."
@@ -206,6 +206,18 @@
         "Casey"
       ],
       "polls": [
+        {
+          "pollster": "1892 Polling",
+          "pollster_url": "",
+          "date": "March 5, 2026",
+          "sample": "638 (LV)",
+          "values": [
+            "12%",
+            "6%",
+            "9%"
+          ],
+          "spread": "Mitchell +3"
+        },
         {
           "pollster": "Remington Research Group",
           "pollster_url": "https://yellowhammernews.com/new-polling-shows-u-s-senate-attorney-general-races-wide-open/",
