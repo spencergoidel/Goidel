@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-09 16:39 UTC",
+  "updated_at": "2026-03-10 16:38 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
       "id": "us_senate_gop",
       "name": "U.S. Senate (Republican Primary)",
       "snapshot": [
-        "Steve Marshall leads the most recent published poll row (Marshall +9).",
+        "Barry Moore leads the most recent published poll row (Moore +6).",
         "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
         "Recent coverage emphasizes endorsements as a meaningful force in this race.",
         "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics."
@@ -19,6 +19,20 @@
         "Walker"
       ],
       "polls": [
+        {
+          "pollster": "Remington Research Group",
+          "pollster_url": "https://yellowhammernews.com/poll-steve-marshall-slips-to-second-barry-moore-takes-control-of-2026-gop-field-for-u-s-senate/",
+          "date": "March 2\u20134, 2026",
+          "sample": "692 (LV)",
+          "values": [
+            "16%",
+            "22%",
+            "12%",
+            "1%",
+            "1%"
+          ],
+          "spread": "Moore +6"
+        },
         {
           "pollster": "The Alabama Poll",
           "pollster_url": "https://aldailynews.com/poll-despite-trump-endorsements-marshall-allen-still-lead-races/",
