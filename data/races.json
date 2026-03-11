@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-10 16:38 UTC",
+  "updated_at": "2026-03-11 16:04 UTC",
   "refresh_target": "24-48 hours",
   "sources": {
     "cook": "https://www.cookpolitical.com/ratings/senate-race-ratings",
@@ -294,18 +294,6 @@
           "date": "2026-01-12",
           "source": "Alaska Public Media",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWFNXM2hvLWNWVmNCcVE5ZVpwV1Q3TG1QS2lFOExYWkNOVU9PZWI2X1VxZ3NESlluTEZXVjVEbVZlSTVENGNPRmlrUG93c1EzdWlWeGt0dEZxR0FQUDM0VFlkdmQ3OU1uWnBuZWpYS2I0YkhnbWVHdW5UTWZFLXc0blRvYUNGcTBxMVdyaUZtMUpmVlg2UXJ0cGhGZkNOMmhJUS1LNkpJWXBRTGc?oc=5"
-        },
-        {
-          "point": "Former Rep. Mary Peltola jumps into Alaska Senate race",
-          "date": "2026-01-12",
-          "source": "Politico",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN2JaZjRTLWU4WGxob01wRjV1cm5wZkNsY1diZVN0aGtPNGwtaXJqaVNHUFpWaGlUM0t3S3lLaVhNMk52d1RQVDNCbG1lSUEtRU14VENJVlF6OVcxQlRrQXloRkZsQk5ueDhCRXVxVFpacFVoUC15ZjVIS01OYTRlMzlvWG1SaVNiWU5hMlh3?oc=5"
-        },
-        {
-          "point": "Democrat Mary Peltola, barrier-breaking ex-Alaska congresswoman, is challenging Republican Dan Sullivan in Senate race",
-          "date": "2026-01-12",
-          "source": "PBS",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPV3QwV3RxWS1jOEhVTjdzLUY2LV82RGdsVjZBRE9ial9CajNfOFI0azFIbzh3Ymc1VnBDTW1NcXZXNGhLX3dGcEVfekdLd1FETmVHdTBKQVdGUlpvYzRBOWVXTlhjRkVoV3UyVHFrbWdBbkVhUjFpVmhhd29BTVVaekQwdXlycUxsUWczeTBNRFBZZkNhc3hDalQ1ZTVxMFljMWt2Yi1EUl9ybWU3TG9kS3k2RkpTNjR0VlhCX2JGX3VyZWt3YXk5WjZWeXY3LTRlZU5qbGJLaVcwSVEwTUJTaGEyaFppeUJ5S1HSAe8BQVVfeXFMT04tOW9kd1E1djhhV0tOYlJOQUFiRUNpMldSbkhOMXBfaGFZVm8yUThIVElZQ3ZicE8zb3IwbGxuaDE3SFB2cEctZ0o0bG1CalozUUtPS0tjU3Zxbk81VE1rZWFBMTJGNm5xM1llRVVkczJEN0hvNjBWR3hidzJwSkNzMlFEdGtBZkc1ZzdoUlFtRzQ5RGdxWEo3Rjc2TEJERDRueWk0aTJPY0VHM1FZUU9DR3pqeTdEejVaU0dRM1BxV0JYNDVzX25CS3pyaTBramF5bkE3UUJXLURBbkMwbTcxMWNQUWhneGFFU2RJRVk?oc=5"
         }
       ],
       "race_summary": [
@@ -462,28 +450,28 @@
       ],
       "storylines": [
         {
+          "point": "Georgia U.S. Senate Election 2026: Latest Polls",
+          "date": "2026-03-11",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVk4yd1hGX3hRVnhsTUctaE5Xc1hsS1R6eUczdTF4VlZiZFljX2Rmb1QwVXc5dGpIX2dCZU9ULWU3ZEt4b3ZHZEdGbXVvczlWVGZuM2hnY04yd0tIenR3U29ZZTJPSldjNWwyY2lYdDNzOHViODNGZURqc0paT1dPMUtiVGNNZDNabkVmWQ?oc=5"
+        },
+        {
           "point": "Georgia 2026 Poll: Senator Ossoff Starts Re-Election Near 50% and Outpaces GOP Field",
           "date": "2026-03-05",
           "source": "- Emerson Polling",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQ2UxM1Nma0tSMHBaMnR1T1M1NUhtVnI0OHQ3OTBwUTFlZVQ5VS1FM0xERVM1M0o2bEhqVjI3Qk9LWExubTNjQUhpaV82M3VXWF9jU3RfWDROa3VibDJsQ1JhdXloS0tZbFF6cGJwLTk5aWlKUUZIaGRPNE5ScUtJN2pFWkpHX1dxNEVhM1M2OXV2dGhJYjkxaFZjWkNBOGFRdTdfUWQ0S3ZIRU82S0MwVWxzcW5ERVVk?oc=5"
         },
         {
-          "point": "Georgia\u2019s U.S. Senate race heats up as Ossoff, GOP rivals make candidacy official",
-          "date": "2026-03-04",
-          "source": "Georgia Recorder",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObkF5NHBvbEd3SG1LLUQ5cXYtbHh3VHRkY0p5aENGNHlrNnRQM3IzMS1GWV9oXy1Sb2IzNzJPcXMwejZfeGM3OGFKVTdhRzBIbDU3amdGSjFIVzdxbE1kcGMxNkliYU9GWHZja1d0WEl6ZlI2cTFjRmZpNklRMlJJRVBxeVplZkZZRUhGejl2V05KTVJFMUJHbzFfQjIxdnluWHhYTjk0MEJTTTE3WFRfbWZFTGVCSi1LZkE?oc=5"
+          "point": "Georgia special election results: Who replaces Marjorie Taylor Greene?",
+          "date": "2026-03-11",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69b1929c2bbc425da0a0f415d5b37b40&url=https%3a%2f%2fwww.usatoday.com%2fstory%2fnews%2fpolitics%2felections%2f2026%2f03%2f11%2fgeorgia-special-election-results%2f89015396007%2f&c=1904374598979442995&mkt=en-us"
         },
         {
-          "point": "Georgia 2026 election: Here's who will be on the ballot during May's governor, Senate primaries",
-          "date": "2026-03-09",
-          "source": "CBS News",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaThaSGhHTlhCeHpjUzN1YmJlOWxEQ3ctZElRWUloSU1qMk1DUkhYRl9XUDRTUkM1TkEtR0VWNkVyWTVwcG9jQ29iQ0QxRnpka0NjSlNSc204ei1kUDF6ZEZIU25tNXUzTEl0cGNhSzV0S0RLaDk2Mkx5Z3cxQ3VrU2NyNGRubzQxZmRxV2dkdkhuTmg3U0JxQjZyYzZjWDVKLWdiVmZWT0tySHdRcXVGZGppcl92YlFYQzZBcl9LeFE2TzdXU0lzLQ?oc=5"
-        },
-        {
-          "point": "New Georgia Senate, governor\u2019s polls released as candidate qualifying ends soon",
-          "date": "2026-03-05",
-          "source": "WRDW",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT2x6LW5EYnpkLVJuR19jb1d3ZVhaUmduYmlRYjQzSjIweVBoWFpwSXE0TTlveHc3MmtOUmh4NUpud0ZZZC14N1ppUTNjaGlNSU9CYm42c1hLZEt4QUlKQTRRLUM2RmNnTTR4Q3I2eWgxQnlTUjI1NGhSdk9QQXhXbF84QlEzbVRaMkQ4RTBKdFRlejlvNEFrMzltUEpzMklVQW9tY3h0YTZEcEXSAb8BQVVfeXFMTmpEME9qS3E5MlFEVXM4SUJXZGNSbW5kWkFVNnhVLVFrSE1WYmlqVUowYU1nNlg2X1lVNHVtbWQxNVhGa1RXRzd6bTRSMTJESzJxQmRCTGRIRnc5NjBtNk13V0JsNVNBZG1NNThEbFg2WnlQdVBEZUZkUXktWTdTNVNucTVUZWtmSllBNVoxRkpQUGpVazh2dlRHVjZyVFdhSlFHM01DTE5La3NZY2hVbHAyZGdyVlQ3TTBneE1vWVE?oc=5"
+          "point": "Georgia primary ballot set: Here\u2019s who is running for governor, Senate, and other Middle Georgia races",
+          "date": "2026-03-07",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69b1929c2bbc425da0a0f415d5b37b40&url=https%3a%2f%2fwww.41nbc.com%2fgeorgia-primary-candidates-2026-governor-senate-middle-georgia%2f&c=7413684193566141863&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -534,7 +522,7 @@
       "storylines": [
         {
           "point": "Maine U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-03-10",
+          "date": "2026-03-11",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVG0tYTZPYnNRdmxPbi1IUXhlZG5aRW1EVXhoVWNyR2MzZTlRQWUtNUhxRkVsNTRoZWhsbXdHblNXMVZPbHFTaHlsVWRlcTNiUEtocGo2TGdOV0czWGppRXVPb2gzSDZXNWZhdHdUQ2NOMHdONlpZTW81T21NU3dwSXB6R05tNWpfc1E?oc=5"
         },
@@ -603,6 +591,12 @@
       ],
       "storylines": [
         {
+          "point": "Michigan U.S. Senate Election 2026: Latest Polls",
+          "date": "2026-03-11",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXg4R2RiNm5LQjloa25FZEFhY2tCX2k3U0ExVEJnNzVWeW1Ba21fbkRxYlFFX3M2TDdLeGlQUnViWGNfbFZWdlBiVHhNNUFqZE5ISjhsdlB5dGRPZ3ZaRVlpd24ybWMyX0dXUFFIWUFhbnM0c05DX1JLVmVYT0NFT1pFcHBGYU9hLXAyOXRR?oc=5"
+        },
+        {
           "point": "In Michigan, 3 Democrats test vision of affordability in US Senate primary",
           "date": "2026-03-03",
           "source": "Bridge Michigan",
@@ -615,16 +609,10 @@
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZTRDcVV1THdqaWQ3aHByUVYtZE1yaEwzUjRDRE5JWmszS1RfckUwSGctbGx1SDcxWUtZdE5WOXZOdFE2Q196Y08yVU1OeHFPVXRERUgzZjk3alF5ckZVT3ZvMzhIWUNLNUZXTHZqaTlYSXhycE5STFBuSE91RDFDLTZ3RS1qSkp3cGk3RGFxNFpMRUtNcGlrR1FHcEwtSWc0S1lGcW0zcUM?oc=5"
         },
         {
-          "point": "Michigan has been a pipeline for women in power. Will that continue in 2026?",
-          "date": "2025-07-18",
-          "source": "The 19th News",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0aG1FTEhPWHRtS1luN3hMRkNvcVpTdFdMQzFNM2w5TWJzRlJieUx1VWpNd0VjdXBzZDZEVG1yeEQ1OUNMT2M5UnNUUzh2MHlqSzVUTkcxWGYycW45bFRoeElKMnFuMGQtV2ZxcA?oc=5"
-        },
-        {
-          "point": "Proposal to cut Michigan\u2019s August primary still wouldn\u2019t give clerks what they want",
-          "date": "2025-10-29",
-          "source": "Votebeat",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMi15SHlMV1FjNHU3c3pTelRRdWwtTDlMZkRCSlYzNVFvallNWXRWVklCUF9fNzdLRW5MWkp6akZGTThOYmdSRV82bGloY3U1S1ZOM1NsZkZRYndHSkdaRUpmR3REVHVxVmhvbllrUC0ydmFRQl82cHZPNjF2TFJSVVFZdzBjM2RQUzdiVmhDNy16eTZ5czljVDNMN1c1ckFUZUE?oc=5"
+          "point": "In Michigan Senate race, Dems battle for bucks as Mike Rogers builds war chest",
+          "date": "2026-02-01",
+          "source": "Bridge Michigan",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUVVsOFA3bllBaEVUcm9lRDZaYkVhWFQxVVVQWUZKRXB1YWR1NjVmMUF0aVJUNkxJWFFVREllN0hnTFVnR3hyUTNpUHZCVWtUcm80Vnc5SktLdnN2T09TVlZGeDhLWTlKRlFENEFmOEx5Y1BqZFJtcmJfanM3ZThNekZOcDNvZDN0Tm1JTXo4MHNSTmNhQXlmMDZ4SzBhU05Pb01aWGdqSTIzcUFEQk13WFVWUnVTdEJJYUtF?oc=5"
         }
       ],
       "race_summary": [
@@ -673,10 +661,10 @@
       ],
       "storylines": [
         {
-          "point": "Roy Cooper, Michael Whatley set to compete for a high-stakes North Carolina U.S. Senate seat",
-          "date": "2026-03-04",
-          "source": "NPR",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQc3lSeTc5TnV0RjZhdERrY0taSGNJMEpBNzJoTUc4NUtjR29oYnVGeEFTWE1VdnRuMDhHUlgyQjJ5aGNscnNFSVVRcGZpcmF0am5Ea3A4SmVnWF9QazUzTTZRSnlSaEZ2QUwwZDlWRlJGdnpvZkt6dHkzckI0b25nMDJGVkgxbFY3dl9YRTdhREdYUHdfYjZHX04zeExVRU5GT3c?oc=5"
+          "point": "Democrat Roy Cooper needs to defy North Carolina history to keep winning streak alive in Senate race",
+          "date": "2026-03-09",
+          "source": "WUNC News",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcERObHh0Um93YkFISVFNTGFsN0Z6bUFzSUpmZENKeDM0Y0xrQ1FtQUhxSVlVcU96WWF4bXB0UEZScmhacDR1X3ZFQ1ZtNUNJSnBmZmVUTnZ3bjdLRFIzenBpM3ZPMUhhd24xSFU4NEdHcXNOWEZ5TElTMXRjME9rYUpsZG5xclBnSFBIVFJYZVRQYngwOWo3SzA3b1BUUzBmanJsU1FBb1NyU0k?oc=5"
         },
         {
           "point": "March 3, 2026: Primaries in Texas, North Carolina and Arkansas",
@@ -685,16 +673,16 @@
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVWljdlFBdWI1TDg4SnQ5UzhEYURTU0NyWE5oQkRyOUd4cE5Qemk2bzhkTzRadGhBZTZ6aktTRGNNdUplZXBoUzkxbUhNTTVSQ2FLeUE5WmlmU1VENmdEeENwMkU5N1NnOXFtUWN1ZlNkY3ZOTVVDRHU4bm1wbXhTVW90US03OUpfRmFmUVFn?oc=5"
         },
         {
-          "point": "Roy Cooper and Michael Whatley Advance in North Carolina Senate Race",
-          "date": "2026-03-04",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd0lxQ3FZNkdBdllPOXhvOFo0dU9vTUR6TGQ1MUN6bmdaSFN6RFA2X3hmN2dhV3FUSkdPQ1o1WjRXUWdFcXY2TnpyNnhVcGtfSDZWY3hIUWZkV3hfTjVDUU42Zm5zU0dMZEE5NWh6bzdQRFppNkl2R043SmVfVkZEeUNxeFEwY0F6M1RQOVFTd3ZVREZ4MVJlNTdEUldLQQ?oc=5"
+          "point": "Roy Cooper, Michael Whatley set to compete for a high-stakes North Carolina U.S. Senate seat",
+          "date": "2026-03-03",
+          "source": "NPR",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQc3lSeTc5TnV0RjZhdERrY0taSGNJMEpBNzJoTUc4NUtjR29oYnVGeEFTWE1VdnRuMDhHUlgyQjJ5aGNscnNFSVVRcGZpcmF0am5Ea3A4SmVnWF9QazUzTTZRSnlSaEZ2QUwwZDlWRlJGdnpvZkt6dHkzckI0b25nMDJGVkgxbFY3dl9YRTdhREdYUHdfYjZHX04zeExVRU5GT3c?oc=5"
         },
         {
-          "point": "Democrat Roy Cooper and Republican Michael Whatley set to face off in key North Carolina Senate race",
-          "date": "2026-03-04",
-          "source": "NBC News",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPX3hiQUtudVFYbFBBYy1CR3g2bFZoTTZiSE95V1ZVMXdjNF9MSWx3WkFwUmdSb3ZLbks3YkFHVGJ1OF9NZWVfT1l0LXJQLWRZTEtMenNGV1ROMEJnRVBlUDZ2V0NsZXBsTW1KeXIyVFZSMjRzV3otUXJuYms4RmRLa0F3dnlGNUo2X01RaDlYYjlwWTE3cEZDMkpFeGFjZ2k4ME10UWw0ZnBBVjRqc3V0eW1CaHJpczhjNER0Yi1R?oc=5"
+          "point": "Roy Cooper and Michael Whatley Advance in North Carolina Senate Race",
+          "date": "2026-03-03",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd0lxQ3FZNkdBdllPOXhvOFo0dU9vTUR6TGQ1MUN6bmdaSFN6RFA2X3hmN2dhV3FUSkdPQ1o1WjRXUWdFcXY2TnpyNnhVcGtfSDZWY3hIUWZkV3hfTjVDUU42Zm5zU0dMZEE5NWh6bzdQRFppNkl2R043SmVfVkZEeUNxeFEwY0F6M1RQOVFTd3ZVREZ4MVJlNTdEUldLQQ?oc=5"
         }
       ],
       "race_summary": [
@@ -796,7 +784,7 @@
       "storylines": [
         {
           "point": "Ohio U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-03-10",
+          "date": "2026-03-11",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN2lXa00zcnFKYUgxYWR3eG1ISjJSaTV6dDVTYUpQZXpuNERsMWtRT0pUQXFiNWZxOHRvc0xWR0tHbUJadkg5bXVDMHRrLWZ6X3RaeW91aV95OU5FalpRd0hiUWhtaVpidWt1WDVSWWgwa1NNS3dRb29Mc1pIeUV4c1ZTc1RnQkVQ?oc=5"
         },
@@ -813,10 +801,10 @@
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdTc5aXA2cmVXQkt3OE1QQnZLTFJpTDhZS2N4RWdHUUhZRlU2MVdlR2JlaXpCc0lDU2ZQeWNVWGJMOFkzM2NnR05lcTRWWV9PclpES2VXWVgtdC0yMy1haTBBMDBraEN4UUM4WE5faDd2QWlrdGlHcjRwT0RsTHgtUVNJeFEtSllwQUxORGMwMloxdklxZlB1cHJHall3UWJwVDItV0s3d1FjMmxNM0NMNy1VY1FaQnlVQUJ5ZHE5SFFMZ9IB1gFBVV95cUxNM2dYSE5rMmtPd0s1cktyRTQ3VlB3ZS1JdnEtOW9aUDc1dG5OY2lFWVVOM0hzV05TWEd6WkhIbG82RDlDUXl1Rl9HOVJESFdSZ1M0UEYwejhUN3RwNklmbTFmdVRLRmlvZlRXSklndUxJUVVfb3o4RnBTV3JqYlh2YklJcGZRUTJlWGxtc2VKZG5uSUNfcG5vVkh0RUVOR2xBYjJzOWJ2U2c0dHhlaGtYWlFJaFFJckw0Tms5dDBnYnpiVlNHd1JTRlJNSk54QmR2dy1WTW5n?oc=5"
         },
         {
-          "point": "Ohio 2026 Poll: Democrats Make Gains in Races for Governor and US Senate",
-          "date": "2025-12-11",
-          "source": "- Emerson Polling",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaXg0NVFuaWw0LU1LNC1vU0Q5bXJtOEJzdnFiVFo1SVRQMlBZMmN4Y0k5SE9CMDZrU3JBWmFzTHlIRGh3aUFyMVhYQ3JfSm1uUl9WaVBRU05IM1NDQXhETjBFTHl6UER3Ui1sSGlPcFRzMWhiQUZHNG9IZF8xMnFIeWVyQXFUX1NYSWNuejZsX0tQR2xCTDlxLU55TlpXQzF2aEdFYXlTeVJ4QQ?oc=5"
+          "point": "Husted, Brown set stage for Ohio\u2019s 2026 U.S. Senate race",
+          "date": "2026-01-02",
+          "source": "NBC4 WCMH-TV",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX0h2d0ZMV19QcElWX2tDdnd6eHhiOFo2dGxwZkh1cFJaS3NOSFltcVBWTEluQ01FOEY1a0NDTkNmYnowcVIycExST3ZFNnFtS0lmeXhNWXl6Qkx4SEVUcXhocmlVWVV6eGRNR2dCSnU5TkVTMFIwd05kcUFZcHJ3aHdWeVI0SW5zeXFJWWU0TnBoYWs4UU9KZmppZ1NONnhCZjVxcEZVONIBrAFBVV95cUxQTlFKdjRfemE1blpTRWgwNGlZSU9XcTFrRm1wNGNfaXA2aXBPam9YRVJ3Rk85QlNLVzdqcWlOSGNibmMwcDBXNHQxLU1nNTVSb1lQcjNGcGQ2cVczdF9qZWF0Z3RfRHNqcGtNOXRNNkxOWG1KWHRQT19vRFJHTG5idXdUZWY3NTltU29ESXhabTU4cUVjYkdoTmxHaWdncUphenVGeHlQMHhUWFlr?oc=5"
         }
       ],
       "race_summary": [
