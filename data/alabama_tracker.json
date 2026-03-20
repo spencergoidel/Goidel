@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-19 16:12 UTC",
+  "updated_at": "2026-03-20 15:30 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -312,8 +312,8 @@
       "id": "al1_house_gop",
       "name": "AL-1 Congressional District (Republican Primary)",
       "snapshot": [
-        "Jerry Carl leads the most recent published poll row (Carl +36).",
-        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
+        "The most recent poll row shows a fragmented field with no clear majority.",
+        "Recent toplines show a clear front-runner advantage.",
         "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics.",
         "Recent reporting references fundraising/resource positioning as a key separator among candidates."
       ],
@@ -327,6 +327,22 @@
         "Sidwell"
       ],
       "polls": [
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://aldailynews.com/the-race-has-changed-in-al-1-the-numbers-prove-it/",
+          "date": "March 5\u20138, 2026",
+          "sample": "400 (LV)",
+          "values": [
+            "28%",
+            "19%",
+            "\u2014 N/a",
+            "9%",
+            "\u2014 N/a",
+            "\u2014 N/a",
+            "\u2014 N/a"
+          ],
+          "spread": "\u2014"
+        },
         {
           "pollster": "AM Research Group",
           "pollster_url": "https://1819news.com/news/item/jerry-carl-maintains-dominant-lead-in-cd-1-race-poll",

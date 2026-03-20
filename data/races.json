@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-19 16:12 UTC",
+  "updated_at": "2026-03-20 15:30 UTC",
   "refresh_target": "24-48 hours",
   "sources": {
     "cook": "https://www.cookpolitical.com/ratings/senate-race-ratings",
@@ -456,6 +456,12 @@
       ],
       "storylines": [
         {
+          "point": "Georgia U.S. Senate Election 2026: Latest Polls",
+          "date": "2026-03-20",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVk4yd1hGX3hRVnhsTUctaE5Xc1hsS1R6eUczdTF4VlZiZFljX2Rmb1QwVXc5dGpIX2dCZU9ULWU3ZEt4b3ZHZEdGbXVvczlWVGZuM2hnY04yd0tIenR3U29ZZTJPSldjNWwyY2lYdDNzOHViODNGZURqc0paT1dPMUtiVGNNZDNabkVmWQ?oc=5"
+        },
+        {
           "point": "Georgia 2026 Poll: Senator Ossoff Starts Re-Election Near 50% and Outpaces GOP Field",
           "date": "2026-03-05",
           "source": "- Emerson Polling",
@@ -471,13 +477,7 @@
           "point": "Georgia election 2026: See which candidates qualified for May primary races",
           "date": "2026-03-09",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69bc2059e42b40ad9d471bc1620ab529&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fgeorgia-election-2026-see-which-candidates-qualified-for-may-primary-races%2far-AA1XOJqW&c=1685416057157448598&mkt=en-us"
-        },
-        {
-          "point": "Georgia primary ballot set: Here\u2019s who is running for governor, Senate, and other Middle Georgia races",
-          "date": "2026-03-07",
-          "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69bc2059e42b40ad9d471bc1620ab529&url=https%3a%2f%2fwww.41nbc.com%2fgeorgia-primary-candidates-2026-governor-senate-middle-georgia%2f&c=7413684193566141863&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69bd681da07b4e3d8537f71dc8e8ff12&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fgeorgia-election-2026-see-which-candidates-qualified-for-may-primary-races%2far-AA1XOJqW&c=1685416057157448598&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -528,7 +528,7 @@
       "storylines": [
         {
           "point": "Maine U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-03-19",
+          "date": "2026-03-20",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVG0tYTZPYnNRdmxPbi1IUXhlZG5aRW1EVXhoVWNyR2MzZTlRQWUtNUhxRkVsNTRoZWhsbXdHblNXMVZPbHFTaHlsVWRlcTNiUEtocGo2TGdOV0czWGppRXVPb2gzSDZXNWZhdHdUQ2NOMHdONlpZTW81T21NU3dwSXB6R05tNWpfc1E?oc=5"
         },
@@ -545,10 +545,10 @@
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRTBPU2owSXFmaFA3LVVoSnJqYzJ6UFpYWWxyNkZDQk9FRHRCa2JNdjA0WnFjcUJhdW12MDVQcUFEWDdFZnZkeWZpSzF0Vm8zNUp2TkhsR0xjdGExZVNrNFE0R0UxQUdudlNDLWNmc19NN1VzNEZLb2plWnhfRVhocGJ1cHlHNmhlek1BV2N4Y1AxN3pQZXpRTFEtWGgzYzRRdnJ3bUNGR0NjUFBnVlHSAbMBQVVfeXFMTUdhaGxicGxrYVNWTl9nbzdSYmJ0SmFiUzJGbTdUczQwTGVCdmYwWGY5bkduU25TU090dDRBS3VaVTJKaVE0Z0JyRWVqMzI2WHFvR3g5VVRxektXa1l6MnhXY3MybTRTSTBzMmMtdzJrTjFNem9TS21FdDRnUWhjSzlOU2JMNkJYZDBlRjN2UGxNSE16c18yeUFJalIxRHF0NEl1SEFjdTVjWjJEN2U2RTFTVjA?oc=5"
         },
         {
-          "point": "Elizabeth Warren Backs Graham Platner in Maine Senate Race, Bucking Democratic Leadership",
+          "point": "Democratic primary race for US Senate in Maine is getting ugly with new ad",
           "date": "2026-03-19",
-          "source": "NOTUS \u2014 News of the United States",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdzNwclp4alNLNDJpZS14djJrQUJiWGJHQ0tKRGN0Z2NMdXp6dTcwRzFHUWJpbFFvbHJaLXZxNkl0NWdmdVdLTHF1cEZfN2dtZDhlTzRyczQxZEd4QXRPTWo3MTJvelU2a3VndGY1U21IZTNRblZIcE9haFNMdDdRMURaeG5pd2RDWE1IaGY4aS0zQQ?oc=5"
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69bd681e43bd4521bb01b5da53d1cdf1&url=https%3a%2f%2fwww.baltimoresun.com%2f2026%2f03%2f19%2fdemocratic-primary-race-for-us-senate-in-maine-is-getting-ugly-with-new-ad%2f&c=9020499377547911005&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -597,28 +597,28 @@
       ],
       "storylines": [
         {
+          "point": "Michigan U.S. Senate Election 2026: Latest Polls",
+          "date": "2026-03-20",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXg4R2RiNm5LQjloa25FZEFhY2tCX2k3U0ExVEJnNzVWeW1Ba21fbkRxYlFFX3M2TDdLeGlQUnViWGNfbFZWdlBiVHhNNUFqZE5ISjhsdlB5dGRPZ3ZaRVlpd24ybWMyX0dXUFFIWUFhbnM0c05DX1JLVmVYT0NFT1pFcHBGYU9hLXAyOXRR?oc=5"
+        },
+        {
           "point": "For Democrats, a millennial showdown in Michigan\u2019s high-stakes US Senate race",
           "date": "2026-03-16",
           "source": "Bridge Michigan",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVWhMMzh5eGtUMURUb3cwRjlXMlVWQ1pfQzRyaUM4bzZzT1VCNG1tTE93OHVEZnlKNkhZa2xJUXZpNWZKcGoxZVh6aVpza1p0bFZPcXpvMFg0MjMta0hPMF83dWtBeG1EUDJQUmw0a0xMMzdNS2VzLUozSk84X3BQY2ZKSDhVcEFJN3ozR1NMNnFVVko5YjBGUDNoQXR5YnpSX1NoaDI3LXFacXRRbkdMZm43ZTBncG1R?oc=5"
         },
         {
-          "point": "Elizabeth Warren backs McMorrow in Michigan\u2019s U.S. Senate race",
-          "date": "2026-03-18",
-          "source": "Michigan Advance",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS2NRYWdRUjZTc0I5dkdHTGF2V0d3T2s3djhqQzZJQllpaHk5Ulg0TURsRkMzamN1RWV2VWxXX0wxWERsTXhxZGxBUTRnS0J6X0JfdnQwYTE5VExtc2t2RFM0MmNBU2JhT1BuRVJqMlJJTnYycjctWkFfUmpCTmdKUzNXckJvRlpWZUVkbE42ZFhHY3NYZ3dLekg0cFg?oc=5"
+          "point": "Rep. John James rallies for Republican in Michigan Senate race",
+          "date": "2026-03-20",
+          "source": "MLive.com",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPR2RSOENaclBiYi1QWV96Qm5OUEJpVlhfQTV3cWs2a1dDSmVDRDE1blFvZjZlZ2tsaVN6WF9EXzVfWWU5TDBvU0hEejEwRUR2aDJzaWNvZFJILUlGV3FzcEMzVWJmZFJSelNBa0lYNE5DTWZNTXRzaDdwWTVsc0RONTY0TUg0ZWpuOFBidjZQRmEtelp3RHl0RUNTaVd4RU0tLThOMnFTOWxyVGZCVThIR0dEaENqUFBBeUHSAc4BQVVfeXFMTlpRS1RiMWpkLVRWWVFYcDFNRkVnMmNSTTNwdUpxU0VqT3FJYi11Y0s5R283UWUtVTJDanFFbWlMRzlsUGk3UEtYRlkzdGRnUmFCVmZZeXZ5UjdTd1A4RWJqSHFkVFhwdHZEdWZNTm13WlY4bmpqN0dkMGxXeTNDNExQT21mc09rRkxGRjE1Z3pBa1JrdGNfdWk4Z09sY1NEeG5IeUJ2Tk9BT012aExkaHdxS0NweTUzRTNXTjlSaWthclNZSWZ0NzJfWG5Cc1E?oc=5"
         },
         {
-          "point": "Michigan Senate primary: A Democratic identity crisis | The Metro",
+          "point": "The Metro: Michigan\u2019s Senate primary has become a proxy war for the Democratic Party\u2019s soul",
           "date": "2026-03-18",
           "source": "WDET 101.9 FM",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR3FEZzh2Y1BILW5mV0JiMG1BUlRJSTJQT05xbGJDZE1kdnh1NVFhdnJBUHRNYUVucC1kWlhfUzVaMjQ1RVVFeVZWb1hXLVV6SEFDZGpuaHQ1MmR5ZXJSNi10NFctOTdwT2dyNGxnZm12ai02SXhIQTZUdF9VTUFJRjczR29TaEtCTW9PQjFDTmhheW1tM0pOSUNPSXl1cXVCV0p2QkFTcUhDN3N1MVZjS2dIbEl6RnN6?oc=5"
-        },
-        {
-          "point": "Michigan\u2019s politics may have changed since 2024. A U.S. Senate race this year could show how much.",
-          "date": "2026-03-18",
-          "source": "MLive.com",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPdHNGRUFYVy1SX1NmXzBqN0RPSnUwRVFUQTl2cmd6c0FVaXVCTEpRcC1ma1hlS0cxS1VsQ1FlTEZsbktVSnZFRGd1UW1WWWg0UDF2a1BVSm5ILUxDVXdBYm5ZeVlveHRHV21CbklDeDgzQ0tYcjg5RklOVWY1U29ybzV5Q2ZZVjVTUU85al9fdm5iSGEtZTk0MjBxVzNnb0gwemE4d2Zad1dNdjVnOUIxdnNIQU96bDlxanVWS1ZRUEY4WnJIVDVXcG9TY1FaRVdYRFBF?oc=5"
         }
       ],
       "race_summary": [
@@ -668,27 +668,27 @@
       "storylines": [
         {
           "point": "North Carolina U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-03-19",
+          "date": "2026-03-20",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcG0yWVJ4b1FCblhNSEdUeDZTb1BHUEh2TjItUTN6MjlsV09ZYlA0aHZ4R0V0b2ZjRTA0SHJkTGJxaDJPaXh0OEIxZFhIVWhsd0t2bFBRYTdrc3p1cHZCTmp4UC1UR183S0loRDU2QmE4cGVMZWt4LVA2T05wUHhJQTJ0Q1d3d1M2Q180dWpHTHVFblVaV3c?oc=5"
-        },
-        {
-          "point": "North Carolina U.S. Senate Primary Election Results",
-          "date": "2026-03-13",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOUtrQmNOZXVDenhMUkU2OU0xZU9tV2N3NnY1Zk9fUFdIQnVRSkVVdkowd0pGamp5ZUY4SjNrd0dzYUlYQTg1Znp6MHdRR2RNM1ZTOWJnd0o0dUY4aGVSeGV4SDFZTGY2MzcwclV1bHV5NGpBc01jOUNRZlA2TFRZM2FVTnZ4TzI0RHFhVFRjVXpUT2RnSlZYY1YwTTdRRHFw?oc=5"
         },
         {
           "point": "US Senate 2026 primary election results for North Carolina",
           "date": "2026-03-04",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69bc205de1464b5fb11d3f735bbf3f9a&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fus-senate-2026-primary-election-results-for-north-carolina%2far-AA1XsUVu&c=17368228993408085755&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69bd6821146c462182f432a0bfe915e8&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fus-senate-2026-primary-election-results-for-north-carolina%2far-AA1XsUVu&c=17368228993408085755&mkt=en-us"
+        },
+        {
+          "point": "Democrat Roy Cooper needs to defy North Carolina history to keep winning streak alive in Senate race",
+          "date": "2026-03-08",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69bd6821146c462182f432a0bfe915e8&url=https%3a%2f%2fapnews.com%2farticle%2fnorth-carolina-senate-cooper-whatley-trump-midterms-4c3b0a0b33bf57de9bc5bffa6e13cb4c&c=15885407513539855078&mkt=en-us"
         },
         {
           "point": "North Carolina 2026 primary election: Votes are in, next steps ahead",
-          "date": "2026-03-03",
+          "date": "2026-03-06",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69bc205de1464b5fb11d3f735bbf3f9a&url=https%3a%2f%2fabc11.com%2flive-updates%2flive-updates-north-carolina-2026-primary-election-day-is-underway%2f18670953%2fentry%2f18673909%2f&c=12468088034801175690&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69bd6821146c462182f432a0bfe915e8&url=https%3a%2f%2fabc11.com%2flive-updates%2flive-updates-north-carolina-2026-primary-election-day-is-underway%2f18670953%2fentry%2f18673883%2f&c=16349990799733640966&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -802,7 +802,7 @@
       "storylines": [
         {
           "point": "Ohio U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-03-19",
+          "date": "2026-03-20",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN2lXa00zcnFKYUgxYWR3eG1ISjJSaTV6dDVTYUpQZXpuNERsMWtRT0pUQXFiNWZxOHRvc0xWR0tHbUJadkg5bXVDMHRrLWZ6X3RaeW91aV95OU5FalpRd0hiUWhtaVpidWt1WDVSWWgwa1NNS3dRb29Mc1pIeUV4c1ZTc1RnQkVQ?oc=5"
         },
@@ -819,10 +819,10 @@
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWm5wazR6ZTI5NFdkeXptZXN2TVlRcjQzZjNZS000VXBRaTllRWlPZ195WDhQUVQ3X2ZaTzB3ZTZmZTNQVGltMGtfN0Y1NC1PMU83UXVwYUs5SXgzOWNaMGtCYWhpUVh2Ry1lZ2NCRl9nb2dIX1ZxZmFwQWZrUTZsckxWNW1qT1lMeFZZb3FycE9aek81VXNZSW1kOHpjSEtPSlRPTXJR?oc=5"
         },
         {
-          "point": "Who Is Ahead in the Ohio Governor's Race? Latest 2026 Election Polls",
-          "date": "2026-03-19",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc1lPMVdmRHVWMHlVc2NUV1RzU1NFU3M4cVpLaEpLWTNXTExaYXlINFJSYmVJbGZFUWhTaHhTNC1LOEdWa1U3RVZ6UlkyVVlZcTFxN3dNbkpUX1g5VzJOY1JBcUZRSFhodnBYVHliZ0JWSmR0anozcG9rckJZUnpQN181Z2ozSDQ?oc=5"
+          "point": "Republicans dealt double polling blow in Ohio Senate race",
+          "date": "2026-03-13",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69bd6828977b445db5f0a40b0caf6aca&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2frepublicans-dealt-double-polling-blow-in-ohio-senate-race%2far-AA1YyGjo&c=12534148730166537809&mkt=en-us"
         }
       ],
       "race_summary": [
