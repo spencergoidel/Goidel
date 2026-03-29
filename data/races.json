@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28 13:57 UTC",
+  "updated_at": "2026-03-29 13:59 UTC",
   "refresh_target": "24-48 hours",
   "sources": {
     "cook": "https://www.cookpolitical.com/ratings/senate-race-ratings",
@@ -284,10 +284,22 @@
       ],
       "storylines": [
         {
-          "point": "Alaska U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-03-28",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcEJLeDV1U0FWYjhHM2tyaWJmeTM2TWpqMWROWnVGMnZkazJMODlHQi1ub212SEZYWmdLc2hRT0tPbkhlMGxsNEItNTlIQlVsdUhjTXlwWllNczZ4M3U5dTIycmtSZzJpMFFrTlVQOTRZaDBobFNxeF9PczJCcUFvMHpzVXdvM3Y2RzlZ?oc=5"
+          "point": "Track the latest Alaska Senate primary coverage (Google News).",
+          "date": "",
+          "source": "Google News",
+          "url": "https://news.google.com/search?q=Alaska%20Senate%20race%202026%20primary&hl=en-US&gl=US&ceid=US%3Aen"
+        },
+        {
+          "point": "Track the latest Alaska Senate primary coverage (Bing News).",
+          "date": "",
+          "source": "Bing News",
+          "url": "https://www.bing.com/news/search?q=Alaska%20Senate%20race%202026%20primary"
+        },
+        {
+          "point": "Review campaign reporting and updates for the Alaska race.",
+          "date": "",
+          "source": "News search",
+          "url": "https://duckduckgo.com/?q=Alaska%20Senate%20race%202026%20primary"
         }
       ],
       "race_summary": [
@@ -446,7 +458,7 @@
         {
           "point": "Who will win Georgia senator race? Here's how candidates are polling",
           "date": "2026-03-25",
-          "source": "savannahnow.com",
+          "source": "Savannah Morning News",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSmhWVFlsajZjSFRvZUwxUjhQZTY2S3h5NnlwaFBreGpvUUdXUE5JdjVQYjVxMTFYYXZxYmFWekZfcVp5RjhwYUJrN2tZZmN4MGk4TUJtMW84WFN3QU5EcE1VZk9vRURwaHNJSEYyUWt2MVJTSFhiZjk0cTlFT1R4RXl3YlQ1U3hqZXZXSWI0NUozQ3NpRndCRWFTMXdLNV9qVGVCRFJYUWw5a0dSWGpzREc1cktrRjJ4?oc=5"
         },
         {
@@ -515,6 +527,12 @@
       ],
       "storylines": [
         {
+          "point": "Maine U.S. Senate Election 2026: Latest Polls",
+          "date": "2026-03-29",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVG0tYTZPYnNRdmxPbi1IUXhlZG5aRW1EVXhoVWNyR2MzZTlRQWUtNUhxRkVsNTRoZWhsbXdHblNXMVZPbHFTaHlsVWRlcTNiUEtocGo2TGdOV0czWGppRXVPb2gzSDZXNWZhdHdUQ2NOMHdONlpZTW81T21NU3dwSXB6R05tNWpfc1E?oc=5"
+        },
+        {
           "point": "Hoping to unseat Collins, Maine Democrats battle it out in an expensive U.S. Senate primary",
           "date": "2026-03-26",
           "source": "NPR",
@@ -527,16 +545,10 @@
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZGh1WlZMenFpYU5fVzh2Zi1xWGExelBKZmlQQU5KU1ltaUNmNGNTNkZSbUxld01NZkFBMDRIR3BNS0tNUUtlR0VJc1ZDaTFFTm9jQkxwUlhCYlMtSm0wazNidHI2NEVGSl81c0dXN3NFVEZNY1FkXzdZcl9CNzR2NFZrd040VWVqZmowTEdod0dQbUVXbnNaVDJKQV9JQ2J2TVo5T3NqUk9hazdIS2hB?oc=5"
         },
         {
-          "point": "Janet Mills and Graham Platner battle for female voters in Maine's key Senate race",
-          "date": "2026-03-27",
-          "source": "NBC News",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ3RCVXUxZXBOalMtTEszcDF4SlRQdngxNDJSWk5MRVJYRFBtaTBFci1jRjlLMHc5RmpPdG8ycHJMTlRGd21wN2VJUWVhRllsbzQ2N2N0dVlRX3N2QnlKNlZwencwQVVLQXdPbFhLRERUUFQtVFZIaHMtUGR5d0VXaktvMlFqUC16WGk3Skg4UVo0TmNCLTVnUzJGTFdndS1HVVJkTFdxMndSZjdVaVpYOUp4d24tLTVKcTN6OWJkVWhFV2UzRElB?oc=5"
-        },
-        {
-          "point": "Analysis | Maine\u2019s critical Senate race is getting really nasty, really early",
+          "point": "Democrats worry bruising Maine primary could cost them a shot at Susan Collins",
           "date": "2026-03-27",
           "source": "The Washington Post",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdVM1OG53TVNCOHFKTVVLenlyRzNTSUtTNkpZdzNjMFJ2di1Xb2ZDOEFxcXI1N0NjVWpUaUJpT3JaU19TVVd3WEdJZGJ5T2VyNlo3dlcwdDJiMXUzOEpWdmlqTlQ0M1RBSG5vZnU5LUdNRDZVYWJNblhNMkY1V1hwNFpwbDloQ0IyWXE0N19ZLTdGSDdBak9ELUMwRE1wTGllODI5bG1QVXdDTTRyUkFib0VMZkExVDQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYVR6a2o2ZndNTFpLZEFKNFB4a3pGeXpOUW9FM0E4NFRBN3NyTEcyQkI4U3JuNWs2MzRNNTBHMEkxd2lOczVmNXpXaV94akNMVEppV00wQVRhZ296bkRERWJkTVJwX2tuei1rRmtyWjZjOE40OGRZWjV5dDlRLWtKNEctOHQzWnpVM1RfTVVkYWNwUUxlb2FB?oc=5"
         }
       ],
       "race_summary": [
@@ -599,7 +611,7 @@
         {
           "point": "Republicans' chances of beating Democrats to flip Michigan Senate seat",
           "date": "2026-03-25",
-          "source": "newsweek.com",
+          "source": "Newsweek",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWE40X2gtaGpWVXU0cjZkZW95NDlpRWtLTHBVV0pXankyMU16WVZNbEpDMzR1aHdLaUM4by1UZXA0cVg4ZzZVOHlGX1lpT3hBUzMtenlsWU5XUnBKYWVGWk1seGcyY0NuVHdZeUVRNV83VGg3YXd0S195TWhrSC1obmpDU08wTk05dFhVdjBVWDAzNnZrdXpxWjBKVUhjd0p4VEE?oc=5"
         },
         {
@@ -655,6 +667,12 @@
       ],
       "storylines": [
         {
+          "point": "North Carolina First Congressional District 2026: Latest Polls",
+          "date": "2026-03-29",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLWNJdjZRNGF4Z2pXRWJROUdlU0VwaC1KbXk2VjhUWW5WczB5N0dpeG01OVpEYkM2M0dTZ21GYmo1UXIyalVaX21WaWYxM2JMeTg0TEJWck5jYVNpOFZ5V1lQMXdNT2gzcENkOUFYUmRfX043dzI3Y01PaFlKS1R2clpZcUtsSWxzc09r?oc=5"
+        },
+        {
           "point": "2nd recount in tight North Carolina state Senate race ends \u2018without change\u2019 to results, officials say",
           "date": "2026-03-24",
           "source": "WBTV",
@@ -667,10 +685,10 @@
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOamVIZmJwUzdOelFIajVHUlRDa0l5MjdMb3RyaEFRdkEydXlObS1pbGFvdEFsaGVlVDRqYmpqZGw0LTFGV2ktM3h3NnZNclBScGQwOXJUTDBhRS1PU2VPZFhXQVdnMnNPYkJ0eE9rb1BCM2RSSnBVYnZXUEV3c2t0NHB2LWJBVklFeUZFcWQzV2ltdzJkN1FJemlQZjJQaklIekZSbi1YdGQ?oc=5"
         },
         {
-          "point": "North Carolina First Congressional District 2026: Latest Polls",
-          "date": "2026-03-28",
-          "source": "The New York Times",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLWNJdjZRNGF4Z2pXRWJROUdlU0VwaC1KbXk2VjhUWW5WczB5N0dpeG01OVpEYkM2M0dTZ21GYmo1UXIyalVaX21WaWYxM2JMeTg0TEJWck5jYVNpOFZ5V1lQMXdNT2gzcENkOUFYUmRfX043dzI3Y01PaFlKS1R2clpZcUtsSWxzc09r?oc=5"
+          "point": "North Carolina primary could set up Roy Cooper vs Michael Whatley in pivotal Senate race",
+          "date": "2026-03-03",
+          "source": "PBS",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMFRVX3YyR2M4WU14ZEtpeVBWZzBXZjU0clF2Z0RQYWhkTHVOa0FPeU4yZEtEUlR5Y29wdzAzblVnODhpOHRzeEMtLWdKSzdmOGtNY1cxZW5aS0EteTJEaHRzR3h1ZmVDQVZBMzdDWnBUWm9wYXhiekZEYXlKcGVtSGpWUV9DaGk0TFU2VlFGZG1Wa1ZJaEZBbS1GVWVCVmw4YXBLejZ2RmVnMWRmNjdKUl9xdFhsYWx6MU1IOHhnTlBsMFkt0gHKAUFVX3lxTE82VUFYODVCTVIxZlZLR2FQQXBlZkRmdHZpYjVQNDFHS21oSnBGYXBtMU1QV190ZlJTRElhWE50TmI0RVBsN01uYXBFV0NZNk1pMkVkU1FaVlRIQ2hSdldNbnlWb0xjbEFYUlE0S1U3Z0h3bGJZUk1wb01EN1pSSG5qYmhOeFhyR0JCdTVNUllXSGkxVkY1Si14bFVWbHJMVkFhM3ExY29XOHlJcldjSEhVQmVtc28zeHpNZW9KUEh3SWZyT1BxNE1HeXc?oc=5"
         }
       ],
       "race_summary": [
@@ -727,20 +745,20 @@
         {
           "point": "Emerson poll shows Democratic upside in 2026 Senate races in Maine, New Hampshire",
           "date": "2026-03-26",
-          "source": "Courthouse News",
+          "source": "courthousenews.com",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMnczWXlQcFJ6cmtRc1RUTXlxUldCaWZWZkFrall1dGZ1SzVVUGZYSjVLcThKMmRnYUsteldqeWo4NHd3bTFXTlFMVFd3WDJzYmY1TkdDYlFpWDkxbTNYdlNjVFN0OU1pdHcwTWpwWHl4Vzh3QzVjVkZPSWVTSWtLdlZoQ2N1U0JPWEFlTk5vSXFDUDJLUmFvNWRyUGVtYlVmR011ZWNLN09XajMz?oc=5"
-        },
-        {
-          "point": "Republicans\u2019 Chances of Flipping Democrat-Held Senate Seat in New Hampshire",
-          "date": "2026-03-24",
-          "source": "newsweek.com",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeVIyZEtWVXUxUWEtc2EwZW1vZW56MzUxUXJONXFzNnZHQkE2Z3hOdG1kYjBHZ3BhZjFQM1RnVFJsV2dhZ2tKS05SLUV2MmpEWHhmbk5tZHJVbUl0T0hXU3NSVEtFZ2hURVhYT0t3azd6akZweDh5WlJYN09ubU45Qm1XOU9PZzNseXBNcktWbWxzaWJPdE9VOUhfaUo1a1FBc0NiMA?oc=5"
         },
         {
           "point": "Sununu leads in New Hampshire\u2019s Senate primary, virtually tied with incumbent Pappas",
           "date": "2026-03-26",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69c7de44365f48a59bf1480281cc0f73&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fsununu-leads-in-new-hampshire-s-senate-primary-virtually-tied-with-incumbent-pappas%2far-AA1Zrv3W&c=14480914489158576566&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69c930413eb442fca63691796aa45bfc&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fsununu-leads-in-new-hampshire-s-senate-primary-virtually-tied-with-incumbent-pappas%2far-AA1Zrv3W&c=14480914489158576566&mkt=en-us"
+        },
+        {
+          "point": "Scott Brown isn\u2019t leaving New Hampshire\u2019s \u2018weird\u2019 Senate race",
+          "date": "2026-03-27",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69c930413eb442fca63691796aa45bfc&url=https%3a%2f%2fwww.yahoo.com%2fnews%2farticles%2fscott-brown-isn-t-leaving-092527539.html&c=11932427263553728092&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -795,21 +813,21 @@
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd1RNdUMzMk5YQXI5Z0w3S2hLQ2dZSzdYbGVFRlMtNzdpT0doYTMycmxpaHlqUlpvODlGOEtyZnU4RGRzUGszVUk0MTc5NzRrVHlnbHQtYnRCOWhwclprWmxvTTdzNXIxTGVsSDZZMmN6SnVPRUxZSnFLY0hCbVdkeUlaSlNMMzEtTVE?oc=5"
         },
         {
-          "point": "Candidates begin race for Ohio Treasurer, with unclaimed funds as hot topic",
-          "date": "2026-03-24",
-          "source": "Ohio Capital Journal",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1ZmUXhwMXNwLTNsVU9tNmxKcEFzWjVJNUN6NzRhODlweWxqTGY3TndmVXcyS0NxclU2N1JvVEYzWE9PR2t2OWxlOGZlVlNNdTl4dFpFNkpxZGRiVmVMN2ZBaUs3RjlzZHJ2TzFmcnd0VDRaUWI1dzk4VWxxODlMZFFEVDNMaTFSMGhFcHRaN0RhRjJRTWdhSDdINXltRXVBbFZOZUE5VGJrWDhCWXRjb3RVcDJZSEZU?oc=5"
-        },
-        {
           "point": "Primary Election 2026: Everything Ohio voters need to know before heading to the polls",
           "date": "2026-03-17",
           "source": "WOSU Public Media",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZzFMdGJJTHUtSHd4VHNVZlFtM0thN2lwNy1DMk9kaDVtZzZBZnVlY0ZIV050T1JXaHlxS2JJemkyTFhTMS14bUNQeUhUTlFtS1dnMFc4V3JBVWZuclQ2ZEVVOXNfM3B1M25NOUNDNklxWVVZaGFQQTFfVk83eEc1TmdWMDQ1bGFUMlZHNXh0RVgyU09QaXRNc2EzWlNucjdyWlVlejFaR3JqaWVYTkc5aU1uRHFCS2JDRTltaU1EZE1aVGJFd3dpMHVXNTQ1MnBac0Vn?oc=5"
         },
         {
+          "point": "Candidates begin race for Ohio Treasurer, with unclaimed funds as hot topic",
+          "date": "2026-03-24",
+          "source": "Ohio Capital Journal",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1ZmUXhwMXNwLTNsVU9tNmxKcEFzWjVJNUN6NzRhODlweWxqTGY3TndmVXcyS0NxclU2N1JvVEYzWE9PR2t2OWxlOGZlVlNNdTl4dFpFNkpxZGRiVmVMN2ZBaUs3RjlzZHJ2TzFmcnd0VDRaUWI1dzk4VWxxODlMZFFEVDNMaTFSMGhFcHRaN0RhRjJRTWdhSDdINXltRXVBbFZOZUE5VGJrWDhCWXRjb3RVcDJZSEZU?oc=5"
+        },
+        {
           "point": "Brown leads Husted in new Ohio Senate race poll, with healthcare costs a top concern",
           "date": "2026-03-11",
-          "source": "NBC4 WCMH-TV",
+          "source": "nbc4i.com",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd093XzBaNVY4TndHSUI0WmlMMXlxc2tNRUlkblBsY0JHMkVRR0pQX2puclRvYjB3NGNPYWpFT28wVzRaQUhFVnNrUHpKRlpSX3dlNWpRUFRHd25ZQ19HY054RDVHdkU2Z01aTmtiNlZfd0Z1R0hjV25iV0x2ZDRybXVyLVAxYWdUT05IWjVsTVE4Ykh0NmdTQWFyMzI1SXNlUWFXQ3NuZWhlYnlKMF9obTZ5cWw4cmpZbnlORXB2NkNsWUFIZDQwZERfa1NRZmvSAdQBQVVfeXFMT19WSmVYQVFBWklpY1B2c0RpUHk5MVdwUFhMLXZxNjczdGNZQWhIaFBBQzIzam14dkZmWGZ2SmFsRHV4TmV2SHJMbkZzS0xmSVVMQU5sUzdZSFJteEJXTEo0MEtfSXVQTDZYWUxscXBaWVJKZjNBeFFrZkVNcWtnY2JoRk5MZkxRbzhmMVRGYmlUbFdPY2VBcUtwVk94TGlUZkJsUjRtMFpvU19taENuN2pidDdoby0yb29DVVVvY3FGQVhFVzgwVlZTeHFVOGFrdEF4SlY?oc=5"
         }
       ],

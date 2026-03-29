@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28 13:57 UTC",
+  "updated_at": "2026-03-29 13:59 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -20,7 +20,7 @@
       ],
       "polls": [
         {
-          "pollster": "Pulse Decision Sicence",
+          "pollster": "Pulse Decision Science",
           "pollster_url": "https://1819news.com/news/item/poll-barry-moore-leads-steve-marshall-31-26-in-u-s-senate-race",
           "date": "March 16\u201319, 2026",
           "sample": "501 (LV)",
