@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-03-30 14:47 UTC",
+  "updated_at": "2026-03-31 14:43 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
       "id": "us_senate_gop",
       "name": "U.S. Senate (Republican Primary)",
       "snapshot": [
-        "Barry Moore leads the most recent published poll row (Moore +5).",
-        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
+        "The most recent poll row shows a fragmented field with no clear majority.",
+        "Recent toplines show a clear front-runner advantage.",
         "Recent coverage emphasizes endorsements as a meaningful force in this race.",
         "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics."
       ],
@@ -19,6 +19,20 @@
         "Walker"
       ],
       "polls": [
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://img1.wsimg.com/blobby/go/9eb36053-c232-4b6e-a876-3e9f926c6add/March%202026%20Executive%20Summary%20032626%20FINAL.pdf",
+          "date": "March 22\u201324, 2026",
+          "sample": "600 (LV)",
+          "values": [
+            "20.7%",
+            "22.8%",
+            "19.0%",
+            "\u2014 N/a",
+            "4.0%"
+          ],
+          "spread": "\u2014"
+        },
         {
           "pollster": "Pulse Decision Science",
           "pollster_url": "https://1819news.com/news/item/poll-barry-moore-leads-steve-marshall-31-26-in-u-s-senate-race",
@@ -116,20 +130,6 @@
             "1%"
           ],
           "spread": "\u2014"
-        },
-        {
-          "pollster": "McLaughlin & Associates",
-          "pollster_url": "https://1819news.com/news/item/poll-marshall-leading-moore-hudson-in-2026-alabama-senate-race",
-          "date": "July 14\u201317, 2025",
-          "sample": "600 (LV)",
-          "values": [
-            "35%",
-            "12%",
-            "9%",
-            "\u2014 N/a",
-            "\u2014 N/a"
-          ],
-          "spread": "\u2014"
         }
       ]
     },
@@ -177,6 +177,20 @@
       "polls": [
         {
           "pollster": "The Alabama Poll",
+          "pollster_url": "https://img1.wsimg.com/blobby/go/9eb36053-c232-4b6e-a876-3e9f926c6add/March%202026%20Executive%20Summary%20032626%20FINAL.pdf",
+          "date": "March 22\u201324, 2026",
+          "sample": "600 (LV)",
+          "values": [
+            "18.7%",
+            "\u2014 N/a",
+            "8.8%",
+            "5.3%",
+            "7.0%"
+          ],
+          "spread": "\u2014"
+        },
+        {
+          "pollster": "The Alabama Poll",
           "pollster_url": "https://aldailynews.com/poll-despite-trump-endorsements-marshall-allen-still-lead-races/",
           "date": "February 1\u20134, 2026",
           "sample": "500 (LV)",
@@ -195,10 +209,10 @@
           "date": "December 15, 2025",
           "sample": "600 (LV)",
           "values": [
-            "18%",
-            "31%",
-            "8%",
-            "2%",
+            "18.2%",
+            "31.3%",
+            "7.5%",
+            "1.8%",
             "\u2014 N/a"
           ],
           "spread": "\u2014"
@@ -223,7 +237,7 @@
       "id": "attorney_general_gop",
       "name": "Attorney General (Republican Primary)",
       "snapshot": [
-        "Jay Mitchell leads the most recent published poll row (Mitchell +3).",
+        "Jay Mitchell leads the most recent published poll row (Mitchell +2.5).",
         "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
         "Recent coverage emphasizes endorsements as a meaningful force in this race.",
         "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics."
@@ -234,6 +248,18 @@
         "Casey"
       ],
       "polls": [
+        {
+          "pollster": "The Alabama Poll",
+          "pollster_url": "https://img1.wsimg.com/blobby/go/9eb36053-c232-4b6e-a876-3e9f926c6add/March%202026%20Executive%20Summary%20032626%20FINAL.pdf",
+          "date": "March 22\u201324, 2026",
+          "sample": "600 (LV)",
+          "values": [
+            "12.3%",
+            "9.8%",
+            "9.3%"
+          ],
+          "spread": "Mitchell +2.5"
+        },
         {
           "pollster": "1892 Polling",
           "pollster_url": "",
@@ -264,11 +290,11 @@
           "date": "December 15, 2025",
           "sample": "600 (LV)",
           "values": [
-            "12%",
-            "10%",
-            "7%"
+            "11.8%",
+            "9.7%",
+            "6.8%"
           ],
-          "spread": "Mitchell +2"
+          "spread": "Mitchell +2.1"
         },
         {
           "pollster": "The Alabama Poll",

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-30 14:47 UTC",
+  "updated_at": "2026-03-31 14:43 UTC",
   "refresh_target": "24-48 hours",
   "sources": {
     "cook": "https://www.cookpolitical.com/ratings/senate-race-ratings",
@@ -285,7 +285,7 @@
       "storylines": [
         {
           "point": "Alaska U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-03-30",
+          "date": "2026-03-31",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcEJLeDV1U0FWYjhHM2tyaWJmeTM2TWpqMWROWnVGMnZkazJMODlHQi1ub212SEZYWmdLc2hRT0tPbkhlMGxsNEItNTlIQlVsdUhjTXlwWllNczZ4M3U5dTIycmtSZzJpMFFrTlVQOTRZaDBobFNxeF9PczJCcUFvMHpzVXdvM3Y2RzlZ?oc=5"
         }
@@ -445,7 +445,7 @@
       "storylines": [
         {
           "point": "Georgia U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-03-30",
+          "date": "2026-03-31",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVk4yd1hGX3hRVnhsTUctaE5Xc1hsS1R6eUczdTF4VlZiZFljX2Rmb1QwVXc5dGpIX2dCZU9ULWU3ZEt4b3ZHZEdGbXVvczlWVGZuM2hnY04yd0tIenR3U29ZZTJPSldjNWwyY2lYdDNzOHViODNGZURqc0paT1dPMUtiVGNNZDNabkVmWQ?oc=5"
         },
@@ -456,16 +456,16 @@
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSmhWVFlsajZjSFRvZUwxUjhQZTY2S3h5NnlwaFBreGpvUUdXUE5JdjVQYjVxMTFYYXZxYmFWekZfcVp5RjhwYUJrN2tZZmN4MGk4TUJtMW84WFN3QU5EcE1VZk9vRURwaHNJSEYyUWt2MVJTSFhiZjk0cTlFT1R4RXl3YlQ1U3hqZXZXSWI0NUozQ3NpRndCRWFTMXdLNV9qVGVCRFJYUWw5a0dSWGpzREc1cktrRjJ4?oc=5"
         },
         {
+          "point": "Georgia 2026 election: Here's who will be on the ballot during May's governor, Senate primaries",
+          "date": "2026-03-09",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69cbdd83e36a4e69ae77b6d3040217e4&url=https%3a%2f%2fwww.cbsnews.com%2fatlanta%2fnews%2fgeorgia-2026-election-heres-who-will-be-on-the-ballot-during-mays-governor-senate-primaries%2f&c=16760016941458796705&mkt=en-us"
+        },
+        {
           "point": "Here is who's running for Georgia's U.S. Senate seat in 2026: Full list of candidates",
           "date": "2026-03-20",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ca8cdc79374ab8b151af92c6ca9973&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fhere-is-whos-running-for-georgias-us-senate-seat-in-2026-full-list-of-candidates%2far-AA1Z4oQT&c=14062319915308909384&mkt=en-us"
-        },
-        {
-          "point": "TSA shutdown becomes key issue in Georgia Senate race among Republicans",
-          "date": "2026-03-26",
-          "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ca8cdc79374ab8b151af92c6ca9973&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2ftsa-shutdown-becomes-key-issue-in-georgia-senate-race-among-republicans%2far-AA1ZtVq7&c=14976812378973422294&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69cbdd83e36a4e69ae77b6d3040217e4&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fhere-is-whos-running-for-georgias-us-senate-seat-in-2026-full-list-of-candidates%2far-AA1Z4oQT&c=14062319915308909384&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -516,9 +516,15 @@
       "storylines": [
         {
           "point": "Maine U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-03-30",
+          "date": "2026-03-31",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVG0tYTZPYnNRdmxPbi1IUXhlZG5aRW1EVXhoVWNyR2MzZTlRQWUtNUhxRkVsNTRoZWhsbXdHblNXMVZPbHFTaHlsVWRlcTNiUEtocGo2TGdOV0czWGppRXVPb2gzSDZXNWZhdHdUQ2NOMHdONlpZTW81T21NU3dwSXB6R05tNWpfc1E?oc=5"
+        },
+        {
+          "point": "Hoping to unseat Collins, Maine Democrats battle it out in an expensive U.S. Senate primary",
+          "date": "2026-03-26",
+          "source": "npr.org",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdFpUel92SW5PTzVHd0R6b0E1WGlETDdzNXpXdFc1S1laSHIyaGN2Z05pOWtCdlNjSDU1WS1rUW1qbzZ3cS1VdVUyWExLMkZRWXhSTGhWRXpHTWpNQkpTRFY5RUdGRDdUanpyd0ktUjlFUXBvSmpBTTZ1OWhvdF9QN3VjdzdTVFlILUFaTDBCZmhCOFR0SkZkWF9WZUhqaXM?oc=5"
         },
         {
           "point": "Maine 2026 Poll: Platner Leads Gov. Mills, Democrats Lead Sen. Collins in Maine",
@@ -527,16 +533,10 @@
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZGh1WlZMenFpYU5fVzh2Zi1xWGExelBKZmlQQU5KU1ltaUNmNGNTNkZSbUxld01NZkFBMDRIR3BNS0tNUUtlR0VJc1ZDaTFFTm9jQkxwUlhCYlMtSm0wazNidHI2NEVGSl81c0dXN3NFVEZNY1FkXzdZcl9CNzR2NFZrd040VWVqZmowTEdod0dQbUVXbnNaVDJKQV9JQ2J2TVo5T3NqUk9hazdIS2hB?oc=5"
         },
         {
-          "point": "Hoping to unseat Collins, Maine Democrats battle it out in an expensive U.S. Senate primary",
-          "date": "2026-03-26",
-          "source": "NPR",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdFpUel92SW5PTzVHd0R6b0E1WGlETDdzNXpXdFc1S1laSHIyaGN2Z05pOWtCdlNjSDU1WS1rUW1qbzZ3cS1VdVUyWExLMkZRWXhSTGhWRXpHTWpNQkpTRFY5RUdGRDdUanpyd0ktUjlFUXBvSmpBTTZ1OWhvdF9QN3VjdzdTVFlILUFaTDBCZmhCOFR0SkZkWF9WZUhqaXM?oc=5"
-        },
-        {
-          "point": "Janet Mills and Graham Platner battle for female voters in Maine's key Senate race",
-          "date": "2026-03-27",
-          "source": "NBC News",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ3RCVXUxZXBOalMtTEszcDF4SlRQdngxNDJSWk5MRVJYRFBtaTBFci1jRjlLMHc5RmpPdG8ycHJMTlRGd21wN2VJUWVhRllsbzQ2N2N0dVlRX3N2QnlKNlZwencwQVVLQXdPbFhLRERUUFQtVFZIaHMtUGR5d0VXaktvMlFqUC16WGk3Skg4UVo0TmNCLTVnUzJGTFdndS1HVVJkTFdxMndSZjdVaVpYOUp4d24tLTVKcTN6OWJkVWhFV2UzRElB?oc=5"
+          "point": "Here\u2019s the final list of who is running in Maine\u2019s June primary elections",
+          "date": "2026-03-24",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69cbdd8403824cdc8987b1bdade527dd&url=https%3a%2f%2fwww.seacoastonline.com%2fstory%2fnews%2flocal%2f2026%2f03%2f24%2fheres-the-final-list-of-who-is-running-in-maines-june-primary-elections%2f89281271007%2f&c=2598009733761344294&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -586,7 +586,7 @@
       "storylines": [
         {
           "point": "Michigan U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-03-30",
+          "date": "2026-03-31",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXg4R2RiNm5LQjloa25FZEFhY2tCX2k3U0ExVEJnNzVWeW1Ba21fbkRxYlFFX3M2TDdLeGlQUnViWGNfbFZWdlBiVHhNNUFqZE5ISjhsdlB5dGRPZ3ZaRVlpd24ybWMyX0dXUFFIWUFhbnM0c05DX1JLVmVYT0NFT1pFcHBGYU9hLXAyOXRR?oc=5"
         },
@@ -603,10 +603,10 @@
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR3FEZzh2Y1BILW5mV0JiMG1BUlRJSTJQT05xbGJDZE1kdnh1NVFhdnJBUHRNYUVucC1kWlhfUzVaMjQ1RVVFeVZWb1hXLVV6SEFDZGpuaHQ1MmR5ZXJSNi10NFctOTdwT2dyNGxnZm12ai02SXhIQTZUdF9VTUFJRjczR29TaEtCTW9PQjFDTmhheW1tM0pOSUNPSXl1cXVCV0p2QkFTcUhDN3N1MVZjS2dIbEl6RnN6?oc=5"
         },
         {
-          "point": "Republicans' chances of beating Democrats to flip Michigan Senate seat",
-          "date": "2026-03-26",
+          "point": "Mallory McMorrow calls for 5 debates before Michigan Senate primary",
+          "date": "2026-03-30",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ca8cdfbb3b4539a6393f8fdacdb47f&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2frepublicans-chances-of-beating-democrats-to-flip-michigan-senate-seat%2far-AA1ZoARt&c=10995254482090042579&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69cbdd87555045d7af94c87fc5598126&url=https%3a%2f%2fpantherswire.usatoday.com%2fstory%2fnews%2fpolitics%2felections%2f2026%2f03%2f30%2fmallory-mcmorrow-michigan-senate-debates%2f89385079007%2f&c=13222663419661670635&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -656,27 +656,27 @@
       "storylines": [
         {
           "point": "North Carolina U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-03-30",
+          "date": "2026-03-31",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcG0yWVJ4b1FCblhNSEdUeDZTb1BHUEh2TjItUTN6MjlsV09ZYlA0aHZ4R0V0b2ZjRTA0SHJkTGJxaDJPaXh0OEIxZFhIVWhsd0t2bFBRYTdrc3p1cHZCTmp4UC1UR183S0loRDU2QmE4cGVMZWt4LVA2T05wUHhJQTJ0Q1d3d1M2Q180dWpHTHVFblVaV3c?oc=5"
-        },
-        {
-          "point": "2nd recount in tight North Carolina state Senate race ends \u2018without change\u2019 to results, officials say",
-          "date": "2026-03-24",
-          "source": "WBTV",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTGhlai05cDdlMVNPYTJHZkNPWWlIZTYxMldmdkxiVDlJOW1zbURIaWc2cU5MLXpaWE5NMWtCZ1V0ZEgzNjNZbFctcDRXN0xfbTVHOGdUT2VLT2FmQVVwY29vZlFqVWFCUTc3Zm92LVQ1My1LRngydmhmVmxkajhReE92SW5YNVJxSGZQWmtFa3R1SGd5ZGhKbmFhVXJ0YzZYN0JGaExta09JZmEzeWZUNUprLW5rX2Zsc0FYME5n0gHSAUFVX3lxTE9uaEtDekpUdmRjN1hVb2pJV1c2NHpidHpWSXVLLXp0OFh5S1RwUkpGRFlFeVBmckl4TXh1TTltUVZtOWhmN2ptanBNc3VTZWFqM2d1Q2k2SWpvQUFVRzA4THprbEFDRFdOUUNsdmhKSDNhLUc3M0JLRjhHMDVrU3FrZFBDY3BEUjZLazNJdVp2bG1oNEx0Y01JcTFOSElIUmgwSl9yTUhERXdYbmR1UVNMUnZlS2dfWGtiRG0yWWxDcm9vY2d0ZnpyVkJ1cmJmR3JGZw?oc=5"
         },
         {
           "point": "North Carolina Senate Primary Results 2026",
           "date": "2026-03-03",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ca8ce1911942a98f236443dbe1e028&url=https%3a%2f%2fwww.nbcnews.com%2fpolitics%2f2026-primary-elections%2fnorth-carolina-senate-results&c=14492109049707209659&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69cbdd8901184bdb873b59f6964a29a5&url=https%3a%2f%2fwww.nbcnews.com%2fpolitics%2f2026-primary-elections%2fnorth-carolina-senate-results&c=14492109049707209659&mkt=en-us"
         },
         {
           "point": "North Carolina Senate leader, conservative architect Phil Berger concedes primary loss",
           "date": "2026-03-24",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ca8ce1911942a98f236443dbe1e028&url=https%3a%2f%2fwww.yahoo.com%2fnews%2farticles%2fnorth-carolina-senate-leader-conservative-201337380.html&c=1748735431970192202&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69cbdd8901184bdb873b59f6964a29a5&url=https%3a%2f%2fwww.yahoo.com%2fnews%2farticles%2fnorth-carolina-senate-leader-conservative-201337380.html&c=1748735431970192202&mkt=en-us"
+        },
+        {
+          "point": "5 takeaways from the Texas and North Carolina 2026 primary kickoff",
+          "date": "2026-03-03",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69cbdd8901184bdb873b59f6964a29a5&url=https%3a%2f%2fwww.yahoo.com%2fnews%2farticles%2f5-takeaways-texas-north-carolina-052510316.html&c=13814884896289004017&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -725,6 +725,12 @@
       ],
       "storylines": [
         {
+          "point": "New Hampshire U.S. Senate Election 2026: Latest Polls",
+          "date": "2026-03-31",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN3hMQVJ1VzI0eDRDQTR5bEpTZkR1cTJwQlNMdXpiVVJ5dTZzS184OHg2Ml9SOXN4enRVUGtSQXg2ejVOcEh2Q0I5UnZZY2F6WHFjV0ZXRTMzMEY0QVVZVGdyMU1sbzR4TWdldVEzdnJBT09GRVVyMjJZaFBybDVoeEYzdXp4em5CMUR6SGljdXNXYVMt?oc=5"
+        },
+        {
           "point": "New Hampshire 2026: Sununu Leads GOP Nomination, Ties Pappas for Senate",
           "date": "2026-03-26",
           "source": "- Emerson Polling",
@@ -740,13 +746,7 @@
           "point": "Sununu leads in New Hampshire\u2019s Senate primary, virtually tied with incumbent Pappas",
           "date": "2026-03-26",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ca8ce2362c4aeaa2eca70ce39bdabd&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fsununu-leads-in-new-hampshire-s-senate-primary-virtually-tied-with-incumbent-pappas%2far-AA1Zrv3W&c=14480914489158576566&mkt=en-us"
-        },
-        {
-          "point": "Scott Brown isn\u2019t leaving New Hampshire\u2019s \u2018weird\u2019 Senate race",
-          "date": "2026-03-27",
-          "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ca8ce2362c4aeaa2eca70ce39bdabd&url=https%3a%2f%2fwww.yahoo.com%2fnews%2farticles%2fscott-brown-isn-t-leaving-092527539.html&c=11932427263553728092&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69cbdd8be26549fd84f0cd9f0f6832a2&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fsununu-leads-in-new-hampshire-s-senate-primary-virtually-tied-with-incumbent-pappas%2far-AA1Zrv3W&c=14480914489158576566&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -796,7 +796,7 @@
       "storylines": [
         {
           "point": "Ohio U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-03-30",
+          "date": "2026-03-31",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN2lXa00zcnFKYUgxYWR3eG1ISjJSaTV6dDVTYUpQZXpuNERsMWtRT0pUQXFiNWZxOHRvc0xWR0tHbUJadkg5bXVDMHRrLWZ6X3RaeW91aV95OU5FalpRd0hiUWhtaVpidWt1WDVSWWgwa1NNS3dRb29Mc1pIeUV4c1ZTc1RnQkVQ?oc=5"
         },
@@ -810,13 +810,13 @@
           "point": "Primary Election 2026: Everything Ohio voters need to know before heading to the polls",
           "date": "2026-03-17",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ca8ce47c2344129f7be2b11c59c1fa&url=https%3a%2f%2fwww.wosu.org%2fpolitics-government%2f2026-03-17%2fprimary-election-2026-everything-ohio-voters-need-to-know-before-heading-to-the-polls&c=7779922736128314670&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69cbdd8db3ad45c782e420a8d5c7d358&url=https%3a%2f%2fwww.wosu.org%2fpolitics-government%2f2026-03-17%2fprimary-election-2026-everything-ohio-voters-need-to-know-before-heading-to-the-polls&c=7779922736128314670&mkt=en-us"
         },
         {
-          "point": "Ohio emerges as 2026 battleground with close Senate, governor contests",
-          "date": "2026-03-26",
+          "point": "Ohio voter registration deadline for May primary election approaching",
+          "date": "2026-03-30",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69ca8ce47c2344129f7be2b11c59c1fa&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fohio-emerges-as-2026-battleground-with-close-senate-governor-contests%2far-AA1ZthJg&c=14904381650040619583&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69cbdd8db3ad45c782e420a8d5c7d358&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fohio-voter-registration-deadline-for-may-primary-election-approaching%2far-AA1ZLmGo&c=10411756800715809185&mkt=en-us"
         }
       ],
       "race_summary": [
