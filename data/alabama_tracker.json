@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-31 14:43 UTC",
+  "updated_at": "2026-04-01 14:46 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -239,8 +239,8 @@
       "snapshot": [
         "Jay Mitchell leads the most recent published poll row (Mitchell +2.5).",
         "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
-        "Recent coverage emphasizes endorsements as a meaningful force in this race.",
-        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics."
+        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics.",
+        "Articles suggest momentum effects are still in flux rather than settled."
       ],
       "columns": [
         "Mitchell",
@@ -262,7 +262,7 @@
         },
         {
           "pollster": "1892 Polling",
-          "pollster_url": "",
+          "pollster_url": "https://aldailynews.com/mitchell-campaign-releases-polling-showing-him-with-lead-in-ag-race/",
           "date": "March 5, 2026",
           "sample": "638 (LV)",
           "values": [
