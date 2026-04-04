@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-03 14:07 UTC",
+  "updated_at": "2026-04-04 13:59 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -237,7 +237,7 @@
       "id": "attorney_general_gop",
       "name": "Attorney General (Republican Primary)",
       "snapshot": [
-        "Jay Mitchell leads the most recent published poll row (Mitchell +2.5).",
+        "Jay Mitchell leads the most recent published poll row (Mitchell +2).",
         "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
         "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics.",
         "Articles suggest momentum effects are still in flux rather than settled."
@@ -254,11 +254,11 @@
           "date": "March 22\u201324, 2026",
           "sample": "600 (LV)",
           "values": [
-            "12.3%",
-            "9.8%",
-            "9.3%"
+            "12%",
+            "10%",
+            "9%"
           ],
-          "spread": "Mitchell +2.5"
+          "spread": "Mitchell +2"
         },
         {
           "pollster": "1892 Polling",
@@ -290,11 +290,11 @@
           "date": "December 15, 2025",
           "sample": "600 (LV)",
           "values": [
-            "11.8%",
-            "9.7%",
-            "6.8%"
+            "12%",
+            "10%",
+            "7%"
           ],
-          "spread": "Mitchell +2.1"
+          "spread": "Mitchell +2"
         },
         {
           "pollster": "The Alabama Poll",
