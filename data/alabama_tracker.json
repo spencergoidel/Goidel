@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-04 13:59 UTC",
+  "updated_at": "2026-04-05 14:00 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -19,6 +19,20 @@
         "Walker"
       ],
       "polls": [
+        {
+          "pollster": "American Pulse Research",
+          "pollster_url": "https://1819news.com/news/item/poll-barry-moore-leads-steve-marshall-26-to-21-wes-allen-leads-john-wahl-16-to-9",
+          "date": "March 30\u2013April 1, 2026",
+          "sample": "505 (LV)",
+          "values": [
+            "21%",
+            "26%",
+            "14%",
+            "\u2014 N/a",
+            "\u2014 N/a"
+          ],
+          "spread": "\u2014"
+        },
         {
           "pollster": "The Alabama Poll",
           "pollster_url": "https://img1.wsimg.com/blobby/go/9eb36053-c232-4b6e-a876-3e9f926c6add/March%202026%20Executive%20Summary%20032626%20FINAL.pdf",
@@ -116,20 +130,6 @@
             "2%"
           ],
           "spread": "Hudson +3"
-        },
-        {
-          "pollster": "The Alabama Poll",
-          "pollster_url": "https://alpolitics.com/trump-holds-commanding-lead-in-first-alabama-poll-marshall-tops-early-senate-field/",
-          "date": "August 24\u201326, 2025",
-          "sample": "600 (LV)",
-          "values": [
-            "37%",
-            "16%",
-            "7%",
-            "\u2014 N/a",
-            "1%"
-          ],
-          "spread": "\u2014"
         }
       ]
     },
@@ -175,6 +175,20 @@
         "Wahl"
       ],
       "polls": [
+        {
+          "pollster": "American Pulse Research",
+          "pollster_url": "https://1819news.com/news/item/poll-barry-moore-leads-steve-marshall-26-to-21-wes-allen-leads-john-wahl-16-to-9",
+          "date": "March 30\u2013April 1, 2026",
+          "sample": "505 (LV)",
+          "values": [
+            "16%",
+            "\u2014 N/a",
+            "\u2014 N/a",
+            "\u2014 N/a",
+            "9%"
+          ],
+          "spread": "\u2014"
+        },
         {
           "pollster": "The Alabama Poll",
           "pollster_url": "https://img1.wsimg.com/blobby/go/9eb36053-c232-4b6e-a876-3e9f926c6add/March%202026%20Executive%20Summary%20032626%20FINAL.pdf",
@@ -237,10 +251,10 @@
       "id": "attorney_general_gop",
       "name": "Attorney General (Republican Primary)",
       "snapshot": [
-        "Jay Mitchell leads the most recent published poll row (Mitchell +2).",
-        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
-        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics.",
-        "Articles suggest momentum effects are still in flux rather than settled."
+        "The most recent poll row shows a fragmented field with no clear majority.",
+        "Recent toplines show a clear front-runner advantage.",
+        "Recent coverage emphasizes endorsements as a meaningful force in this race.",
+        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics."
       ],
       "columns": [
         "Mitchell",
@@ -248,6 +262,18 @@
         "Casey"
       ],
       "polls": [
+        {
+          "pollster": "American Pulse Research",
+          "pollster_url": "https://1819news.com/news/item/poll-barry-moore-leads-steve-marshall-26-to-21-wes-allen-leads-john-wahl-16-to-9",
+          "date": "March 30\u2013April 1, 2026",
+          "sample": "505 (LV)",
+          "values": [
+            "11%",
+            "11%",
+            "\u2014 N/a"
+          ],
+          "spread": "\u2014"
+        },
         {
           "pollster": "The Alabama Poll",
           "pollster_url": "https://img1.wsimg.com/blobby/go/9eb36053-c232-4b6e-a876-3e9f926c6add/March%202026%20Executive%20Summary%20032626%20FINAL.pdf",
