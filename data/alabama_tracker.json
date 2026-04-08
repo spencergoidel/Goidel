@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-07 14:49 UTC",
+  "updated_at": "2026-04-08 14:49 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -22,7 +22,7 @@
         {
           "pollster": "American Pulse Research",
           "pollster_url": "https://1819news.com/news/item/poll-barry-moore-leads-steve-marshall-26-to-21-wes-allen-leads-john-wahl-16-to-9",
-          "date": "March 30\u2013April 1, 2026",
+          "date": "March 30 \u2013 April 1, 2026",
           "sample": "505 (LV)",
           "values": [
             "21%",
