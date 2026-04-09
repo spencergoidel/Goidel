@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-08 14:49 UTC",
+  "updated_at": "2026-04-09 15:00 UTC",
   "refresh_target": "24-48 hours",
   "sources": {
     "cook": "https://www.cookpolitical.com/ratings/senate-race-ratings",
@@ -41,7 +41,7 @@
     {
       "state": "DE",
       "state_name": "Delaware",
-      "primary_date": "September 15, 2026",
+      "primary_date": "September 10, 2026",
       "competitive": false,
       "cook_rating": "Not rated competitive"
     },
@@ -90,7 +90,7 @@
     {
       "state": "LA",
       "state_name": "Louisiana",
-      "primary_date": "May 16, 2026",
+      "primary_date": "November 3, 2026",
       "competitive": false,
       "cook_rating": "Not rated competitive"
     },
@@ -104,7 +104,7 @@
     {
       "state": "MA",
       "state_name": "Massachusetts",
-      "primary_date": "September 1, 2026",
+      "primary_date": "September 8, 2026",
       "competitive": false,
       "cook_rating": "Not rated competitive"
     },
@@ -230,7 +230,7 @@
     {
       "state": "VA",
       "state_name": "Virginia",
-      "primary_date": "August 4, 2026",
+      "primary_date": "June 16, 2026",
       "competitive": false,
       "cook_rating": "Not rated competitive"
     },
@@ -468,12 +468,6 @@
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUGZLaVdWYURpdDAtdDZNbEtERlVLQkxuNXZZdGRaUjAtSU1iTVEzUDNkbXhnMjdnNDVkSTJXcWRQTXlkTmwwM0hIWFl4dEQyV2hSc1hxcjhUV1ptVkxadXFYSXgyS1gza19uckhWdi1KRUc4UHNmdzNWOVNlZnZuMWRLWFhYb0lsR3kzNXlNSEh4STJYakRKZklzdkNibFFJUHV1ZnZ6cHdiZGl6WXfSAbMBQVVfeXFMTkxvSzZTU0Ezbm1IYkE3QTY2a3lXMjdaT216czVybUhLakRpX1poS2d0V2lQYm5FTmU2UXNlMTVqdEVYenhCbURmU1g0cVUycTdPazJ6WnNzdWFLSm9OQVA3a1UwUGhpS0Y3bGFUMnIxaGZPc3hiNWh4UWh3eXVMRDhsUDhpU2ZYNlY0ZjBlYkNQVDVjSDRCbE5ZTllqOFpKM0k1YTdXblZnZGV6bEM5WGhiTEU?oc=5"
         },
         {
-          "point": "Georgia 14th District special election",
-          "date": "2026-04-08",
-          "source": "CNN",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ25RdkpkWVF3UHRGU3pVa2hHeGxOX0xZanFCanJzSTloZXY3aVVIQVppbWgwWnM5X0k4ZVhsYXZ2LTR6VmQ5eU5aTkpybWVqQmticTRva1hxcEtPZVEyMWVjRk8zZnNCRHdoN1FONkRqRTRPS3ByOUxBSk1FLWdFOFIycmFnQQ?oc=5"
-        },
-        {
           "point": "Top Georgia candidates competing in 2026 midterms set to debate later this month",
           "date": "2026-04-06",
           "source": "Georgia Recorder",
@@ -484,6 +478,12 @@
           "date": "2026-04-02",
           "source": "Politico",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMnF6WmJ1dG9QN1hIb3JMcmFCWjlibEplRENlUDV2U1VOX3A0RVR4VFJCV1Vja05WUjZ1ZHYxWkc1TmxjZ0VrM1Q3RVprS0VyaEU5ZUxESjFWQk1NZVNWcF93V2dBbGdqZEZOUTBHNFRpMGp0WmVUTDRqVFFQSklySk9tU3BQdFNQdHdqU3NES2djeXM?oc=5"
+        },
+        {
+          "point": "Georgia Special Election Runoff Results",
+          "date": "2026-04-07",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69d7bf1f9a44495791f6417cfe0a805a&url=https%3a%2f%2fwww.nytimes.com%2finteractive%2f2026%2fus%2felections%2fresults-georgia-special-april-7.html&c=1563545423287898714&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -538,9 +538,15 @@
       ],
       "storylines": [
         {
+          "point": "Platner opens 33-point lead over Mills, leads Collins in new Maine U.S. Senate poll",
+          "date": "2026-04-08",
+          "source": "Maine Beacon",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYWplMFRsWDFLTkx3U0FlRmlmUGRWWUtSOGJfR3VzLUVqaGh6ektqNXpfaWI5RGlnR3hHR0d5cU05QXJRWXVFSUdZUEVPcDJWSjJxeERtRG9nZFc4NVhRNS05VS1lb1owVUxnMTAxR1EtWmNVOGR5Q0ZEaTYyNVNuTDl2MmZCRFBwVzFmTzE3akNRR1cwQlVYcEpzMFBzVFpGOGY4WTBpLVNtZw?oc=5"
+        },
+        {
           "point": "Scoop: Platner declares Mills nearly finished in Maine Senate primary",
           "date": "2026-04-06",
-          "source": "axios.com",
+          "source": "Axios",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHBvUG1xRDNHQkFTSXRkN29VNVNiT3UzanZFXzJMc0ZldUVqSjZzUVpUWDdCYy1TVGg1ZjdUN3Vxek9fNS1menpzUGpGRHVtNHNvekZ4Y09RZVdIMDRDbk5udmRrRldYMWp6cDhDRUxxanJjcnk2RGVibW1IYlZ2b0V5aw?oc=5"
         },
         {
@@ -550,16 +556,10 @@
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdFpUel92SW5PTzVHd0R6b0E1WGlETDdzNXpXdFc1S1laSHIyaGN2Z05pOWtCdlNjSDU1WS1rUW1qbzZ3cS1VdVUyWExLMkZRWXhSTGhWRXpHTWpNQkpTRFY5RUdGRDdUanpyd0ktUjlFUXBvSmpBTTZ1OWhvdF9QN3VjdzdTVFlILUFaTDBCZmhCOFR0SkZkWF9WZUhqaXM?oc=5"
         },
         {
-          "point": "Maine 2026 Poll: Platner Leads Gov. Mills, Democrats Lead Sen. Collins in Maine",
-          "date": "2026-03-26",
-          "source": "- Emerson Polling",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZGh1WlZMenFpYU5fVzh2Zi1xWGExelBKZmlQQU5KU1ltaUNmNGNTNkZSbUxld01NZkFBMDRIR3BNS0tNUUtlR0VJc1ZDaTFFTm9jQkxwUlhCYlMtSm0wazNidHI2NEVGSl81c0dXN3NFVEZNY1FkXzdZcl9CNzR2NFZrd040VWVqZmowTEdod0dQbUVXbnNaVDJKQV9JQ2J2TVo5T3NqUk9hazdIS2hB?oc=5"
-        },
-        {
-          "point": "Emerson poll shows Democratic upside in 2026 Senate races in Maine, New Hampshire",
-          "date": "2026-03-27",
-          "source": "Courthouse News",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaXo3OFVYdHVkUFZuZjBmZXBxZy10V3FYcGRGYkwzMlNPZGNMYlNNeVFnWkdOOF9tdVBMYVIwNWFkd1VUZXp2OWgwVGNCd0hUeFRGYnRJdlU3NXJHVXpJU3VEdzdxYVBUS0taaVU0Tzd2bUVySkVDZFRyekZUZ1JlclBsSmViWGI4NHZ0MlJmaFJxSWpBYzRMM2lqN1hTZjZLNkNZc1RfbEpScnZjaEtZa0VB?oc=5"
+          "point": "Maine Senate candidates emphasize priorities",
+          "date": "2026-04-08",
+          "source": "Spectrum News",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQajBYRU5PZFdGQlZpZzVadFJ5ZlRqMll5WFR2bzNTUm1vUl9qLWx1SVRfM2N4UVFjc2xsWHBHT0plNWlPQ1ZxMmhhV3A2Mmg5MnZ2LTZ6Vmt3MlFNV3h1a19PYktTaEItaW5JVTVUY1hGeUxCdVBaTDNxaFNVOVdOMlNaSmczZ241cndJQ1lzVVJTcUNudlpRbE5xMkRteXhMQWhmc0k2NWdkeGJrTGp4MHNtNk40N1k1STFtLUdIWmtKbF9RMUNxSV9ubGgyV3p4NHZXNFpTZHdjZzNwMkczTk5nc05fY1JI?oc=5"
         }
       ],
       "race_summary": [
@@ -608,28 +608,28 @@
       ],
       "storylines": [
         {
+          "point": "The Democrats Don\u2019t Know Who They\u2019ll Be in 2028. Michigan May Offer an Answer.",
+          "date": "2026-04-09",
+          "source": "The Intercept",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ3RPcjhxZzFxaHU5V1ZBVDFENXhFTDctUmNGTE5zclltVDNrMmEzUUs1cGR6dERPVm1fazVtYVlKS3g5aXJqaV9yQm5rc3JGR0RvMEFNUHkxUHlTbGY0VkZOYVp6dkNFbUpkc0NIVXo0MmNVLUFON0JtbFlSZDRoaWNVcy1KQWh3TE96c3FyclBDU3ZCcnE1YXNWU1Y?oc=5"
+        },
+        {
+          "point": "Influencer Hasan Piker gives Michigan\u2019s US Senate race some heat",
+          "date": "2026-04-08",
+          "source": "WDET 101.9 FM",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT0tLUW1Qc0d5S1IweEE5WTcxTmMxaGJOeTkwdWFzMV9STFVpZ1BYVDYwTWlSaWFOVVZYRGNmalJiS1IyZXdYRmR5LVRXemltMURPcW45WVJ4bUdlM1NXd1FZeG1IRzRTZXNPWVRqTzhIeXotLU1rR1JlYzN2d2lqZWRjNHBKeVJ2bVl2QW1IbVJKQQ?oc=5"
+        },
+        {
+          "point": "Michigan Shows Democrats\u2019 Identity Crisis Up Close",
+          "date": "2026-04-09",
+          "source": "Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYURkVjJZTEhURnBzNnl4Yld0eGltZ1cyWms5SHJuZG9OUFVYeTZmQmdzMVFLOHlhRUVKRUdfTWFQMXpGYjVIS25abFZORHl4Qi1JcE1nRXA5WVFQY3drSHFRYlcwaUZpSzltUE83VUY0ZXlLaWg1UXI2LTcwU0p4Zk16bUZlLWhTX0ZRalFIblBMdEtOSGtMdnRYTmJqei1yQUtZVW8wbzN0OThKeXh2dkltakd0Zw?oc=5"
+        },
+        {
           "point": "Abdul El-Sayed courts college voters, controversy in Michigan Senate stop",
           "date": "2026-04-08",
           "source": "Bridge Michigan",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPV2Y2c3JzU2Z3SENEX3ZKc0lPV2tTSEs0amV2ZFgtX3pTX2Vhbk0wMVFoNUl4eUh4bmp0d0pRQmRwM3VTdWVGTnJoT2dpUzZOdHNSTjRIbDBremNqbzRhWDhocUVWazljQktzODMyLTU2QkI2WGRUbkJ1bjZGTnp0MGtZZ0U2cmgzM3NMM015RDdKelN2UHVsQ1NReFplek83TWozeVFhUXNaWDMzX25KUzlXaF85Mm8?oc=5"
-        },
-        {
-          "point": "Hasan Piker controversy heats up Michigan Senate primary for Democrats",
-          "date": "2026-04-06",
-          "source": "The Hill",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQUtYVHlDeDV3ZzgtOWtqQ3JxaU1ZVHlBUFg0Vk1oM1lYWW1rVndlMUxnN3V3Ukd5SUFxbmlMcG1QLU9uZWpyVTdYTGQ4czUwRlhJMFpTWUE5S2RWSEh0NzFhUElRRkktVUdzbjMxVWc5cmExMndxQW1NTEhvNk5oTTdB0gGHAUFVX3lxTFBCXzA4R2pVTDhXX2JGVEdzUmNjTlozN2t1aEQyQ0lIdWV3YWZnTmhHSWhHQmRnLWI2dUxOSHdqOHRoOHhFNldRUnNieWVSdXQ0M0NKUWk4U1VBeWhGZW5NVjNiUGFKUzBvUHpGZGxmVWV1eUVNOVhMMTMwcWtVSGhWUUF2Z3B5Yw?oc=5"
-        },
-        {
-          "point": "The Metro: Michigan\u2019s Senate primary has become a proxy war for the Democratic Party\u2019s soul",
-          "date": "2026-03-18",
-          "source": "WDET 101.9 FM",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR3FEZzh2Y1BILW5mV0JiMG1BUlRJSTJQT05xbGJDZE1kdnh1NVFhdnJBUHRNYUVucC1kWlhfUzVaMjQ1RVVFeVZWb1hXLVV6SEFDZGpuaHQ1MmR5ZXJSNi10NFctOTdwT2dyNGxnZm12ai02SXhIQTZUdF9VTUFJRjczR29TaEtCTW9PQjFDTmhheW1tM0pOSUNPSXl1cXVCV0p2QkFTcUhDN3N1MVZjS2dIbEl6RnN6?oc=5"
-        },
-        {
-          "point": "Senate Passes Bipartisan Legislation to Move Michigan Primary Date",
-          "date": "2026-03-19",
-          "source": "Michigan Senate Democrats",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBZODgtS04zX25vVjlyZEwxM01CYzZEckQwaFM1YnV1a0Zvd01haWc3SmREN0hja3ZiajJwYVI2bl9vczQxZWxiNzVfSTNyOHZPV2VtcnZxb1ppOWk0MTUwU0ZacTFxY2NZVDdSVzZfTQ?oc=5"
         }
       ],
       "race_summary": [
@@ -678,10 +678,10 @@
       ],
       "storylines": [
         {
-          "point": "Can Democrats break their North Carolina losing streak?",
-          "date": "2026-04-08",
-          "source": "Decision Desk HQ | Substack",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZDB1YVUzbzY5bWhReEhaeWhyQWp3cW1FUnZWNDlDMFlWYjYyLXhQRm4wNGhzWV9GeGVOZUNDVGNoMjhuRkQ0cE5NWlJ0ZFhMZUNIU1BnNkM0ZnFSQ01sdHY2aHljTWdlSnNmZ1BWdmJ5OWNaOWtLaHdKSDF3dVZGd1NpS29ULU5PUFJQcllPbmM5QQ?oc=5"
+          "point": "North Carolina U.S. Senate Election 2026: Latest Polls",
+          "date": "2026-04-09",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcG0yWVJ4b1FCblhNSEdUeDZTb1BHUEh2TjItUTN6MjlsV09ZYlA0aHZ4R0V0b2ZjRTA0SHJkTGJxaDJPaXh0OEIxZFhIVWhsd0t2bFBRYTdrc3p1cHZCTmp4UC1UR183S0loRDU2QmE4cGVMZWt4LVA2T05wUHhJQTJ0Q1d3d1M2Q180dWpHTHVFblVaV3c?oc=5"
         },
         {
           "point": "Roy Cooper (D), Michael Whatley (R), and three other candidates are running in North Carolina's U.S. Senate election on November 3, 2026",
@@ -690,16 +690,16 @@
           "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQTXBZSDE3Sk1LSUw5SU16LTM3U2hnQlNFU1NBenVOQ1NRakFOZWxCTm1iUzlUaTFwSHhlU1FGZ1c3Y1NpeDVWUXpHZzZjNG1ic1ZOYXJsQ2NfN1BWaTNNZU51Q2NOVTZQeF9nUXlHazl3Y19UVG1od2swVnZiVWVGVF8xWm5mVUN1QVEwdm45cmdfWEhlamlRRlhwc29iM29SWDZlaTBVeXY4Nlg1UVJibmF5b2N2ZE1oNS1oUDBwZC02X2dPRENpYlhzc2EtR3pjMGQxX0s5cTV3SDlrMnlOcWNFUkRwQU9HV2pVYkc4WkhkaXEyRnJsd1lzaW8?oc=5"
         },
         {
-          "point": "2nd recount in tight North Carolina state Senate race ends \u2018without change\u2019 to results, officials say",
-          "date": "2026-03-24",
-          "source": "WBTV",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTGhlai05cDdlMVNPYTJHZkNPWWlIZTYxMldmdkxiVDlJOW1zbURIaWc2cU5MLXpaWE5NMWtCZ1V0ZEgzNjNZbFctcDRXN0xfbTVHOGdUT2VLT2FmQVVwY29vZlFqVWFCUTc3Zm92LVQ1My1LRngydmhmVmxkajhReE92SW5YNVJxSGZQWmtFa3R1SGd5ZGhKbmFhVXJ0YzZYN0JGaExta09JZmEzeWZUNUprLW5rX2Zsc0FYME5n0gHSAUFVX3lxTE9uaEtDekpUdmRjN1hVb2pJV1c2NHpidHpWSXVLLXp0OFh5S1RwUkpGRFlFeVBmckl4TXh1TTltUVZtOWhmN2ptanBNc3VTZWFqM2d1Q2k2SWpvQUFVRzA4THprbEFDRFdOUUNsdmhKSDNhLUc3M0JLRjhHMDVrU3FrZFBDY3BEUjZLazNJdVp2bG1oNEx0Y01JcTFOSElIUmgwSl9yTUhERXdYbmR1UVNMUnZlS2dfWGtiRG0yWWxDcm9vY2d0ZnpyVkJ1cmJmR3JGZw?oc=5"
+          "point": "What we learned about the midterms from 3 new North Carolina polls | Opinion",
+          "date": "2026-04-07",
+          "source": "Charlotte Observer",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9aRlo0TFQ2cDRNR3ZCbDJRSGtpbEFjRFhxQW1kaFMyMGVCRWpORG9NcGlnMHYxbzUwRGFIc3RpTzBUYlM1SFdWcHRpQ0dJaGJLSWg3WVpKdWdQWkF4b1VpN2tMMmFMVURMSnVnTEZ6azbSAXBBVV95cUxOU0tyY3RMbFhWNHZQYUtiZElzV0VDZHJvV3ZFemM5eHN1VTI1ZFQ4RjZveFdPSUJlZ19OT2NUV2VhdDFCR0RsQzNjRFNRVVltMm5SUWVRRENvN2xmRWtSTzVUamhkSVFCTjVsajhlblZE?oc=5"
         },
         {
-          "point": "Results from the March 3rd Primaries in Arkansas, North Carolina, and Texas",
-          "date": "2026-04-01",
-          "source": "CAWP",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOLV9yRmhrYWkzSGs0LWNQZGRUVW9GRGZRRlZKeTZJTTBMQk11ZjVGOW9qUDBEb25CU2VMR1RjR2tubVFJX1RuOUc5VGF1Q25ZdFYwU1cwSkc4RlY0M0JURUpXVXpQMEl2UkJSZDA3UjhXMkJfZ19ma1lRcWJaSWVCQlE5YnlybmgwYUNtaU10MWpkODhTREE?oc=5"
+          "point": "Can Democrats break their North Carolina losing streak?",
+          "date": "2026-04-08",
+          "source": "Decision Desk HQ | Substack",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRTlhY2M0T01YVDJpbGtyaHNDMHlVRmY3NE5aTXptTHJ0XzhvcE5XaTZvNjY3RG1YZ3FaQklMMmtSd3ZQZE85Zmc5al9uTnpzeTl5OHpXYmd3TDQxQmFDLVd1aURxNEw4WmV6cnBYT0N4RG0wZklZMjNFeHBVVURCRjQxSXBveEp6dThDVklrcFE0X2xONS1JbDROTHYzbWVMQmpIaHZMZUtTczJIMzZzUzg4eXpVMjBIcmc?oc=5"
         }
       ],
       "race_summary": [
@@ -748,16 +748,16 @@
       ],
       "storylines": [
         {
-          "point": "New Hampshire 2026: Sununu Leads GOP Nomination, Ties Pappas for Senate",
-          "date": "2026-03-26",
-          "source": "- Emerson Polling",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM1g5VW5OM3pLTFZRRy15TnE0UllTQjBEejVYcGFiZ01xMU02cDhfOThKX19HNVp6bDJoWXY2Z3o1emZESnZKaUxNYkZSZUtadVBIc0hQcDd4MmZSblU1QVJaZDlBcnlCNmZXZnU1VW0wNWxUSXZMbHphYkVad010M0ZObU4tdXJVLWVrYzN5SmQ4ZGtGOVFLb2k5Z3NrbmZMa2ZIZnF1WQ?oc=5"
-        },
-        {
           "point": "Emerson poll shows Democratic upside in 2026 Senate races in Maine, New Hampshire",
-          "date": "2026-03-27",
+          "date": "2026-03-26",
           "source": "Courthouse News",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaXo3OFVYdHVkUFZuZjBmZXBxZy10V3FYcGRGYkwzMlNPZGNMYlNNeVFnWkdOOF9tdVBMYVIwNWFkd1VUZXp2OWgwVGNCd0hUeFRGYnRJdlU3NXJHVXpJU3VEdzdxYVBUS0taaVU0Tzd2bUVySkVDZFRyekZUZ1JlclBsSmViWGI4NHZ0MlJmaFJxSWpBYzRMM2lqN1hTZjZLNkNZc1RfbEpScnZjaEtZa0VB?oc=5"
+        },
+        {
+          "point": "Democrat Chris Pappas in dead heat with John Sununu in New Hampshire Senate race",
+          "date": "2026-03-27",
+          "source": "Advocate.com",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE92NjJBOE1WelBwb2R5YVNuOUpialRuOUM2cWpoajViYi12TGZDUlRnb1dqd3FDZnVmdG9pbk44bkt1cUJYX2ppT0ZYdHRSY014TGhKZjZUMERGVWZJeXZ3Z1Vfa24xZ3hBc2lzSGs2T2xCLVgzWU1tQzRDcm8?oc=5"
         },
         {
           "point": "Republicans\u2019 Chances of Flipping Democrat-Held Senate Seat in New Hampshire",
@@ -766,10 +766,10 @@
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeVIyZEtWVXUxUWEtc2EwZW1vZW56MzUxUXJONXFzNnZHQkE2Z3hOdG1kYjBHZ3BhZjFQM1RnVFJsV2dhZ2tKS05SLUV2MmpEWHhmbk5tZHJVbUl0T0hXU3NSVEtFZ2hURVhYT0t3azd6akZweDh5WlJYN09ubU45Qm1XOU9PZzNseXBNcktWbWxzaWJPdE9VOUhfaUo1a1FBc0NiMA?oc=5"
         },
         {
-          "point": "Democrat Chris Pappas in dead heat with John Sununu in New Hampshire Senate race",
-          "date": "2026-03-27",
-          "source": "Advocate.com",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE92NjJBOE1WelBwb2R5YVNuOUpialRuOUM2cWpoajViYi12TGZDUlRnb1dqd3FDZnVmdG9pbk44bkt1cUJYX2ppT0ZYdHRSY014TGhKZjZUMERGVWZJeXZ3Z1Vfa24xZ3hBc2lzSGs2T2xCLVgzWU1tQzRDcm8?oc=5"
+          "point": "Trump endorses John Sununu in New Hampshire Senate race",
+          "date": "2026-02-01",
+          "source": "NBC News",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZEtCZzRPd3hMWHNrYlJlSHcwNkliT1FLN29ZeGxQV3JwSzg5S1NIYWJLajJDalF0RUNVdWpkNlVPcndtZjJnRi0zUDhsX0gzcHZEemE1amF3al82Z29vMURlcjVIMzVGelYwOTZkT2F1VFlGUHA5VnpBR1NrbkF4RFpfZ0dtNFZDbEs0REVNVV9HbloyYnpFTkdycERvTjQ5eXdwckNDZ3BoZmpvdWJJ?oc=5"
         }
       ],
       "race_summary": [
@@ -823,28 +823,28 @@
       ],
       "storylines": [
         {
+          "point": "Ohio U.S. Senate Election 2026: Latest Polls",
+          "date": "2026-04-09",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN2lXa00zcnFKYUgxYWR3eG1ISjJSaTV6dDVTYUpQZXpuNERsMWtRT0pUQXFiNWZxOHRvc0xWR0tHbUJadkg5bXVDMHRrLWZ6X3RaeW91aV95OU5FalpRd0hiUWhtaVpidWt1WDVSWWgwa1NNS3dRb29Mc1pIeUV4c1ZTc1RnQkVQ?oc=5"
+        },
+        {
           "point": "Election 2026: Brown hopes for a political comeback; Challenger says Ohioans want something new",
-          "date": "2026-04-07",
+          "date": "2026-04-06",
           "source": "Dayton Daily News",
           "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPbF9xOEhZbFRiN1NaRVNtMDh0RU02STFpc09Ha2NNREtJaEticG1OdFZuOEJHbzM3T1lnNW9RUEZaZ3g0aEdxT3QxTHJQem9IMHBBckdqTXdPNXlVT21IVmdXUmdXQ1lPLWZQVkRFVnFNcDJ2U1pXN0RRSndCejRaaHFNVjI5UDZwWHp2enMxajllSVlianhjT2NZR0NjVWdiWFdpSzY4T1lSQ2xkM2dBZEllQ3dnWjJINDZvbXVFaWRoSVlBdFpuNzl4c0xiTTRjTGdQclRqOV9QcVY3empzVTRUN2xydTNuZ2hpMmUwaGJZRkt1emZBaUtseEF0eEphbzZBektpTjJrWnFUd3c?oc=5"
         },
         {
           "point": "Commitment 2026: Key races, dates ahead of Ohio, Kentucky, Indiana elections",
-          "date": "2026-04-07",
+          "date": "2026-04-08",
           "source": "WLWT",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOY3ZtSjJGUklfZTF1N1A0c0oyc1BGUm5DUHphTkxpR1RaRlFHejEtem9XZzJtMkdnMzhlRFQtNWZUXzh2aWI2X2RkOVZoZ2pmQ0JyLWh4OE1URGg0ajQxRUFrbjhNaExEb2YzX3VnYUhjaWpyOTJIWGFDOC05V0VvT3NIMjhOZFZFaHdLZkxJV2pGNXpBMnkxbg?oc=5"
         },
         {
-          "point": "Senate GOP\u2019s super PAC makes Ohio its top spending priority in 2026",
-          "date": "2026-04-06",
-          "source": "cleveland.com",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZTRoVldUbmNfRFhhV0NDSTZPMlA0YnMtTnZNbDVfc3Q4Z1JzSF9NcmloazJraUgtRGxUWHJ2UHNzRWtLZ2dHUEJ0OGZuNGUwUXBVdmhtb0lRT2lRRHpGXzVUeFNJc1Ziekp2dFhaVXNBTndOLUFNRDFZZVZfblNCaW1NQTVFYy1uU3FTMlFVY3ZWcTVMQ2x4S2l1MkZkSGlndF9QeWxZWmVIQ0p5MEVV0gHDAUFVX3lxTE01eFJaNjhVeTAza3RaVmQybTFmRVJlSF9tWGNyOHhWMWhCSWhqc0tTY2JhSl9BbmYxWFBPY21qQl9SOGQ2dnllQUd2bUpKc3FzSXh6SmExelU3NFVqQTlnTURfTDVndy0zbEpnNl9ZT1FDUFlKdmVQQndmdTVOMTRfbXJPNnFrQWxMM2VCMFdTR21XanZ0Nk9JY1hIejNZNkJObE5CTi04dlNNTVJOYUFwdG52ejNQNkF3WldwY1FuYjJ5OA?oc=5"
-        },
-        {
-          "point": "New Polling: Ohio Could Be In Play For Democrats In 2026",
-          "date": "2026-03-26",
-          "source": "The Hill",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPald2Z2YtS1Y4ZE1SU2s5ejZKTTB3cm9Xdl9pN1RnQWlEZy01djd0YmcxUk1ycGdNeERaNUhkODVWenNjQkd6VDM2UkE5UU84WGJQRnp0djFyX2NMV2dFTTFpUmw2cDRVNnhreXhKT2tUVlUwVjdBMkxRckw4VXFxRDJaczBhLVlZcnVOTkQtS3k4b21qYmMyd0ZqTFDSAaIBQVVfeXFMUGFmOEhJN3U2dlJLbVhHMXltQ2FFSXBidkpHNTRUelp5cERrclJldVlub1FFRVpVUGhRMVJ2eTh4WF9EdG1QazJFakJ4ZXNBTmJHWnBnOXpNdlVlMUQwTFBfZjhEZWloaFJiMlNNajZlSWdDOE13NU9BVzdGWTB4TWRaT0laZ0FEMUZzNnBkVmRySmwzRVd2VjA0aV9IVGlRajRn?oc=5"
+          "point": "Ohio will be a key battleground in 2026",
+          "date": "2026-03-24",
+          "source": "Decision Desk HQ | Substack",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd1RNdUMzMk5YQXI5Z0w3S2hLQ2dZSzdYbGVFRlMtNzdpT0doYTMycmxpaHlqUlpvODlGOEtyZnU4RGRzUGszVUk0MTc5NzRrVHlnbHQtYnRCOWhwclprWmxvTTdzNXIxTGVsSDZZMmN6SnVPRUxZSnFLY0hCbVdkeUlaSlNMMzEtTVE?oc=5"
         }
       ],
       "race_summary": [
