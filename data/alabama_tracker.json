@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-10 14:31 UTC",
+  "updated_at": "2026-04-11 14:01 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -394,7 +394,7 @@
       ],
       "polls": [
         {
-          "pollster": "style=\"text-align:left;\"|PI Polling",
+          "pollster": "PI Polling",
           "pollster_url": "https://yellowhammernews.com/poll-carl-leads-marques-close-behind-in-al-1-republican-primary/",
           "date": "March 31\u2013April 2, 2026",
           "sample": "505 (LV)",
