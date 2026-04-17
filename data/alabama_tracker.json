@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-16 15:07 UTC",
+  "updated_at": "2026-04-17 14:36 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -19,6 +19,20 @@
         "Walker"
       ],
       "polls": [
+        {
+          "pollster": "Peak Insights",
+          "pollster_url": "https://1819news.com/news/item/poll-moore-expands-lead-over-marshall-34-to-16-in-new-u-s-senate-race-poll-would-win-runoff-47-27",
+          "date": "April 11\u201313, 2026",
+          "sample": "500 (LV)",
+          "values": [
+            "16%",
+            "34%",
+            "12%",
+            "\u2014 N/a",
+            "2%"
+          ],
+          "spread": "\u2014"
+        },
         {
           "pollster": "American Pulse Research",
           "pollster_url": "https://1819news.com/news/item/poll-barry-moore-leads-steve-marshall-26-to-21-wes-allen-leads-john-wahl-16-to-9",
@@ -116,20 +130,6 @@
             "3%"
           ],
           "spread": "Marshall +18"
-        },
-        {
-          "pollster": "Quantus Insights",
-          "pollster_url": "https://drive.google.com/file/d/1WRYbrj1K7ZsQvsx0jRwmHDpjJLR2xdW0/view",
-          "date": "October 13\u201314, 2025",
-          "sample": "1,050 (RV)",
-          "values": [
-            "24%",
-            "9%",
-            "27%",
-            "2%",
-            "2%"
-          ],
-          "spread": "Hudson +3"
         }
       ]
     },
