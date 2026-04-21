@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20 14:58 UTC",
+  "updated_at": "2026-04-21 14:54 UTC",
   "refresh_target": "24-48 hours",
   "sources": {
     "cook": "https://www.cookpolitical.com/ratings/senate-race-ratings",
@@ -284,22 +284,22 @@
       ],
       "storylines": [
         {
-          "point": "Peltola announces big fundraising haul, signaling an expensive Senate race in Alaska",
-          "date": "2026-04-20",
-          "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e63f14ae1c491ea77aa92e4c8124ff&url=https%3a%2f%2fwww.kyuk.org%2fpolitics%2f2026-04-20%2fpeltola-announces-big-fundraising-haul-signaling-an-expensive-senate-race-in-alaska&c=18348836993328422952&mkt=en-us"
+          "point": "Track the latest Alaska Senate primary coverage (Google News).",
+          "date": "",
+          "source": "Google News",
+          "url": "https://news.google.com/search?q=Alaska%20Senate%20race%202026%20primary&hl=en-US&gl=US&ceid=US%3Aen"
         },
         {
-          "point": "Money pours into Alaska race as Democrats seek Senate majority",
-          "date": "2026-04-13",
-          "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e63f14ae1c491ea77aa92e4c8124ff&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fmoney-pours-into-alaska-race-as-democrats-seek-senate-majority%2far-AA20MtGQ&c=15303607065980633141&mkt=en-us"
+          "point": "Track the latest Alaska Senate primary coverage (Bing News).",
+          "date": "",
+          "source": "Bing News",
+          "url": "https://www.bing.com/news/search?q=Alaska%20Senate%20race%202026%20primary"
         },
         {
-          "point": "In Alaska's U.S. Senate race, Peltola takes aim at 'crooked' political elites",
-          "date": "2026-04-03",
-          "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e63f14ae1c491ea77aa92e4c8124ff&url=https%3a%2f%2falaskapublic.org%2fnews%2fpolitics%2f2026-04-03%2fin-alaskas-u-s-senate-race-peltola-takes-aim-at-crooked-political-elites&c=14537240684477387728&mkt=en-us"
+          "point": "Review campaign reporting and updates for the Alaska race.",
+          "date": "",
+          "source": "News search",
+          "url": "https://duckduckgo.com/?q=Alaska%20Senate%20race%202026%20primary"
         }
       ],
       "race_summary": [
@@ -457,15 +457,27 @@
       "storylines": [
         {
           "point": "Georgia U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-04-20",
+          "date": "2026-04-21",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVk4yd1hGX3hRVnhsTUctaE5Xc1hsS1R6eUczdTF4VlZiZFljX2Rmb1QwVXc5dGpIX2dCZU9ULWU3ZEt4b3ZHZEdGbXVvczlWVGZuM2hnY04yd0tIenR3U29ZZTJPSldjNWwyY2lYdDNzOHViODNGZURqc0paT1dPMUtiVGNNZDNabkVmWQ?oc=5"
+        },
+        {
+          "point": "Georgia governor stumps for Dooley in closely watched U.S. Senate race",
+          "date": "2026-04-20",
+          "source": "Georgia Recorder",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU2w2MVhYcmRhVUc3YV9iSFpQcVEtb2ZhVnptcGFFRFZicjZLaTNMX2hLeTZVeHhMbU91NC11MENVZWFwVVI1N1BNVFh6X1g5bTM4VWZiMEpjbDAtTmVHOEdvLWVBSmxwbGgtcWkyNFVsTTJ2eEJLV2lwU0JqZ21PeEoxR0RXSXhTanVHTDlhOVppWEpCSWQwNUNOWFlWa2M3ZnpyVE5MdFVIY2U4TUE?oc=5"
         },
         {
           "point": "Georgia endorsements and fundraising: Who\u2019s in and who\u2019s out?",
           "date": "2026-04-17",
           "source": "Georgia Recorder",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMUpnNk96ZG85RlJxa2paMm9DZHN1QWhEWDRHbWZFZE13T3lCUXU4dlhHcEl4WTVNYjZ0Vm5kQzV1US1QSGFUMW0zZTJFRUdUZC1yMGU2VW0yay1EU01xTElEQnNzMHJWOU9lUXc4ZmUwZXE3VDEzMkV3cllQQk95N1hsUjRLbzFlY0hxdm00YWY0cm8xWWlEZldkLXBzUQ?oc=5"
+        },
+        {
+          "point": "Deadline arrives to register to vote in Georgia primary elections: Here's what you need to know",
+          "date": "2026-04-20",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e78f83b52b4728a36b6a91aeb1f18c&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fother%2fdeadline-arrives-to-register-to-vote-in-georgia-primary-elections-heres-what-you-need-to-know%2far-AA21jM36&c=13993964637044227722&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -521,7 +533,7 @@
       "storylines": [
         {
           "point": "Maine U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-04-20",
+          "date": "2026-04-21",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVG0tYTZPYnNRdmxPbi1IUXhlZG5aRW1EVXhoVWNyR2MzZTlRQWUtNUhxRkVsNTRoZWhsbXdHblNXMVZPbHFTaHlsVWRlcTNiUEtocGo2TGdOV0czWGppRXVPb2gzSDZXNWZhdHdUQ2NOMHdONlpZTW81T21NU3dwSXB6R05tNWpfc1E?oc=5"
         },
@@ -532,16 +544,16 @@
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQblZBSkR3dTlWZlkwLXRyRE44MTZLdG4wdzI4R3JBWC1TUjdCMWZ5d2VOVVhjR0V2ZDlaaFJJN1dnZ3B6VjcwWmxRNjhLVUpOLV84VUVTZ2FnMHFlYXZ2eXByT3gyVkdRS3Zrb0hJR2RuWHBWWGdWWkRPbkx2WElLYWV0TUNUeGNaeEw5bGdkNVBfWHIzdTFvV3pyTEt6OXJxSjUtc3d1aVh3THMxVWwwUDlGdjZmb2tVNVV1Q0FR?oc=5"
         },
         {
-          "point": "Hoping to unseat Collins, Maine Democrats battle it out in an expensive U.S. Senate primary",
-          "date": "2026-03-26",
-          "source": "NPR",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdFpUel92SW5PTzVHd0R6b0E1WGlETDdzNXpXdFc1S1laSHIyaGN2Z05pOWtCdlNjSDU1WS1rUW1qbzZ3cS1VdVUyWExLMkZRWXhSTGhWRXpHTWpNQkpTRFY5RUdGRDdUanpyd0ktUjlFUXBvSmpBTTZ1OWhvdF9QN3VjdzdTVFlILUFaTDBCZmhCOFR0SkZkWF9WZUhqaXM?oc=5"
-        },
-        {
           "point": "What You Taught Me About Maine",
           "date": "2026-04-17",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTkJTVUI5Rjd6LXJkT1NnSTU0aU1sZ2FxcThPZElseXdCY0c3TnBuXzZSRTJJOWR2REFtbEdvQzBpN24tNGpsZXlHZExqOXk1WDNlbmllb2xDLUlwR3h0N0RJZ3BkNHZLRV8yWXBkRG1IMENpWFA2MGxCZ1luR3ljWFpxOVotX1BKTjVCejkwZFBXSHU3Nkh4bnNrSQ?oc=5"
+        },
+        {
+          "point": "Graham Platner nets another endorsement in high-interest Maine Senate race",
+          "date": "2026-04-21",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e78f8597e049b4861835ad932c9a6e&url=https%3a%2f%2fwww.jsonline.com%2fstory%2fnews%2fpolitics%2f2026%2f04%2f20%2fgraham-platner-elizabeth-warren-endorsement-maine-senate%2f89699689007%2f&c=1501636742742637932&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -591,21 +603,21 @@
       "storylines": [
         {
           "point": "Michigan U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-04-20",
+          "date": "2026-04-21",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZXg4R2RiNm5LQjloa25FZEFhY2tCX2k3U0ExVEJnNzVWeW1Ba21fbkRxYlFFX3M2TDdLeGlQUnViWGNfbFZWdlBiVHhNNUFqZE5ISjhsdlB5dGRPZ3ZaRVlpd24ybWMyX0dXUFFIWUFhbnM0c05DX1JLVmVYT0NFT1pFcHBGYU9hLXAyOXRR?oc=5"
-        },
-        {
-          "point": "Michigan 2026 Poll: Abdul El-Sayed, Mallory McMorrow Tied for Lead in Democratic Senate Primary",
-          "date": "2026-04-16",
-          "source": "- Emerson Polling",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZVdjZ2dLUzJFS0ZXbnFZV3JyWGFNeEUzb2VQYTQwcXhhdUR2bUU0M2s3cHJDVnpQYV9OVjVnWGJETGRKZ19NcmNaaXJSeUpqZ1dMeWs5SWNZVURPeno4aTFub0QwbG5FOTlIMFJjRXkwdDhnb0xpYUpENUJGZFNIWmhhS1ZpS2JrVDVxOXY3d3E2ZVZNaWEtNEV6LTQ5dkZPZHFoTWhaMERtaHM4ZzZUVUROcEpvaXlFZDBTS0xCeXhSSmtXZnVn?oc=5"
         },
         {
           "point": "How a must-win Michigan Senate race turned messy for Democrats",
           "date": "2026-04-19",
           "source": "CNN",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ha0FEMXFNUXRKanMzNHBCZVZBbWNrVkxxemRSYlh4ejVzd0IxSHpxT1FRSWdwMEROdUNzYlNfTi0zLUZoZmlQQnZxUjdrdjdoenpmaFhLbURSUkRDZFpyQXlleFZ4WHBQUlVDTVdKNmh6NzNCN045em1rVU9ZczQ?oc=5"
+        },
+        {
+          "point": "Michigan 2026 Poll: Abdul El-Sayed, Mallory McMorrow Tied for Lead in Democratic Senate Primary",
+          "date": "2026-04-16",
+          "source": "- Emerson Polling",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZVdjZ2dLUzJFS0ZXbnFZV3JyWGFNeEUzb2VQYTQwcXhhdUR2bUU0M2s3cHJDVnpQYV9OVjVnWGJETGRKZ19NcmNaaXJSeUpqZ1dMeWs5SWNZVURPeno4aTFub0QwbG5FOTlIMFJjRXkwdDhnb0xpYUpENUJGZFNIWmhhS1ZpS2JrVDVxOXY3d3E2ZVZNaWEtNEV6LTQ5dkZPZHFoTWhaMERtaHM4ZzZUVUROcEpvaXlFZDBTS0xCeXhSSmtXZnVn?oc=5"
         },
         {
           "point": "El-Sayed, McMorrow neck and neck in Michigan Democratic Senate primary: Poll",
@@ -661,27 +673,27 @@
       "storylines": [
         {
           "point": "North Carolina First Congressional District 2026: Latest Polls",
-          "date": "2026-04-20",
+          "date": "2026-04-21",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLWNJdjZRNGF4Z2pXRWJROUdlU0VwaC1KbXk2VjhUWW5WczB5N0dpeG01OVpEYkM2M0dTZ21GYmo1UXIyalVaX21WaWYxM2JMeTg0TEJWck5jYVNpOFZ5V1lQMXdNT2gzcENkOUFYUmRfX043dzI3Y01PaFlKS1R2clpZcUtsSWxzc09r?oc=5"
+        },
+        {
+          "point": "North Carolina U.S. Senate Primary Election Results",
+          "date": "2026-04-16",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOUtrQmNOZXVDenhMUkU2OU0xZU9tV2N3NnY1Zk9fUFdIQnVRSkVVdkowd0pGamp5ZUY4SjNrd0dzYUlYQTg1Znp6MHdRR2RNM1ZTOWJnd0o0dUY4aGVSeGV4SDFZTGY2MzcwclV1bHV5NGpBc01jOUNRZlA2TFRZM2FVTnZ4TzI0RHFhVFRjVXpUT2RnSlZYY1YwTTdRRHFw?oc=5"
         },
         {
           "point": "North Carolina Senate Primary Results 2026",
           "date": "2026-03-03",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e63f1ab197423193205e97d746bf97&url=https%3a%2f%2fwww.nbcnews.com%2fpolitics%2f2026-primary-elections%2fnorth-carolina-senate-results&c=14492109049707209659&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e78f8a613847f280ef0103c9b79b66&url=https%3a%2f%2fwww.nbcnews.com%2fpolitics%2f2026-primary-elections%2fnorth-carolina-senate-results&c=14492109049707209659&mkt=en-us"
         },
         {
           "point": "North Carolina elections board certifies 2026 primary results, excluding a few races",
           "date": "2026-03-25",
           "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e63f1ab197423193205e97d746bf97&url=https%3a%2f%2fwww.msn.com%2fen-us%2fpolitics%2felections%2fnorth-carolina-elections-board-certifies-2026-primary-results-excluding-a-few-races%2far-AA1ZoV8Y&c=5396521169232283869&mkt=en-us"
-        },
-        {
-          "point": "Top Republican in North Carolina Senate concedes race decided by 23 votes",
-          "date": "2026-03-25",
-          "source": "",
-          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e63f1ab197423193205e97d746bf97&url=https%3a%2f%2fwww.foxnews.com%2fpolitics%2ftop-republican-north-carolina-senate-concedes-race-decided-23-votes&c=12422923665545905072&mkt=en-us"
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e78f8a613847f280ef0103c9b79b66&url=https%3a%2f%2fwww.msn.com%2fen-us%2fpolitics%2felections%2fnorth-carolina-elections-board-certifies-2026-primary-results-excluding-a-few-races%2far-AA1ZoV8Y&c=5396521169232283869&mkt=en-us"
         }
       ],
       "race_summary": [
@@ -800,9 +812,27 @@
       "storylines": [
         {
           "point": "Ohio U.S. Senate Election 2026: Latest Polls",
-          "date": "2026-04-20",
+          "date": "2026-04-21",
           "source": "The New York Times",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN2lXa00zcnFKYUgxYWR3eG1ISjJSaTV6dDVTYUpQZXpuNERsMWtRT0pUQXFiNWZxOHRvc0xWR0tHbUJadkg5bXVDMHRrLWZ6X3RaeW91aV95OU5FalpRd0hiUWhtaVpidWt1WDVSWWgwa1NNS3dRb29Mc1pIeUV4c1ZTc1RnQkVQ?oc=5"
+        },
+        {
+          "point": "When No One Was Looking, Ohio Became a Swing State Again",
+          "date": "2026-04-20",
+          "source": "Time Magazine",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTl9XMGFkMjI5ZEZrMC02akZTZzI2bHFZQklYU1RCN21TQ2FBY3AxOFUzTVVrVzFSMDVsMU9aNlRYOHRsbllNOG02b1NYOW5hUDQxeFJ2bDBDTFdMaHhpLXNpZjdqdDNjTG1FMDBjRVlqbEhXdlZIZmI4LXYxS19TbEQtcld6X3BjZzlDeGExWTF4WktJbGpZ?oc=5"
+        },
+        {
+          "point": "Who Is Ahead in the Ohio Governor's Race? Latest 2026 Election Polls",
+          "date": "2026-04-21",
+          "source": "The New York Times",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc1lPMVdmRHVWMHlVc2NUV1RzU1NFU3M4cVpLaEpLWTNXTExaYXlINFJSYmVJbGZFUWhTaHhTNC1LOEdWa1U3RVZ6UlkyVVlZcTFxN3dNbkpUX1g5VzJOY1JBcUZRSFhodnBYVHliZ0JWSmR0anozcG9rckJZUnpQN181Z2ozSDQ?oc=5"
+        },
+        {
+          "point": "Here are candidates in contested races in central Ohio in the 2026 primary",
+          "date": "2026-04-17",
+          "source": "",
+          "url": "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=69e78f8fda0a4667a2aa5437d875187d&url=https%3a%2f%2fwww.msn.com%2fen-us%2fnews%2fpolitics%2fhere-are-candidates-in-contested-races-in-central-ohio-in-the-2026-primary%2far-AA217qnb&c=12646901037330446180&mkt=en-us"
         }
       ],
       "race_summary": [

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20 14:59 UTC",
+  "updated_at": "2026-04-21 14:54 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -8,8 +8,8 @@
       "snapshot": [
         "The most recent poll row shows a fragmented field with no clear majority.",
         "Recent toplines show a clear front-runner advantage.",
-        "Recent coverage emphasizes endorsements as a meaningful force in this race.",
-        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics."
+        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics.",
+        "Recent reporting references fundraising/resource positioning as a key separator among candidates."
       ],
       "columns": [
         "Marshall",
@@ -19,6 +19,20 @@
         "Walker"
       ],
       "polls": [
+        {
+          "pollster": "Tarrance Group",
+          "pollster_url": "https://aldailynews.com/new-poll-confirms-tight-three-way-race-for-u-s-senate/",
+          "date": "April 11\u201314, 2026",
+          "sample": "500 (LV)",
+          "values": [
+            "27%",
+            "28%",
+            "24%",
+            "\u2014 N/a",
+            "\u2014 N/a"
+          ],
+          "spread": "\u2014"
+        },
         {
           "pollster": "Peak Insights",
           "pollster_url": "https://1819news.com/news/item/poll-moore-expands-lead-over-marshall-34-to-16-in-new-u-s-senate-race-poll-would-win-runoff-47-27",
@@ -116,20 +130,6 @@
             "2%"
           ],
           "spread": "Marshall +13"
-        },
-        {
-          "pollster": "The Alabama Poll",
-          "pollster_url": "https://1819news.com/news/item/alabama-poll-undecideds-outpace-field-in-statewide-gop-primary-races",
-          "date": "December 15, 2025",
-          "sample": "600 (LV)",
-          "values": [
-            "30%",
-            "12%",
-            "8%",
-            "1%",
-            "3%"
-          ],
-          "spread": "Marshall +18"
         }
       ]
     },
@@ -380,8 +380,8 @@
       "snapshot": [
         "The most recent poll row shows a fragmented field with no clear majority.",
         "Recent toplines show a clear front-runner advantage.",
-        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics.",
-        "Recent reporting references fundraising/resource positioning as a key separator among candidates."
+        "Recent coverage emphasizes endorsements as a meaningful force in this race.",
+        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics."
       ],
       "columns": [
         "Carl",
