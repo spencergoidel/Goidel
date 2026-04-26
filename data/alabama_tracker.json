@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-25 14:09 UTC",
+  "updated_at": "2026-04-26 14:10 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -386,11 +386,7 @@
       "columns": [
         "Carl",
         "Marques",
-        "Dees",
-        "McKee",
-        "Mills",
-        "Richardson",
-        "Sidwell"
+        "McKee"
       ],
       "polls": [
         {
@@ -401,11 +397,7 @@
           "values": [
             "23%",
             "19%",
-            "\u2014 N/a",
-            "\u2014 N/a",
-            "\u2014 N/a",
-            "\u2014 N/a",
-            "\u2014 N/a"
+            "\u2013"
           ],
           "spread": "\u2014"
         },
@@ -417,13 +409,9 @@
           "values": [
             "28%",
             "19%",
-            "\u2014 N/a",
-            "9%",
-            "\u2014 N/a",
-            "\u2014 N/a",
-            "\u2014 N/a"
+            "9%"
           ],
-          "spread": "\u2014"
+          "spread": "Carl +9"
         },
         {
           "pollster": "AM Research Group",
@@ -433,11 +421,7 @@
           "values": [
             "43%",
             "7%",
-            "2%",
-            "2%",
-            "1%",
-            "0%",
-            "1%"
+            "2%"
           ],
           "spread": "Carl +36"
         },
@@ -447,15 +431,11 @@
           "date": "January 23, 2026",
           "sample": "400 (LV)",
           "values": [
-            "25.2%",
-            "9.2%",
-            "\u2014 N/a",
-            "8.8%",
-            "\u2014 N/a",
-            "\u2014 N/a",
-            "\u2014 N/a"
+            "25%",
+            "9%",
+            "9%"
           ],
-          "spread": "\u2014"
+          "spread": "Carl +16"
         },
         {
           "pollster": "Cygnal",
@@ -465,13 +445,9 @@
           "values": [
             "29%",
             "5%",
-            "\u2014 N/a",
-            "2%",
-            "\u2014 N/a",
-            "\u2014 N/a",
-            "\u2014 N/a"
+            "2%"
           ],
-          "spread": "\u2014"
+          "spread": "Carl +24"
         }
       ]
     }
