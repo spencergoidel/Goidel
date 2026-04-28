@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-27 15:19 UTC",
+  "updated_at": "2026-04-28 15:38 UTC",
   "primary_day": "2026-05-19",
   "races": [
     {
@@ -378,10 +378,10 @@
       "id": "al1_house_gop",
       "name": "AL-1 Congressional District (Republican Primary)",
       "snapshot": [
-        "The most recent poll row shows a fragmented field with no clear majority.",
-        "Recent toplines show a clear front-runner advantage.",
-        "Recent coverage emphasizes endorsements as a meaningful force in this race.",
-        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics."
+        "Rhett Marques leads the most recent published poll row (Marques +2).",
+        "No candidate is near an outright majority in recent toplines, keeping runoff dynamics relevant.",
+        "Coverage and toplines both point to a large undecided bloc that could reshape late primary dynamics.",
+        "Coverage highlights runoff risk as a central strategic factor."
       ],
       "columns": [
         "Carl",
@@ -391,8 +391,20 @@
       "polls": [
         {
           "pollster": "PI Polling",
+          "pollster_url": "https://yellowhammernews.com/jerry-carl-rhett-marques-are-neck-and-neck-according-to-new-poll/",
+          "date": "April 20\u201322, 2026",
+          "sample": "502 (LV)",
+          "values": [
+            "20%",
+            "22%",
+            "6%"
+          ],
+          "spread": "Marques +2"
+        },
+        {
+          "pollster": "PI Polling",
           "pollster_url": "https://yellowhammernews.com/poll-carl-leads-marques-close-behind-in-al-1-republican-primary/",
-          "date": "March 31\u2013April 2, 2026",
+          "date": "March 31 \u2013 April 2, 2026",
           "sample": "505 (LV)",
           "values": [
             "23%",
